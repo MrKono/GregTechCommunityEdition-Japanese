@@ -7,8 +7,9 @@ GregTech Community Edition (以下GTCE) 関係を日本語化したものです�
 </br>
 --構成--</br>
 README.md ; これ</br>
-</br>
-</br>
+CEU.lang ; CEUの日本語化ファイルです。</br>
+GTCE.lang ; GTCEの日本語化ファイルです。</br>
+SoG.lang ; Shadows of Gregの日本語化ファイルです。</br>
 </br>
 </br>
 --動作環境--</br>
