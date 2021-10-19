@@ -1,4 +1,7 @@
-## Shadows of Greg ja_jp lang file for SoG 2.20.0+
+## GTAdditions ja_jp lang
+## Tlanslated version
+## 	Shadows of Greg ; 2.20
+## 	Gregicality ; 0.23
 ## Created by Ko_no
 
 ## Item Tooltips
@@ -23,7 +26,7 @@ metaitem.component.smd.resistor.tooltip=電子部品
 metaitem.component.smd.transistor.tooltip=電子部品
 metaitem.component.transistor.tooltip=基本的な電子部品
 
-# Wafers and Components Tooltips
+#wafers and Components Tooltips
 metaitem.boule.silicon.tooltip=回路の材料
 metaitem.boule.glowstone.tooltip=回路の材料
 metaitem.boule.naquadah.tooltip=回路の材料
@@ -51,8 +54,8 @@ metaitem.component.petri.dish.tooltip=For Cultivating Cells
 
 # Renaming Boules
 metaitem.boule.silicon.name=シリコン単結晶
-metaitem.boule.glowstone.name=グロウストーン添加シリコン単結晶
-metaitem.boule.naquadah.name=ナクアダ添加シリコン単結晶
+metaitem.boule.glowstone.name=グロウストーン添加単結晶
+metaitem.boule.naquadah.name=ナクアダ添加単結晶
 
 # Naming Multiblock Parts
 tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=アセンブリライン用外装
