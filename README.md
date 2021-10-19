@@ -14,11 +14,10 @@ SoG.lang ; Shadows of Gregの日本語化ファイルです。</br>
 </br>
 --動作環境--</br>
 Minecraft ; 1.12.2</br>
-GregTech ; gregtech-1.12.2-1.17.0.764</br>
+GregTech ; gregtech-1.12.2-1.17.1.770</br>
 CEU ; CEU-1.12.2-1.0.5.3</br>
-Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.0</br>
+Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1</br>
 </br>
 </br>
 --DL先--</br>
 <a href = "https://www.dropbox.com/sh/vwy0xw7babmfpw7/AAC9LCFSwy5HnGRqWkCvinfca?dl=0">こちら</a>
-
