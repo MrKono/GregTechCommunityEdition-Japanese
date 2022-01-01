@@ -62,11 +62,11 @@ metaitem.credit.gold.tooltip=64 Credits
 metaitem.credit.platinum.name=プラチナ製コイン
 metaitem.credit.platinum.tooltip=512 Credits
 metaitem.credit.osmium.name=オスミウム製コイン
-metaitem.credit.osmium.tooltip=4096 Credits
+metaitem.credit.osmium.tooltip=4,096 Credits
 metaitem.credit.naquadah.name=ナクアダ製コイン
-metaitem.credit.naquadah.tooltip=32768 Credits
+metaitem.credit.naquadah.tooltip=32,768 Credits
 metaitem.credit.darmstadtium.name=ダームスタチウム製コイン
-metaitem.credit.darmstadtium.tooltip=262144 Credits
+metaitem.credit.darmstadtium.tooltip=262,144 Credits
 
 metaitem.coin.gold.ancient.name=古代の金貨
 metaitem.coin.gold.ancient.tooltip=古代遺跡で発見される
@@ -299,9 +299,9 @@ metaitem.electric.motor.zpm.name=電動モーター (ZPM)
 metaitem.electric.motor.uv.name=電動モーター (UV)
 
 metaitem.electric.pump.lv.name=電動ポンプ (LV)
-metaitem.electric.pump.lv.tooltip=1280 mb/sec (カバーとして)
+metaitem.electric.pump.lv.tooltip=1,280 mb/sec (カバーとして)
 metaitem.electric.pump.mv.name=電動ポンプ (MV)
-metaitem.electric.pump.mv.tooltip=5120 mb/sec (カバーとして)
+metaitem.electric.pump.mv.tooltip=5,120 mb/sec (カバーとして)
 metaitem.electric.pump.hv.name=電動ポンプ (HV)
 metaitem.electric.pump.hv.tooltip=20,480 mb/sec (カバーとして)
 metaitem.electric.pump.ev.name=電動ポンプ (EV)
@@ -324,8 +324,8 @@ metaitem.fluid.regulator.luv.name=流量制御器 (LuV)
 metaitem.fluid.regulator.zpm.name=流量制御器 (ZPM)
 metaitem.fluid.regulator.max.name=流量制御器 (MAX)
 metaitem.fluid.regulator.uv.name=流量制御器 (UV)
-metaitem.fluid.regulator.lv.tooltip=1280 mb/sec (カバーとして)
-metaitem.fluid.regulator.mv.tooltip=5120 mb/sec (カバーとして)
+metaitem.fluid.regulator.lv.tooltip=1,280 mb/sec (カバーとして)
+metaitem.fluid.regulator.mv.tooltip=5,120 mb/sec (カバーとして)
 metaitem.fluid.regulator.hv.tooltip=20,480 mb/sec (カバーとして)
 metaitem.fluid.regulator.ev.tooltip=81,920 mb/sec (カバーとして)
 metaitem.fluid.regulator.iv.tooltip=327,680 mb/sec (カバーとして)
@@ -989,8 +989,8 @@ material.oxygen=酸素
 material.palladium=パラジウム
 material.phosphorus=リン
 material.platinum=プラチナ
-material.plutonium=プルトニウム 244
-material.plutonium241=プルトニウム 241
+material.plutonium=プルトニウム244
+material.plutonium241=プルトニウム241
 material.potassium=カリウム
 material.praseodymium=プラセオジム
 material.promethium=プロメシウム
@@ -1012,8 +1012,8 @@ material.tin=錫
 material.titanium=チタン
 material.tritium=三重水素
 material.tungsten=タングステン
-material.uranium=ウラン 238
-material.uranium235=ウラン 235
+material.uranium=ウラン238
+material.uranium235=ウラン235
 material.vanadium=バナジウム
 material.ytterbium=イッテルビウム
 material.yttrium=イットリウム
@@ -1643,7 +1643,7 @@ behaviour.hoe=土を耕す
 behaviour.soft_hammer=機械の稼働非稼働を切り替える
 behaviour.lighter.tooltip=着火具
 behaviour.lighter.uses=残り使用回数: %,d
-behavior.plunger.description=機械の搬出タンクから液体を1000 mb消去する./nスニーク中に使用すると搬入タンクから液体を1000 mb分消去する./n搬入タンクの液体消去はGTCEの機械のみです!
+behavior.plunger.description=機械の搬出タンクから液体を1,000 mb消去する./nスニーク中に使用すると搬入タンクから液体を1,000 mb分消去する./n搬入タンクの液体消去はGTCEの機械のみです!
 behavior.toggle_energy_consumer.tooltip=使うことでモード切替
 
 enchantment.damage.endermen=Disjunction
@@ -1917,7 +1917,7 @@ gregtech.machine.gas_turbine.hv.name=ターボガスタービン
 gregtech.machine.gas_turbine.ev.name=ターボガスタービン II
 
 gregtech.machine.magic_energy_absorber.name=魔力吸収機
-gregtech.machine.magic_energy_absorber.tooltip=出力: §a2048 §7(§aEV§7)/n64ブロック以内の黒曜石柱のエンドクリスタルからエネルギーを集める/nエンドクリスタル1つ当たり32 EU/tを出力/nドラゴンの卵を上に置くと出力が増幅/n/n増幅時:/nエンドクリスタル1つ当たり128 EU/tを出力
+gregtech.machine.magic_energy_absorber.tooltip=出力: §a2,048 §7(§aEV§7)/n64ブロック以内の黒曜石柱のエンドクリスタルからエネルギーを集める/nエンドクリスタル1つ当たり32 EU/tを出力/nドラゴンの卵を上に置くと出力が増幅/n/n増幅時:/nエンドクリスタル1つ当たり128 EU/tを出力
 gregtech.machine.magic_energy_converter.name=魔力変換機
 gregtech.machine.magic_energy_converter.tooltip=出力: §a128 §7(§aMV§7)/n16ブロック以内のコンテナからエッセンシアを収集/nエッセンシアを秒間20消費
 
@@ -2306,7 +2306,7 @@ gregtech.machine.air_collector.jei_description=空気収集機はEUを使って�
 
 #Tesla Coil
 gregtech.machine.tesla_coil.name=テスラコイル
-gregtech.machine.tesla_coil.description=7ブロック以内の全ての生物にダメージを与える/n1ダメージにつき2500EUを消費/n内部蓄電容量: §e256k EU
+gregtech.machine.tesla_coil.description=7ブロック以内の全ての生物にダメージを与える/n1ダメージにつき2,500EUを消費/n内部蓄電容量: §e256k EU
 
 #Fisher
 gregtech.machine.fisher.lv.name=基本型釣り機
@@ -2539,8 +2539,8 @@ gregtech.fluid.state_gas=§7状態: 気体
 gregtech.fluid.state_liquid=§7状態: 液体
 gregtech.gui.fuel_amount=燃料量:
 gregtech.gui.fluid_amount=液体量:
-gregtech.gui.toggle_view.disabled=切り替え (液体)
-gregtech.gui.toggle_view.enabled=液体 (アイテム)
+gregtech.gui.toggle_view.disabled=スロット切り替え (液体)
+gregtech.gui.toggle_view.enabled=スロット切り替え (アイテム)
 gregtech.gui.overclock.enabled=オーバークロックが有効./nクリックで無効化
 gregtech.gui.overclock.disabled=オーバークロックが無効./nクリックで有効化
 gregtech.gui.overclock.description=この機械はこの電圧までオーバークロックができる./nOFFはオーバークロックがされていない.
