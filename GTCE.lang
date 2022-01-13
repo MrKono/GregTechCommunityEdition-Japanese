@@ -3,9 +3,9 @@ death.attack.frost=%s は極低温を探求した.
 death.attack.electric=%s は感電してしまった.
 death.attack.radiation=%s は喜びで光輝いた.
 death.attack.turbine=%s は頭をタービンに突っ込んでしまった.
-death.attack.explosion=%s は爆発した.
+death.attack.explosion=%sは爆発した.
 death.attack.explosion.player=%s は %s の助けを借りて爆発した.
-death.attack.heat.player=%s は %s の助けを借りて茹で上がってしまった.
+death.attack.heat.player= %s は%s の助けを借りて茹で上がってしまった.
 death.attack.crusher=%s はパルプに粉砕されてしまった.
 
 enchantment.disjunction=Disjunction
@@ -725,7 +725,7 @@ cover.item_filter.ignore_nbt.disabled=NBTを無視しない
 cover.smart_item_filter.title=スマートアイテムフィルター
 cover.smart_item_filter.filtering_mode.electrolyzer=電解槽
 cover.smart_item_filter.filtering_mode.centrifuge=遠心分離機
-cover.smart_item_filter.filtering_mode.sifter=ふるい機
+cover.smart_item_filter.filtering_mode.sifter=選別機
 cover.smart_item_filter.filtering_mode.description=このスマートフィルターがフィルタに使用する機械を選択します. /nロボットアームが適切なものを自動的に選択します.
 cover.smart_item_filter.matching_mode.default=デフォルト
 cover.smart_item_filter.matching_mode.ignore_fluid=液体を無視
@@ -1592,7 +1592,7 @@ recipemap.unpackager.name=開封機
 recipemap.fluid_canner.name=液体封入機
 recipemap.plasma_arc_furnace.name=プラズマアーク炉
 recipemap.arc_furnace.name=アーク炉
-recipemap.sifter.name=ふるい機
+recipemap.sifter.name=選別機
 recipemap.laser_engraver.name=レーザー刻印機
 recipemap.mixer.name=ミキサー
 recipemap.autoclave.name=オートクレーブ
@@ -1611,7 +1611,7 @@ recipemap.fusion_reactor.value=開始: %s EU
 recipemap.centrifuge.name=遠心分離機
 recipemap.electrolyzer.name=電解槽
 recipemap.blast_furnace.name=高炉
-recipemap.blast_furnace.value=熱容量: %s K
+recipemap.blast_furnace.value=最大温度: %s K
 recipemap.implosion_compressor.name=内破圧縮機
 recipemap.vacuum_freezer.name=真空冷却機
 recipemap.chemical_reactor.name=化学反応機
@@ -1683,7 +1683,7 @@ fluid.distilled_water=蒸留水
 
 # Wire coil blocks
 tile.wire_coil.tooltip_ebf=§a電気高炉§7に使った時:
-tile.wire_coil.tooltip_heat=  基本熱容量: §e%,dK
+tile.wire_coil.tooltip_heat=  基本最大温度: §e%,dK
 tile.wire_coil.tooltip_smelter=§a大型かまど§7に使った時:
 tile.wire_coil.tooltip_level=  レベル: §e%,d
 tile.wire_coil.tooltip_discount=  エネルギー軽減率: §a%,dx
@@ -2146,10 +2146,10 @@ gregtech.machine.laser_engraver.iv.name=発展型レーザー刻印機 IV
 
 gregtech.machine.sifter.tooltip=落ち着いてふるおう
 
-gregtech.machine.sifter.lv.name=基本型ふるい機
-gregtech.machine.sifter.mv.name=発展型ふるい機
-gregtech.machine.sifter.hv.name=発展型ふるい機 II
-gregtech.machine.sifter.ev.name=発展型ふるい機 III
+gregtech.machine.sifter.lv.name=基本型選別機
+gregtech.machine.sifter.mv.name=発展型選別機
+gregtech.machine.sifter.hv.name=発展型選別機 II
+gregtech.machine.sifter.ev.name=発展型選別機 III
 
 gregtech.machine.thermal_centrifuge.tooltip=鉱石をより正確に分離
 
@@ -2513,7 +2513,7 @@ gregtech.universal.tooltip.amperage_out=出力電流: §e%,d
 gregtech.universal.tooltip.amperage_out_till=最大出力電流: §e%,d
 gregtech.universal.tooltip.item_storage_capacity=アイテムスロット数: %,d
 gregtech.universal.tooltip.fluid_storage_capacity=容量: %,d mb
-gregtech.universal.tooltip.max_voltage_in=許容最大入力電圧: §a%,d §7(§a%s§7)
+gregtech.universal.tooltip.max_voltage_in=最大許容入力電圧: §a%,d §7(§a%s§7)
 
 gregtech.recipe.total=合計: %,d EU
 gregtech.recipe.eu=消費: %,d EU/t (%s)
@@ -2619,7 +2619,7 @@ gregtech.multiblock.large_boiler.message_throttle_change=スロットルが %d %
 gregtech.multiblock.large_boiler.message_throttle_too_hot=ボイラーが熱すぎる!
 gregtech.multiblock.large_boiler.heat_efficiency=熱効率: %d%%
 gregtech.multiblock.large_boiler.heat_efficiency.tooltip=ボイラーの温度が上がるほど燃料効率が上昇する
-gregtech.multiblock.large_boiler.throttle.tooltip=蒸気精製量が少ないほど燃料を消費しないが, 高スロットル時の燃料効率よりは劣る.
+gregtech.multiblock.large_boiler.throttle.tooltip=蒸気生成量が少ないほど燃料を消費しないが, 高スロットル時の燃料効率よりは劣る.
 gregtech.multiblock.large_boiler.throttle_modify=スロットル変更:
 
 gregtech.command.usage=使い方: /gregtech <worldgen/util>
