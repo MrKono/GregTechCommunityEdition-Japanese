@@ -10,21 +10,27 @@ GregicalityとSoGではファイル名称が同一なため、こちらを用い
 Gregicalityにはオリジナルアイテムが多々あるため、訳が微妙なものもあります。</br>
 修正等がありましたらお知らせください。</br>
 </br>
+--GTCEu_ja_jp.zipについて--</br>
+GTCEの非公式版用のです。ご注意ください。</br>
+</br>
+</br>
 </br>
 --構成--</br>
 README.md ; これ</br>
 CEU.lang ; CEUの日本語化ファイルです。</br>
 GTCE.lang ; GTCEの日本語化ファイルです。</br>
+GTCEu.lang ; GTCEuの日本語化ファイルです</br>
 SoG.lang ; Shadows of Gregの日本語化ファイルです。</br>
 Gregicality.lang ; Gregicalityの日本語化ファイルです。</br>
 </br>
 </br>
 --動作環境--</br>
 Minecraft ; 1.12.2</br>
-GregTech ; gregtech-1.12.2-1.17.1.770</br>
+GregTech CommunityEdition; gregtech-1.12.2-1.17.1.770</br>
 CEU ; CEU-1.12.2-1.0.5.3</br>
 Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1</br>
 Gregicality ; Gregicality-1.12.2-0.23.3</br>
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.0.3-beta</br>
 </br>
 </br>
 --注意--</br>
@@ -33,4 +39,5 @@ Gregicality ; Gregicality-1.12.2-0.23.3</br>
 </br>
 </br>
 --DL先--</br>
-<a href = "https://www.dropbox.com/sh/vwy0xw7babmfpw7/AAC9LCFSwy5HnGRqWkCvinfca?dl=0">こちら</a>
+<a href = "https://www.dropbox.com/sh/vwy0xw7babmfpw7/AAC9LCFSwy5HnGRqWkCvinfca?dl=0">こちら</a></br>
+またはReleaseのページにて
