@@ -42,9 +42,12 @@
 	軽微な修正
 22.01.13
 	軽微な修正
+	
 ==Changelog for Gregicality_ja_jp==
 22.01.01
 	公開
+22.01.28
+	Fluid Drilling Plantのtooltipを修正.
 	
 ==Changelog for GTCEu_ja_jp.zip==
 22.01.13
@@ -52,3 +55,6 @@
 22.01.17
 	通常版公開
 	1.12.2-2.0.4-betaに対応
+22.01.28
+	変圧器, 大型採掘機, 各種ハッチ等のtooltipを修正
+	1.12.2-2.1.0-betaに対応
