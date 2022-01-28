@@ -1,6 +1,6 @@
 ## GregTech CommunityEdition Unofficial ja_jp lang
 ## Tlanslated version
-## 	1.12.2-2.0.4-beta
+## 	1.12.2-2.1.0-beta
 ## Created by Ko_no
 
 death.attack.heat=%s は茹で上がってしまった.
@@ -3385,9 +3385,9 @@ gregtech.battery_buffer.average_output=Average output: §e%s§r EU/t
 
 # Transformers
 gregtech.machine.transformer.tooltip_tool_usage=ソフトハンマーで反転 (初期は降圧)
-gregtech.machine.transformer.tooltip_transform_down=降圧:
+gregtech.machine.transformer.tooltip_transform_down=降圧: §a%dA %dEU (%s§a)§7 -> §a%dA %dEU (%s§a)
 gregtech.machine.transformer.message_transform_down=降圧; In: %,dV %,d Amp, Out: %,dV %,d Amp
-gregtech.machine.transformer.tooltip_transform_up=昇圧:
+gregtech.machine.transformer.tooltip_transform_up=昇圧: §a%dA %dEU (%s§a)§7 -> §a%dA %dEU (%s§a)
 gregtech.machine.transformer.message_transform_up=昇圧; In: %,dV %,d Amp, Out: %,dV %,d Amp
 gregtech.machine.transformer_adjustable.tooltip_tool_usage=スクリュードライバーで電流値を変更(初期は 4 アンペア)
 gregtech.machine.transformer_adjustable.message_adjust=%dEU %dAを%dEU %dAに変圧
@@ -3459,8 +3459,9 @@ gregtech.machine.charger.uxv.name=UXV-V高速充電器
 gregtech.machine.charger.max.name=MAX-V高速充電器
 
 # Pumps
-gregtech.machine.pump.tooltip_range=吸引範囲: %,dx%,d
-gregtech.machine.pump.tooltip_speed=%,d ticks毎に液体を吸引
+gregtech.machine.pump.tooltip=海を枯らすのに最適! 正面から搬出.
+gregtech.machine.pump.tooltip_range=範囲: %,dx%,d
+gregtech.machine.pump.tooltip_rate=%dEU/動作, %d ticks/バケツ
 
 gregtech.machine.pump.lv.name=基本型ポンプ
 gregtech.machine.pump.mv.name=発展型ポンプ
@@ -3876,8 +3877,17 @@ gregtech.machine.miner.multi.tooltip=最大範囲: §b%dx%d§7チャンク.
 gregtech.machine.miner.multi.production=粉砕機の3倍以上の砕いた鉱石を生産.
 gregtech.machine.miner.multi.description=広い面積をカバーし, 大量の鉱石を生産するマルチブロック採掘機.
 #Small ores lang: gregtech.machine.miner.multi.production=粉砕機の3倍以上の砕いた鉱石を生産. Small ore Fortune §b%d§7.
-gregtech.machine.miner.fluid_usage=§e%s§7を§b%dmb/tick§7で消費. オーバークロックごとに液体消費が2倍.
+gregtech.machine.miner.fluid_usage=§b%dmb/tick§7で§e%s§7を消費. オーバークロックごとに液体消費が2倍.
 gregtech.machine.miner.overclock=%s§7を要求. %s§7までオーバークロック可能.
+
+gregtech.machine.fluid_drilling_rig.mv.name=基本型液体採掘機
+gregtech.machine.fluid_drilling_rig.hv.name=発展型液体採掘機
+gregtech.machine.fluid_drilling_rig.ev.name=発展型液体採掘機 II
+gregtech.machine.fluid_drilling_rig.description=液体を岩盤下から汲みだす.
+gregtech.machine.fluid_drilling_rig.production=生産倍率: §e%sx§7
+gregtech.machine.fluid_drilling_rig.depletion=枯渇率: §b%s%%§7
+gregtech.machine.fluid_drilling_rig.energy=%s§7を要求. %s§7までオーバークロック可能.
+gregtech.machine.fluid_drilling_rig.overclock=オーバークロックで生産が§d50%%§7上昇する.
 
 gregtech.machine.central_monitor.name=Central Monitor
 gregtech.multiblock.central_monitor.low_power=Low Power
@@ -3902,8 +3912,8 @@ gregtech.machine.multiblock.universal.controller_information=§e%s§7を制御�
 
 # Multiblock machine parts
 gregtech.machine.item_bus.import.tooltip=マルチブロックへの搬入
-gregtech.universal.disabled=マルチブロック間での共有: §4無効
-gregtech.universal.enabled=マルチブロック間での共有: §a有効
+gregtech.universal.disabled=マルチブロック間での共有: §4不可能
+gregtech.universal.enabled=マルチブロック間での共有: §a可能
 
 gregtech.machine.item_bus.import.ulv.name=ULV搬入バス
 gregtech.machine.item_bus.import.lv.name=LV搬入バス
