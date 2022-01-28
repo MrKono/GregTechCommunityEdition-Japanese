@@ -2036,7 +2036,7 @@ gtadditions.machine.green_house.zpm.name=精鋭型温室 III
 gtadditions.machine.green_house.uv.name=精鋭型温室 IV
 
 gtadditions.machine.dehydrator.lv.name=基本型化学脱水機
-gtadditions.machine.dehydrator.mv.name=発展型化学脱水機r
+gtadditions.machine.dehydrator.mv.name=発展型化学脱水機
 gtadditions.machine.dehydrator.hv.name=発展型化学脱水機 II
 gtadditions.machine.dehydrator.ev.name=発展型化学脱水機 III
 gtadditions.machine.dehydrator.iv.name=精鋭型化学脱水機
@@ -2071,7 +2071,7 @@ gtadditions.machine.miner.advance.name=発展型大型採掘機
 gtadditions.machine.miner.multi.description=%dx%dチャンク内の全ての鉱石を採掘する. 幸運 %sまたはシルクタッチのハンマーを用いたときと同じように採掘できる.
 gtadditions.machine.miner.description=設置チャンクの全ての鉱石を採掘する. 要求電流; 1 Amp.
 gtadditions.machine.miner.steam.description=設置チャンクの全ての鉱石を採掘する. 蒸気が16 mb/t必要.
-gtadditions.machine.miner.fluid_usage=%dを%smb/tで消費
+gtadditions.machine.miner.fluid_usage=%dmb/tで%sを消費
 
 gtadditions.machine.rotor_holder.ulv.name=過熱冷却材用ローターホルダー (ULV)
 gtadditions.machine.rotor_holder.lv.name=過熱冷却材用ローターホルダー (LV)
@@ -3243,8 +3243,8 @@ gtadditions.multiblock.drilling_rig.replenish=補充率: %dmB/sec
 gtadditions.multiblock.drilling_rig.tooltip.1=地下水脈から液体を抽出します. ソーラー式液体サンプラーまたはLuV以上の探知機を使用して流体を表示します.
 gtadditions.multiblock.drilling_rig.tooltip.2=§b%s§7以上の電圧が必要. §b%s§7までオーバークロック可能.
 gtadditions.multiblock.drilling_rig.tooltip.3=オーバークロックは生産を大幅に増加させ, 枯渇をわずかに増加させます.
-gtadditions.multiblock.drilling_rig.tooltip.4=§b%s§7での生産速度は§e%dmB§7/秒.
-gtadditions.multiblock.drilling_rig.tooltip.5=§eproduction / %d§7 mB/秒で水脈を枯渇させる.
+gtadditions.multiblock.drilling_rig.tooltip.4=生産速度: §e%dmB§7/秒 (§b%s§7)
+gtadditions.multiblock.drilling_rig.tooltip.5=毎秒§eproduction/%d§7mBで水脈を枯渇させる.
 
 gtadditions.multiblock.battery_tower.input=入力EU/t: %s
 gtadditions.multiblock.battery_tower.output=出力EU/t: %s
@@ -4386,8 +4386,8 @@ metaitem.ludicium_crafting_seed.tooltip=Used for crafting, not planting.
 gtaddition.optical_fiber.qubit=Qubit: §a%,d §7(§a%s§7)
 gtaddition.optical_fiber.parallel=Parallel Signal: §e%d
 gtaddition.top.qubit_stored=Qubit:
-gregtech.recipe.qubitProduce=Generation: %d qubit/t
-gregtech.recipe.qubitConsume=Usage: %d qubit/t
+gregtech.recipe.qubitProduce=生産: %d qubit/t
+gregtech.recipe.qubitConsume=使用: %d qubit/t
 
 
 metaitem.robot.arm.uhv.name=ロボットアーム (UHV)
