@@ -1,6 +1,6 @@
 ## GregTech CommunityEdition Unofficial ja_jp lang
 ## Tlanslated version
-## 	1.12.2-2.1.0-beta
+## 	1.12.2-2.1.1-beta
 ## Created by Ko_no
 
 death.attack.heat=%s は茹で上がってしまった.
@@ -21,8 +21,8 @@ gregtech.multiblock.steam.low_steam=蒸気不足!
 gregtech.multiblock.steam.steam_stored=蒸気: %s / %s mb
 gregtech.machine.steam_hatch.name=蒸気用ハッチ
 gregtech.machine.steam.steam_hatch.tooltip=受入液体: §e蒸気
-gregtech.machine.steam_input_bus.name=搬入バス (蒸気用)
-gregtech.machine.steam_output_bus.name=搬出バス (蒸気用)
+gregtech.machine.steam_import_bus.name=搬入バス (蒸気用)
+gregtech.machine.steam_export_bus.name=搬出バス (蒸気用)
 gregtech.machine.steam_bus.tooltip=非蒸気式のマルチブロックでは使用不可
 gregtech.machine.steam_oven.name=蒸気式オーブン
 gregtech.machine.steam_oven.tooltip=1回につき同一アイテムを8個まで一度に製錬.  アイテム数に関わらず所要時間が1.5倍になり, §e蒸気用ハッチとバス§7が必要.
@@ -87,7 +87,8 @@ metaitem.electric.discharge_mode.enabled=§e放電:有効
 metaitem.electric.discharge_mode.disabled=§e放電:無効
 metaitem.electric.discharge_mode.tooltip=スニーク中に使うことで放電を切り替えできます.
 
-metaitem.dust.tooltip.purify=大釜に投げ入れることで綺麗な粉を得られます.
+metaitem.dust.tooltip.purify=大釜に投げ入れることで綺麗な粉を得られるが, 副産物は得られない.
+metaitem.crushed.tooltip.purify=大釜に投げ入れることで洗浄された鉱石を得られるが, 副産物は得られない.
 metaitem.int_circuit.configuration=設定: %,d
 metaitem.credit.copper.name=銅製コイン
 metaitem.credit.copper.tooltip=0.125 Credits
@@ -135,7 +136,7 @@ metaitem.shape.mold.casing.tooltip=金枠を作る為の金型
 metaitem.shape.mold.gear.name=金型 (歯車)
 metaitem.shape.mold.gear.tooltip=歯車を作る為の金型
 metaitem.shape.mold.credit.name=金型 (コイン)
-metaitem.shape.mold.credit.tooltip=コインを作る為の正規の金型 (紛失厳禁))
+metaitem.shape.mold.credit.tooltip=コインを作る為の正規の金型 (紛失厳禁)
 metaitem.shape.mold.bottle.name=金型 (ビン)
 metaitem.shape.mold.bottle.tooltip=ビンを作る為の金型
 metaitem.shape.mold.ingot.name=金型 (インゴット)
@@ -668,23 +669,23 @@ metaitem.circuit.mainframe.tooltip=驚きの計算速度!!/n§eIV-tier Circuit
 
 # T4: Nano
 metaitem.circuit.nano_processor.name=ナノプロセッサー
-metaitem.circuit.nano_processor.tooltip=かつてないほど小さい/n§aHV-tier Circuit
+metaitem.circuit.nano_processor.tooltip=かつてないほど小さい/n§bHV-tier Circuit
 metaitem.circuit.nano_assembly.name=ナノ演算処理装置
-metaitem.circuit.nano_assembly.tooltip=かつてないほど小さい/n§aEV-tier Circuit
+metaitem.circuit.nano_assembly.tooltip=かつてないほど小さい/n§bEV-tier Circuit
 metaitem.circuit.nano_computer.name=ナノスーパーコンピューター
-metaitem.circuit.nano_computer.tooltip=かつてないほど小さい/n§aIV-tier Circuit
+metaitem.circuit.nano_computer.tooltip=かつてないほど小さい/n§bIV-tier Circuit
 metaitem.circuit.nano_mainframe.name=ナノプロセッサーメインフレーム
-metaitem.circuit.nano_mainframe.tooltip=かつてないほど小さい/n§aLuV-tier Circuit
+metaitem.circuit.nano_mainframe.tooltip=かつてないほど小さい/n§bLuV-tier Circuit
 
 # T5: Quantum
 metaitem.circuit.quantum_processor.name=量子処理装置
-metaitem.circuit.quantum_processor.tooltip=量子コンピューターが現実に!/n§bEV-tier Circuit
+metaitem.circuit.quantum_processor.tooltip=量子コンピューターが現実に!/n§aEV-tier Circuit
 metaitem.circuit.quantum_assembly.name=量子演算処理装置
-metaitem.circuit.quantum_assembly.tooltip=量子コンピューターが現実に!/n§bIV-tier Circuit
+metaitem.circuit.quantum_assembly.tooltip=量子コンピューターが現実に!/n§aIV-tier Circuit
 metaitem.circuit.quantum_computer.name=量子スーパーコンピューター
-metaitem.circuit.quantum_computer.tooltip=量子コンピューターが現実に!/n§bLuV-tier Circuit
+metaitem.circuit.quantum_computer.tooltip=量子コンピューターが現実に!/n§aLuV-tier Circuit
 metaitem.circuit.quantum_mainframe.name=量子処理メインフレーム
-metaitem.circuit.quantum_mainframe.tooltip=量子コンピューターが現実に!/n§bZPM-tier Circuit
+metaitem.circuit.quantum_mainframe.tooltip=量子コンピューターが現実に!/n§aZPM-tier Circuit
 
 # T6: Crystal
 metaitem.circuit.crystal_processor.name=クリスタル処理装置
@@ -698,13 +699,13 @@ metaitem.circuit.crystal_mainframe.tooltip=クリスタルの彫刻を活用/n§
 
 # T7: Wetware
 metaitem.circuit.wetware_processor.name=生体処理装置
-metaitem.circuit.wetware_processor.tooltip=何か視線を感じる.../n§5LuV-tier Circuit
+metaitem.circuit.wetware_processor.tooltip=何か視線を感じる.../n§4LuV-tier Circuit
 metaitem.circuit.wetware_assembly.name=生体演算装置
-metaitem.circuit.wetware_assembly.tooltip=Minecraftを動かせる...?/n§5ZPM-tier Circuit
+metaitem.circuit.wetware_assembly.tooltip=Minecraftを動かせる...?/n§4ZPM-tier Circuit
 metaitem.circuit.wetware_computer.name=生体スーパーコンピューター
-metaitem.circuit.wetware_computer.tooltip=肉と機械の究極の融合/n§5UV-tier Circuit
+metaitem.circuit.wetware_computer.tooltip=肉と機械の究極の融合/n§4UV-tier Circuit
 metaitem.circuit.wetware_mainframe.name=生体メインフレーム
-metaitem.circuit.wetware_mainframe.tooltip=今まで見た中での最高傑作/n§5UHV-tier Circuit
+metaitem.circuit.wetware_mainframe.tooltip=今まで見た中での最高傑作/n§4UHV-tier Circuit
 
 metaitem.stem_cells.name=幹細胞
 metaitem.stem_cells.tooltip=生の知性
@@ -4055,11 +4056,11 @@ gregtech.machine.maintenance_hatch_full_auto.tooltip=マルチブロックの自
 
 gregtech.maintenance.configurable_duration=倍率: %fx
 gregtech.maintenance.configurable_duration.unchanged_description=レシピは通常の速度で実行されます. 設定を変更すると変更されます.
-gregtech.maintenance.configurable_duration.changed_description=レシピはオーバークロック前の速度より%fx倍かかります.
+gregtech.maintenance.configurable_duration.changed_description=レシピはオーバークロック前の速度より%f倍かかります.
 
 gregtech.maintenance.configurable_time=時間: %fx
 gregtech.maintenance.configurable_time.unchanged_description=故障は通常の頻度で発生します. 設定を変更すると変更されます.
-gregtech.maintenance.configurable_time.changed_description=問題は通常の%fx倍の頻度で発生します.
+gregtech.maintenance.configurable_time.changed_description=問題は通常の%f倍の頻度で発生します.
 
 gregtech.machine.muffler_hatch.tooltip=搬出口を塞ぐな!
 
@@ -4138,13 +4139,15 @@ gregtech.gui.toggle_view.disabled=スロット切り替え (液体)
 gregtech.gui.toggle_view.enabled=スロット切り替え (アイテム)
 gregtech.gui.overclock.enabled=オーバークロックが有効./nクリックで無効化
 gregtech.gui.overclock.disabled=オーバークロックが無効./nクリックで有効化
-gregtech.gui.overclock.description=この機械はこの電圧までオーバークロックができる./nXはオーバークロックがされないことを意味する.
+gregtech.gui.overclock.description=この機械はこの電圧までオーバークロックされる./nXはオーバークロックがされていない.
 gregtech.gui.overclock.off=X
 gregtech.gui.sort=整頓
 gregtech.gui.fluid_auto_output.tooltip.enabled=液体自動搬出が有効
 gregtech.gui.fluid_auto_output.tooltip.disabled=液体自動搬出がが無効
 gregtech.gui.item_auto_output.tooltip.enabled=アイテム自動搬出が有効
 gregtech.gui.item_auto_output.tooltip.disabled=アイテム自動搬出が無効
+gregtech.gui.charger_slot.tooltip=§f充電スロット§r/n%s§7電池からエネルギーを吸い取る.§r/n%s§7の電動ツールと電池を充電できる.
+gregtech.gui.configurator_slot.tooltip=§f設定用スロット§r/n§6プログラム回路§7 をここに置くと/n§7番号を変更できる./n§7§6シフトを押しながら§7ボタンを押すと§65§7ずつ変更できる.
 gregtech.gui.fluid_lock.tooltip.enabled=液体ロックが有効
 gregtech.gui.fluid_lock.tooltip.disabled=液体ロックが無効
 gregtech.gui.fluid_voiding_partial.tooltip.enabled=(%d%%以上の)液体廃棄が有効
@@ -4217,7 +4220,7 @@ gregtech.multiblock.universa.distinct=バスの区別:
 gregtech.multiblock.universa.distinct.yes=§a有効
 gregtech.multiblock.universa.distinct.no=§c無効
 gregtech.multiblock.universal.distinct.info=有効にすると, 各バスはレシピ検索のために互いに完全に異なるものとして扱われます. プログラム回路や金型を用いるときに便利になるでしょう.
-gregtech.multiblock.parallel=%dまで同時に実行できる
+gregtech.multiblock.parallel=%d個まで同時に実行できる
 gregtech.multiblock.multiple_recipemaps.header=マシンモード:
 gregtech.multiblock.multiple_recipemaps.tooltip=スクリュードライバーで使う機械を変更できる.
 gregtech.multiblock.multiple_recipemaps_recipes.tooltip=マシンモード: §e%s§r
@@ -4229,16 +4232,17 @@ gregtech.multiblock.preview.select=右クリック: 置換可能な物を表示
 
 gregtech.multiblock.pattern.error=Expected components (%s) at (%s).
 gregtech.multiblock.pattern.error.limited_exact=§c必須: %d§r
-gregtech.multiblock.pattern.error.limited_within=§cBetween %d and %d§r
+gregtech.multiblock.pattern.error.limited_within=§c%d個から%d個まで§r
 gregtech.multiblock.pattern.error.limited.0=§c最高: %d§r
 gregtech.multiblock.pattern.error.limited.1=§c最低: %d§r
 gregtech.multiblock.pattern.error.limited.2=§c最高: %d/層§r
 gregtech.multiblock.pattern.error.limited.3=§c最低: %d/層§r
 gregtech.multiblock.pattern.error.coils=§cコイルは全て同じもの§r
 gregtech.multiblock.pattern.clear_amount_1=§6正面に1x1x1の空間が必須§r
-gregtech.multiblock.pattern.clear_amount_3=§6正面に3x3x1の空間が必須t§r
+gregtech.multiblock.pattern.clear_amount_3=§6正面に3x3x1の空間が必須§r
 gregtech.multiblock.pattern.single=§6このブロックのみ使用可§r
-gregtech.multiblock.pattern.location_end=§cVery End§r
+gregtech.multiblock.pattern.location_end=§c最後尾§r
+gregtech.multiblock.pattern.replaceable_air=空気で置換可能
 
 gregtech.multiblock.blast_furnace.max_temperature=最大温度: §c%sK
 gregtech.multiblock.multi_furnace.heating_coil_level=コイルレベル: %s
@@ -4283,9 +4287,9 @@ gregtech.multiblock.large_miner.radius=半径: §a%d§rブロック
 gregtech.multiblock.large_miner.errorradius=§c動作中は変更できない!
 gregtech.multiblock.large_miner.needsfluid=掘削油が必要
 
-gregtech.multiblock.pyrolyse_oven.speed=Processing Speed: %s%%
+gregtech.multiblock.pyrolyse_oven.speed=処理速度: %s%%
 
-gregtech.multiblock.cracking_unit.energy=Energy Usage: %s%%
+gregtech.multiblock.cracking_unit.energy=エネルギー使用量: %s%%
 
 gregtech.command.usage=使い方: /gregtech <worldgen/util>
 gregtech.command.worldgen.usage=使い方: /gregtech worldgen <reload>
