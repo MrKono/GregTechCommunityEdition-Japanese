@@ -30,7 +30,7 @@ GregTech CommunityEdition; gregtech-1.12.2-1.17.1.770</br>
 CEU ; CEU-1.12.2-1.0.5.3</br>
 Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1</br>
 Gregicality ; Gregicality-1.12.2-0.23.3</br>
-GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.0-beta</br>
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.1-beta</br>
 </br>
 </br>
 --注意--</br>
