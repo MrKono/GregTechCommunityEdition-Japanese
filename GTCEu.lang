@@ -4167,10 +4167,10 @@ gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: 生成されない
 gregtech.jei.ore.ore_weight=Weight in vein: %d%%
 gregtech.jei.ore.primary_1=上層の鉱石
 gregtech.jei.ore.primary_2=鉱脈の上%dに生成される
-gregtech.jei.ore.secondary_1=中層の鉱石
-gregtech.jei.ore.secondary_2=鉱脈の中%d層に生成される
-gregtech.jei.ore.between_1=下層の鉱石
-gregtech.jei.ore.between_2=鉱脈の下%d層に他の鉱石と共に生成される
+gregtech.jei.ore.secondary_1=下層の鉱石
+gregtech.jei.ore.secondary_2=鉱脈の下%d層に他の鉱石と共に生成される
+gregtech.jei.ore.between_1=中層の鉱石
+gregtech.jei.ore.between_2=鉱脈の中%d層に生成される
 gregtech.jei.ore.sporadic_1=点在する鉱石
 gregtech.jei.ore.sporadic_2=鉱脈内に点在するように生成される
 
