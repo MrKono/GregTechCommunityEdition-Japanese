@@ -1,8 +1,19 @@
 --概要--</br>
 GregTech Community Edition (以下GTCE) 関係を日本語化したものです。</br>
 ここ(GitHub上)では別々になっていますが、配布先では一つのリソースパック形式になっています。</br>
+リソースパック形式でなくResource Loaderを用いる場合、.zipを解凍してaseets以下のフォルダをresourcesに移動させてください。</br>
 作成環境以外でも一応動作はしますが、翻訳に不具合が生じる可能性があります。</br>
 不要な場合はこのリソースパックを削除するか、言語を日本語以外にしてください。</br>
+</br>
+==</br>
+個人, modpack(配布込),動画で利用していただいて構いません。</br>
+modpackを配布する場合は明記をお願いします。</br>
+	(配布場所を貼っていただけると幸いです。)</br>
+編集していただいて構いません。</br>
+	(編集部分を教えていただけると幸いです。)</br>
+	</br>
+	</br>
+	二次配布はやめてください.</br>
 </br>
 --Gregicality_ja_jpについて--</br>
 GTCEのアドオン、Gregicalityの日本語化リソースパックです。</br>
@@ -39,4 +50,4 @@ GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.1-beta</br>
 </br>
 --DL先--</br>
 <a href = "https://www.dropbox.com/sh/vwy0xw7babmfpw7/AAC9LCFSwy5HnGRqWkCvinfca?dl=0">こちら</a></br>
-またはReleaseのページにて
+またはReleaseのページにて</be>
