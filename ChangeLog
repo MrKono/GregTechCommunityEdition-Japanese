@@ -54,7 +54,8 @@
 22.01.13
 	軽微な修正
 	
-	
+22.02.09
+	アイテム名称を変更.	
 	
 ==Changelog for Gregicality_ja_jp==
 22.01.01
@@ -62,7 +63,9 @@
 	
 22.01.28
 	Fluid Drilling Plantのtooltipを修正.
-	
+
+22.02.09
+	アイテム名称を変更.
 	
 ==Changelog for GTCEu_ja_jp.zip==
 22.01.13
@@ -87,3 +90,7 @@
 
 22.02.02
 	鉱脈情報の翻訳が間違っていたのを修正.
+
+22.02.09
+	電池のtooltipを修正.
+	issue#1 に対応
