@@ -1,3 +1,9 @@
+## GregTech CommunityEdition ja_jp.lang
+## Ver 22.02.09
+## Tlanslated version
+## 	1.12.2-1.17.1.770
+## Created by Ko_no
+
 death.attack.heat=%s は茹で上がってしまった.
 death.attack.frost=%s は極低温を探求した.
 death.attack.electric=%s は感電してしまった.
@@ -53,7 +59,7 @@ metaitem.dust.tooltip.purify=大釜に投げ入れることで綺麗な粉を得
 metaitem.int_circuit.configuration=設定: %,d
 metaitem.credit.copper.name=銅製コイン
 metaitem.credit.copper.tooltip=0.125 Credits
-metaitem.credit.cupronickel.name=キュプロニッケルコイル製コイン
+metaitem.credit.cupronickel.name=キュプロニッケル製コイン
 metaitem.credit.cupronickel.tooltip=1 Credit
 metaitem.credit.silver.name=銀製コイン
 metaitem.credit.silver.tooltip=8 Credits
@@ -613,10 +619,10 @@ metaitem.sfmixture.tooltip=材料
 metaitem.msfmixture.name=素晴らしい魔術燃料の素
 metaitem.msfmixture.tooltip=材料
 
-metaitem.rubber_drop.name=ゴム
+metaitem.rubber_drop.name=粘性樹脂
 metaitem.plant_ball.name=植物球
-metaitem.tool_parts_box.name=Tool Parts Box
-metaitem.tool_parts_box.tooltip=Contains some tool parts/nRight click to open
+metaitem.tool_parts_box.name=道具箱
+metaitem.tool_parts_box.tooltip=いくつかのツールパーツが含まれています/n右クリックで開封
 metaitem.foam_sprayer.name=フォームスプレー
 metaitem.foam_sprayer.tooltip=建築用フォームを吹き付ける/n足場に吹き付けると足場にのみ吹き付けられる/n金属製の骨組みに吹き付けると強化石材となる/nフォームは着色できる
 metaitem.energium_dust.name=エナジウムの粉
@@ -647,16 +653,16 @@ metaitem.tool.screwdriver.tooltip=カバーの設定に
 metaitem.tool.mortar.name=%sのすり鉢
 metaitem.tool.wire_cutter.name=%sのワイヤーカッター
 metaitem.tool.scoop.name=%sのふるい
-metaitem.tool.branch_cutter.name=%sの枝切りばさみr
+metaitem.tool.branch_cutter.name=%sの枝切りばさみ
 metaitem.tool.universal_spade.name=%sの軍用シャベル
 metaitem.tool.knife.name=%sのナイフ
 metaitem.tool.butchery_knife.name=%sの肉切り包丁
 metaitem.tool.butchery_knife.tooltip=攻撃率は低い
-metaitem.tool.sense.name=%sの鎌
+metaitem.tool.sense.name=%sのセンス
 metaitem.tool.sense.tooltip=Because a scythe doesn't make sense
 metaitem.tool.plow.name=%sのすき
 metaitem.tool.plow.tooltip=雪かきに
-metaitem.tool.plunger.name=%sのプランジャー
+metaitem.tool.plunger.name=%sのラバーカップ
 metaitem.tool.rolling_pin.name=%sの麺棒
 metaitem.tool.drill.lv.name=%sのドリル (LV)
 metaitem.tool.drill.mv.name=%sのドリル (MV)
