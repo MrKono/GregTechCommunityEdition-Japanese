@@ -1,10 +1,11 @@
-## Gregicality ja_jp lang
+## Gregicality ja_jp.lang
+## Ver 22.02.09
 ## Gregicality ; 0.23.3
 ## Created by Ko_no
 
 ## Item Tooltips
 
-# 基板 Tooltips
+#Bord Tooltips
 metaitem.board.coated.tooltip=基本基板
 metaitem.board.epoxy.tooltip=発展型基板
 metaitem.board.fiber_reinforced.tooltip=素晴らしい基板
@@ -13,7 +14,7 @@ metaitem.board.phenolic.tooltip=良い基板
 metaitem.board.plastic.tooltip=良い基板
 metaitem.board.wetware.tooltip=生命を維持する基板
 
-# 電子部品 Tooltips
+#Component Tooltips
 metaitem.component.diode.tooltip=基本的な電子部品
 metaitem.component.capacitor.tooltip=基本的な電子部品
 metaitem.component.resistor.tooltip=基本的な電子部品
@@ -24,7 +25,7 @@ metaitem.component.smd.resistor.tooltip=電子部品
 metaitem.component.smd.transistor.tooltip=電子部品
 metaitem.component.transistor.tooltip=基本的な電子部品
 
-#wafers and Components Tooltips
+#Wafers and Components Tooltips
 metaitem.boule.silicon.tooltip=回路の材料
 metaitem.boule.glowstone.tooltip=回路の材料
 metaitem.boule.naquadah.tooltip=回路の材料
@@ -33,7 +34,7 @@ metaitem.wafer.silicon.tooltip=回路の材料
 metaitem.wafer.glowstone.tooltip=回路の材料
 metaitem.wafer.naquadah.tooltip=回路の材料
 
-# 回路 Tooltips
+#Circuit Tooltips
 metaitem.circuit.basic.tooltip=A Basic Circuit/n基本回路
 metaitem.circuit.good.tooltip=A Good Circuit/n改良回路
 metaitem.circuit.advanced.tooltip=An Advanced Circuit/n発展回路
@@ -41,7 +42,7 @@ metaitem.circuit.wetware_mainframe.tooltip=An Infinite Circuit/n無限の回路
 metaitem.circuit.vacuum_tube.tooltip=A Very Simple Circuit/nとても単純な回路
 metaitem.circuit.advanced_parts.tooltip=A Basic Circuit/n基本回路
 
-# アイテム Tooltips
+#Item Tooltips
 metaitem.compressed.fireclay.tooltip=レンガの形
 metaitem.stemcells.tooltip=生の知性
 metaitem.component.glass.fiber.tooltip=B(SiO₂)₇
@@ -662,7 +663,7 @@ material.naquadah.name=ナクアダ
 material.naquadah_alloy.name=ナクアダ合金
 material.naquadah_enriched.name=濃縮ナクアダ
 material.tritanium.name=トリタニウム
-material.duranium.name=ドゥラニウム
+material.duranium.name=デュラニウム
 material.enderium.name=エンダリウム
 material.neutronium.name=ニュートロニウム
 material.blue_topaz.name=ブルートパーズ
@@ -2911,7 +2912,7 @@ material.naquadah.name=ナクアダ
 material.naquadah_alloy.name=ナクアダ合金
 material.naquadah_enriched.name=濃縮ナクアダ
 material.tritanium.name=トリタニウム
-material.duranium.name=ドゥラニウム
+material.duranium.name=デュラニウム
 material.neutronium.name=ニュートロニウム
 material.blue_topaz.name=ブルートパーズ
 material.diamond.name=ダイアモンド
