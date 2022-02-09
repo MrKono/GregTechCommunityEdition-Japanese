@@ -1,4 +1,5 @@
-## GregTech CommunityEdition Unofficial ja_jp lang
+## GregTech CommunityEdition Unofficial ja_jp.lang
+## Ver 22.02.09
 ## Tlanslated version
 ## 	1.12.2-2.1.1-beta
 ## Created by Ko_no
@@ -92,7 +93,7 @@ metaitem.crushed.tooltip.purify=大釜に投げ入れることで洗浄された
 metaitem.int_circuit.configuration=設定: %,d
 metaitem.credit.copper.name=銅製コイン
 metaitem.credit.copper.tooltip=0.125 Credits
-metaitem.credit.cupronickel.name=キュプロニッケルコイル製コイン
+metaitem.credit.cupronickel.name=キュプロニッケル製コイン
 metaitem.credit.cupronickel.tooltip=1 Credit
 metaitem.credit.silver.name=銀製コイン
 metaitem.credit.silver.tooltip=8 Credits
@@ -281,8 +282,8 @@ metaitem.battery.hull.zpm.tooltip=空の§fZPM用§7電池筐体
 metaitem.battery.hull.uv.name=大型型ナクアドリア製電池筐体
 metaitem.battery.hull.uv.tooltip=空の§3UV用§7電池筐体
 
-metaitem.battery.charge_time=§aHolds %,d%s of Power
-metaitem.battery.charge_detailed=%,d/%,d EU - Tier %s §7(§残り%c%,d%s§7)
+metaitem.battery.charge_time=§a%,d%s放出可能
+metaitem.battery.charge_detailed=%,d/%,d EU - Tier %s §7(§c残り%%,d%s放出可能§7)
 
 metaitem.battery.re.ulv.tantalum.name=タンタル製キャパシター
 metaitem.battery.re.ulv.tantalum.tooltip=充電式
@@ -548,16 +549,16 @@ metaitem.component.smd.resistor.name=SMD抵抗器
 metaitem.component.smd.resistor.tooltip=電子部品
 metaitem.component.smd.inductor.name=SMDインダクタ
 metaitem.component.smd.inductor.tooltip=電子部品
-metaitem.component.advanced_smd.diode.name=より良いSMDダイオード
-metaitem.component.advanced_smd.diode.tooltip=より良い電子部品
-metaitem.component.advanced_smd.capacitor.name=より良いSMDキャパシター
-metaitem.component.advanced_smd.capacitor.tooltip=より良い電子部品
-metaitem.component.advanced_smd.transistor.name=より良いSMDトランジスタ
-metaitem.component.advanced_smd.transistor.tooltip=より良い電子部品
-metaitem.component.advanced_smd.resistor.name=より良いSMD抵抗器
-metaitem.component.advanced_smd.resistor.tooltip=より良い電子部品
-metaitem.component.advanced_smd.inductor.name=より良いSMDインダクタ
-metaitem.component.advanced_smd.inductor.tooltip=より良い電子部品
+metaitem.component.advanced_smd.diode.name=発展型SMDダイオード
+metaitem.component.advanced_smd.diode.tooltip=発展型電子部品
+metaitem.component.advanced_smd.capacitor.name=発展型SMDキャパシター
+metaitem.component.advanced_smd.capacitor.tooltip=発展型電子部品
+metaitem.component.advanced_smd.transistor.name=発展型SMDトランジスタ
+metaitem.component.advanced_smd.transistor.tooltip=発展型電子部品
+metaitem.component.advanced_smd.resistor.name=発展型SMD抵抗器
+metaitem.component.advanced_smd.resistor.tooltip=発展型電子部品
+metaitem.component.advanced_smd.inductor.name=発展型SMDインダクタ
+metaitem.component.advanced_smd.inductor.tooltip=発展型電子部品
 
 metaitem.wafer.highly_advanced_system_on_chip.name=HASoCウェハー
 metaitem.wafer.highly_advanced_system_on_chip.tooltip=粗高度発展型回路
@@ -819,14 +820,14 @@ metaitem.dye.green.name=緑色の化学染料
 metaitem.dye.red.name=赤色の化学染料
 metaitem.dye.black.name=黒色の化学染料
 
-metaitem.rubber_drop.name=ゴム
+metaitem.rubber_drop.name=粘性樹脂
 metaitem.plant_ball.name=植物球
 metaitem.tool_parts_box.name=道具箱
 metaitem.tool_parts_box.tooltip=いくつかのツールパーツが含まれています/n右クリックで開封
 metaitem.foam_sprayer.name=フォームスプレー
 metaitem.foam_sprayer.tooltip=建築用フォームを吹き付ける/n足場に吹き付けると足場にのみ吹き付けられる./n金属製の骨組みに吹き付けると強化石材となる.
 metaitem.energium_dust.name=エナジウムの粉
-metaitem.compressed.clay.name=圧縮粘度
+metaitem.compressed.clay.name=圧縮粘土
 metaitem.compressed.fireclay.name=圧縮耐火粘土
 metaitem.compressed.coke_clay.name=圧縮したコークス炉用粘土
 metaitem.brick.fireclay.name=耐火粘土
@@ -855,16 +856,16 @@ metaitem.tool.screwdriver.tooltip=カバーの設定に
 metaitem.tool.mortar.name=%sのすり鉢
 metaitem.tool.wire_cutter.name=%sのワイヤーカッター
 metaitem.tool.scoop.name=%sのふるい
-metaitem.tool.branch_cutter.name=%sの枝切りばさみr
+metaitem.tool.branch_cutter.name=%sの枝切りばさみ
 metaitem.tool.universal_spade.name=%sの軍用シャベル
 metaitem.tool.knife.name=%sのナイフ
 metaitem.tool.butchery_knife.name=%sの肉切り包丁
 metaitem.tool.butchery_knife.tooltip=攻撃率は低い
-metaitem.tool.sense.name=%sの鎌
+metaitem.tool.sense.name=%sのセンス
 metaitem.tool.sense.tooltip=Because a scythe doesn't make sense
 metaitem.tool.plow.name=%sのすき
 metaitem.tool.plow.tooltip=雪かきに
-metaitem.tool.plunger.name=%sのプランジャー
+metaitem.tool.plunger.name=%sのラバーカップ
 metaitem.tool.rolling_pin.name=%sの麺棒
 metaitem.tool.drill.lv.name=%sのドリル (LV)
 metaitem.tool.drill.mv.name=%sのドリル (MV)
@@ -918,7 +919,7 @@ metaitem.tool.tooltip.rotor.power=タービンパワー: §9%,d%%
 metaitem.voltage_coil.ulv.name=Ultra Low Voltage コイル
 metaitem.voltage_coil.ulv.tooltip=初歩的なコイル
 metaitem.voltage_coil.lv.name=Low Voltage コイル
-metaitem.voltage_coil.lv.tooltip=基本的なのコイル
+metaitem.voltage_coil.lv.tooltip=基本的なコイル
 metaitem.voltage_coil.mv.name=Medium Voltage コイル
 metaitem.voltage_coil.mv.tooltip=改良型コイル
 metaitem.voltage_coil.hv.name=High Voltage コイル
@@ -1020,7 +1021,7 @@ metaitem.nan.certificate.tooltip=挑戦を受けました!
 gui.widget.incrementButton.default_tooltip=Shift, Ctrlまたはその両方で量を変更
 
 gregtech.recipe_memory_widget.tooltip.1=§7左クリックするとこのレシピがクラフトグリッドに自動的に搬入されます
-gregtech.recipe_memory_widget.tooltip.2=§7Sシフトでレシピの固定化を設定
+gregtech.recipe_memory_widget.tooltip.2=§7シフトでレシピの固定化を設定
 
 cover.filter.blacklist.disabled=ホワイトリスト
 cover.filter.blacklist.enabled=ブラックリスト
@@ -1050,7 +1051,7 @@ cover.smart_item_filter.filtering_mode.sifter=ふるい機
 cover.smart_item_filter.filtering_mode.description=このスマートフィルターがフィルタに使用する機械を選択します. /nロボットアームが適切なものを自動的に選択します.
 cover.smart_item_filter.matching_mode.default=デフォルト
 cover.smart_item_filter.matching_mode.ignore_fluid=液体を無視
-cover.smart_item_filter.matching_mode.description=§eDefault§r - 液体を搬入していない場合, アイテム/液体の両方を選別します. /n§eIgnore Fluids§r - アイテムのみを選別します.
+cover.smart_item_filter.matching_mode.description=§eデフォルト§r - 液体を搬入していない場合, アイテム/液体の両方を選別します. /n§e液体を無視§r - アイテムのみを選別します.
 
 cover.conveyor.title=コンベアーモジュール (%s)
 cover.conveyor.transfer_rate=%s 個/秒
@@ -1827,7 +1828,7 @@ material.coal_tar=コールタール
 material.ethylbenzene=エチルベンゼン
 material.naphthalene=ナフタレン
 
-material.manganese_phosphide=りん化マンガン
+material.manganese_phosphide=リン化マンガン
 material.magnesium_diboride=二ホウ化マグネシウム
 material.mercury_barium_calcium_cuprate=水銀バリウムカルシウムキュプライト
 material.uranium_triplatinum=三白金ウラン
@@ -1837,9 +1838,9 @@ material.uranium_rhodium_dinaquadide=ウラン-ロジウム 二ナクアダ物
 material.enriched_naquadah_trinium_europium_duranide=濃縮ナクアダ-トリニウム-ユーロピウム ドゥラニウム化物
 material.ruthenium_trinium_americium_neutronate=ルテニウム-トリニウム-アメリシウム ニュートロニウム化物
 
-material.ruby_slurry=ルビー泥
-material.sapphire_slurry=サファイア泥
-material.green_sapphire_slurry=グリーンサファイア泥
+material.ruby_slurry=ルビー泥漿
+material.sapphire_slurry=サファイア泥漿
+material.green_sapphire_slurry=グリーンサファイア泥漿
 
 material.dye_white=白色の化学染料
 material.dye_orange=橙色の化学染料
@@ -2304,7 +2305,7 @@ behavior.tricorder.debug_cpu_load=Average CPU load of ~%sns over %s ticks with w
 behavior.tricorder.debug_lag_count=Caused %s Lag Spike Warnings (anything taking longer than %sms) on the Server.
 
 metaitem.terminal.name=ターミナル
-metaitem.terminal.tooltip=鋭い道具は良い仕事をします
+metaitem.terminal.tooltip=良い仕事をする賢い道具
 metaitem.terminal.tooltip.creative=§bクリエイティブモード
 metaitem.terminal.tooltip.hardware=§aハードウェア: %d
 
@@ -2503,7 +2504,7 @@ gregtech.tank_valve.tooltip=マルチブロックタンクへの搬入と搬出�
 gregtech.machine.clipboard.name=クリップボード
 
 # Asphalt
-tile.asphalt.asphalt.name=Asphalt
+tile.asphalt.asphalt.name=アスファルト
 
 # Smooth Stone Blocks
 tile.stone_smooth.black_granite.name=黒色花崗岩
@@ -2622,18 +2623,18 @@ tile.stone_bricks_square.concrete_dark.name=暗色コンクリートの大レン
 gregtech.machine.steam_boiler.tooltip_produces=%,dmb/秒で蒸気を生産
 
 
-gregtech.machine.steam_boiler_coal_bronze.name=小型石炭ボイラー
+gregtech.machine.steam_boiler_coal_bronze.name=固形燃料用小型ボイラー
 gregtech.machine.steam_boiler_coal_bronze.tooltip=蒸気の力を得るための初歩的な手段
-gregtech.machine.steam_boiler_coal_steel.name=高圧石炭ボイラー
-gregtech.machine.steam_boiler_coal_steel.tooltip=小型石炭ボイラーよりも早い
+gregtech.machine.steam_boiler_coal_steel.name=固形燃料用高圧ボイラー
+gregtech.machine.steam_boiler_coal_steel.tooltip=固形燃料用小型ボイラーよりも早い
 gregtech.machine.steam_boiler_solar_bronze.name=ソーラーボイラー
 gregtech.machine.steam_boiler_solar_bronze.tooltip=太陽の力で蒸気を
 gregtech.machine.steam_boiler_solar_steel.name=高圧ソーラーボイラー
 gregtech.machine.steam_boiler_solar_steel.tooltip=太陽の力で蒸気を
-gregtech.machine.steam_boiler_lava_bronze.name=小型溶岩ボイラー
-gregtech.machine.steam_boiler_lava_bronze.tooltip=溶岩で動くボイラー
-gregtech.machine.steam_boiler_lava_steel.name=高圧溶岩ボイラー
-gregtech.machine.steam_boiler_lava_steel.tooltip=小型溶岩ボイラーより早いr
+gregtech.machine.steam_boiler_lava_bronze.name=液体燃料用小型ボイラー
+gregtech.machine.steam_boiler_lava_bronze.tooltip=液体燃料で動くボイラー
+gregtech.machine.steam_boiler_lava_steel.name=液体燃料用高圧ボイラー
+gregtech.machine.steam_boiler_lava_steel.tooltip=液体燃料用小型ボイラーより早い
 
 gregtech.machine.steam_boiler.heat_amount=熱: %s %%
 
@@ -2648,7 +2649,7 @@ gregtech.machine.steam_macerator_steel.tooltip=鉱石を粉砕
 gregtech.machine.steam_compressor_bronze.name=蒸気式圧縮機
 gregtech.machine.steam_compressor_bronze.tooltip=アイテムを圧縮
 gregtech.machine.steam_compressor_steel.name=高圧蒸気式圧縮機
-gregtech.machine.steam_compressor_steel.tooltip==アイテムを圧縮
+gregtech.machine.steam_compressor_steel.tooltip=アイテムを圧縮
 gregtech.machine.steam_hammer_bronze.name=蒸気式鍛造機
 gregtech.machine.steam_hammer_bronze.tooltip=鍛造機
 gregtech.machine.steam_hammer_steel.name=高圧蒸気式鍛造機
@@ -2697,7 +2698,8 @@ gregtech.machine.block_breaker.lv.name=基本型ブロック破壊機
 gregtech.machine.block_breaker.mv.name=発展型ブロック破壊機
 gregtech.machine.block_breaker.hv.name=発展型ブロック破壊機 II
 gregtech.machine.block_breaker.ev.name=発展型ブロック破壊機 III
-gregtech.machine.block_breaker.tooltip=正面のブロックを破壊し, 集める/n稼働にはレッドストーン信号が必要
+gregtech.machine.block_breaker.tooltip=正面のブロックを破壊し, 集める
+gregtech.machine.block_breaker.redstone=稼働にはレッドストーン信号が必要
 gregtech.machine.block_breaker.consumption=動作毎に§e%,d EU§7を消費.
 gregtech.machine.block_breaker.speed_bonus=速度ボーナス: §e%,d%%
 
@@ -2830,7 +2832,7 @@ gregtech.machine.brewery.uiv.name=先端型醸造機 III
 gregtech.machine.brewery.umv.name=先端型醸造機 IV
 gregtech.machine.brewery.uxv.name=究極型醸造機
 
-gregtech.machine.canner.tooltip=容器から液体を出し入れ. 今アイテムで!
+gregtech.machine.canner.tooltip=容器から液体を出し入れ. アイテムにも対応!
 gregtech.machine.canner.jei_description=この機械を使うことで, あらゆる液体容器から液体を出し入れできる. (例. バケツ/液体セル)
 
 gregtech.machine.canner.lv.name=基本型缶詰装置
@@ -2927,7 +2929,7 @@ gregtech.machine.cutter.uiv.name=先端型裁断機 III
 gregtech.machine.cutter.umv.name=先端型裁断機 IV
 gregtech.machine.cutter.uxv.name=究極型裁断機
 
-gregtech.machine.distillery.tooltip=液体の最も関連性のある部分を蒸留する
+gregtech.machine.distillery.tooltip=液体の最も適切な部分を蒸留する
 
 gregtech.machine.distillery.lv.name=基本型蒸留機
 gregtech.machine.distillery.mv.name=発展型蒸留機
@@ -3296,7 +3298,7 @@ gregtech.machine.scanner.umv.name=先端型スキャナー IV
 gregtech.machine.scanner.uxv.name=究極型スキャナー
 
 gregtech.machine.infinite_energy.name=Infinite GT Energy Unit Emitter
-gregtech.machine.infinite_energy.tooltip=§o§5C§dr§4e§ca§et§ai§bv§3e §7m§1o§5d§de§r§8 のみ
+gregtech.machine.infinite_energy.tooltip=§o§5ク§dリ§4エ§cイ§eテ§aィ§bブ§3モー§7ド§1o§5d§de§r§8 のみ
 gregtech.machine.creative_chest.name=クリエイティブ量子チェスト
 gregtech.machine.creative_chest.tooltip=§o§5C§dr§4e§ca§et§ai§bv§3e §7m§1o§5d§de§r§8 のみ
 gregtech.machine.creative_tank.name=クリエイティブ量子タンク
@@ -4166,7 +4168,7 @@ gregtech.jei.ore.biome_weighting=%s Weight: %d
 gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: 生成されない
 gregtech.jei.ore.ore_weight=Weight in vein: %d%%
 gregtech.jei.ore.primary_1=上層の鉱石
-gregtech.jei.ore.primary_2=鉱脈の上%dに生成される
+gregtech.jei.ore.primary_2=鉱脈の上%層dに生成される
 gregtech.jei.ore.secondary_1=下層の鉱石
 gregtech.jei.ore.secondary_2=鉱脈の下%d層に他の鉱石と共に生成される
 gregtech.jei.ore.between_1=中層の鉱石
