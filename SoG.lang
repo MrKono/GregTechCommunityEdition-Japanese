@@ -1,7 +1,7 @@
 ## GTAdditions ja_jp lang
+## Ver 22.02.09
 ## Tlanslated version
 ## 	Shadows of Greg ; 2.20
-## 	Gregicality ; 0.23
 ## Created by Ko_no
 
 ## Item Tooltips
@@ -71,7 +71,7 @@ metaitem.component.petri.dish.name=ペトリ皿
 metaitem.compressed.clay.name=未焼成のレンガ
 metaitem.stemcells.name=幹細胞
 metaitem.credit.darmstadtium.name=ニュートロニウム製コイン
-metaitem.rubber_drop.name=ゴムの樹液
+metaitem.rubber_drop.name=粘性樹脂
 metaitem.component.glass.fiber.name=グラスファイバー
 metaitem.compressed.coke.clay.name=圧縮したコークス炉用レンガ
 
@@ -664,7 +664,7 @@ material.naquadah.name=ナクアダ
 material.naquadah_alloy.name=ナクアダ合金
 material.naquadah_enriched.name=濃縮ナクアダ
 material.tritanium.name=トリタニウム
-material.duranium.name=ドゥラニウム
+material.duranium.name=デュラニウム
 material.enderium.name=エンダリウム
 material.neutronium.name=ニュートロニウム
 material.blue_topaz.name=ブルートパーズ
