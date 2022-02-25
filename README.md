@@ -13,7 +13,7 @@ modpackを配布する場合は明記をお願いします。</br>
 	(編集部分を教えていただけると幸いです。)</br>
 	</br>
 	</br>
-	二次配布はやめてください.</br>
+二次配布はやめてください.</br>
 </br>
 --Gregicality_ja_jpについて--</br>
 GTCEのアドオン、Gregicalityの日本語化リソースパックです。</br>
@@ -23,6 +23,7 @@ Gregicalityにはオリジナルアイテムが多々あるため、訳が微妙
 </br>
 --GTCEu_ja_jp.zipについて--</br>
 GTCEの非公式版用のです。ご注意ください。</br>
+また、Gregicality Multiblocksも対応しています。</br>
 </br>
 </br>
 </br>
@@ -41,7 +42,9 @@ GregTech CommunityEdition; gregtech-1.12.2-1.17.1.770</br>
 CEU ; CEU-1.12.2-1.0.5.3</br>
 Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1</br>
 Gregicality ; Gregicality-1.12.2-0.23.3</br>
-GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.1-beta</br>
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.2-beta</br>
+Gregicality Multiblocks ; GregicalityMultiblocks-1.12.2-1.1.1</br>
+</br>
 </br>
 </br>
 --注意--</br>
