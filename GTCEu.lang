@@ -1,7 +1,7 @@
 ## GregTech CommunityEdition Unofficial ja_jp.lang
-## Ver 22.02.09
+## Ver 22.02.25
 ## Tlanslated version
-## 	1.12.2-2.1.1-beta
+## 	1.12.2-2.1.2-beta
 ## Created by Ko_no
 
 death.attack.heat=%s は茹で上がってしまった.
@@ -954,19 +954,19 @@ metaitem.advanced_electric_jetpack.name=発展型スラスター型ジェット�
 metaitem.nightvision_goggles.name=暗視ゴーグル
 
 metaitem.nms.chestplate.name=NanoMuscle™ Suit - チェストプレート
-metaitem.nms.leggins.name=NanoMuscle™ Suit - レギンス
+metaitem.nms.leggings.name=NanoMuscle™ Suit - レギンス
 metaitem.nms.boots.name=NanoMuscle™ Suit - ブーツ
 metaitem.nms.helmet.name=NanoMuscle™ Suit - ヘルメット
 metaitem.nms.advanced_chestplate.name=発展型NanoMuscle™ Suit - チェストプレート
 
 metaitem.qts.chestplate.name=QuarkTech™ Suit - チェストプレート
-metaitem.qts.leggins.name=QuarkTech™ Suit - レギンス
+metaitem.qts.leggings.name=QuarkTech™ Suit - レギンス
 metaitem.qts.boots.name=QuarkTech™ Suit - ブーツ
 metaitem.qts.helmet.name=QuarkTech™ Suit - ヘルメット
 metaitem.qts.advanced_chestplate.name=発展型QuarkTech™ Suit - チェストプレート
 
-metaitem.impeller.mv.name=パワースラスター
-metaitem.impeller.hv.name=発展型パワースラスター
+metaitem.power_thruster.name=パワースラスター
+metaitem.power_thruster_advanced.name=発展型パワースラスター
 metaitem.gravitation_engine.name=重力エンジンユニット
 
 metaarmor.nms.nightvision.enabled=NanoMuscle™ Suite: 暗視を有効化
@@ -1017,6 +1017,8 @@ metaitem.record.sus.tooltip=§7Leonz - Among Us Drip
 
 metaitem.nan.certificate.name=もう初心者ではないという証明書
 metaitem.nan.certificate.tooltip=挑戦を受けました!
+
+metaitem.fertilizer.name=肥料
 
 gui.widget.incrementButton.default_tooltip=Shift, Ctrlまたはその両方で量を変更
 
@@ -2246,11 +2248,11 @@ tile.gt.foam.name=フォーム
 tile.gt.reinforced_foam.name=強化フォーム
 tile.gt.petrified_foam.name=石化したフォーム
 tile.gt.reinforced_stone.name=強化石材
-tile.gt.log.rubber_wood.name=ゴムの木
-tile.gt.leaves.rubber_wood.name=ゴムの木の葉
-tile.gt.sapling.rubber_wood.name=ゴムの苗木
+tile.rubber_log.name=ゴムの原木
+tile.rubber_leaves.name=ゴムの木の葉
+tile.rubber_sapling.name=ゴムの木の苗
 
-tile.planks.rubber.name=ゴムの木材
+tile.planks.rubber.name=ゴムの木の木材
 tile.planks.treated.name=防腐木材
 
 tile.surface_rock.name=Surface Rock
@@ -2303,6 +2305,11 @@ behavior.tricorder.debug_machine_invalid= invalid!
 behavior.tricorder.debug_machine_invalid_null=invalid! MetaTileEntity == null!
 behavior.tricorder.debug_cpu_load=Average CPU load of ~%sns over %s ticks with worst time of %sns.
 behavior.tricorder.debug_lag_count=Caused %s Lag Spike Warnings (anything taking longer than %sms) on the Server.
+
+metaitem.item_magnet.lv.name=磁石 (LV)
+metaitem.item_magnet.hv.name=磁石 (MV)
+behavior.item_magnet.enabled=§aアイテムを引き寄せる
+behavior.item_magnet.disabled=§cアイテムを引き寄せない
 
 metaitem.terminal.name=ターミナル
 metaitem.terminal.tooltip=良い仕事をする賢い道具
@@ -3463,6 +3470,75 @@ gregtech.machine.charger.umv.name=UMV-V高速充電器
 gregtech.machine.charger.uxv.name=UXV-V高速充電器
 gregtech.machine.charger.max.name=MAX-V高速充電器
 
+# Energy Converter
+gregtech.machine.energy_converter.ulv.1.name=ULVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.ulv.4.name=ULVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.ulv.8.name=ULVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.ulv.16.name=ULVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.lv.1.name=LVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.lv.4.name=LVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.lv.8.name=LVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.lv.16.name=LVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.mv.1.name=MVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.mv.4.name=MVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.mv.8.name=MVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.mv.16.name=MVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.hv.1.name=HVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.hv.4.name=HVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.hv.8.name=HVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.hv.16.name=HVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.ev.1.name=EVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.ev.4.name=EVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.ev.8.name=EVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.ev.16.name=EVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.iv.1.name=IVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.iv.4.name=IVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.iv.8.name=IVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.iv.16.name=IVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.luv.1.name=LuVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.luv.4.name=LuVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.luv.8.name=LuVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.luv.16.name=LuVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.zpm.1.name=ZPM-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.zpm.4.name=ZPM-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.zpm.8.name=ZPM-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.zpm.16.name=ZPM-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.uv.1.name=UVエネルギー変換機 (1A)
+gregtech.machine.energy_converter.uv.4.name=UVエネルギー変換機 (4A)
+gregtech.machine.energy_converter.uv.8.name=UVエネルギー変換機 (8A)
+gregtech.machine.energy_converter.uv.16.name=UVエネルギー変換機 (16A)
+gregtech.machine.energy_converter.uhv.1.name=UHV-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.uhv.4.name=UHV-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.uhv.8.name=UHV-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.uhv.16.name=UHV-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.uev.1.name=UEV-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.uev.4.name=UEV-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.uev.8.name=UEV-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.uev.16.name=UEV-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.uiv.1.name=UIV-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.uiv.4.name=UIV-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.uiv.8.name=UIV-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.uiv.16.name=UIV-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.umv.1.name=UMV-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.umv.4.name=UMV-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.umv.8.name=UMV-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.umv.16.name=UMV-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.uxv.1.name=UXV-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.uxv.4.name=UXV-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.uxv.8.name=UXV-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.uxv.16.name=UXV-Vエネルギー変換機 (16A)
+gregtech.machine.energy_converter.max.1.name=MAX-Vエネルギー変換機 (1A)
+gregtech.machine.energy_converter.max.4.name=MAX-Vエネルギー変換機 (4A)
+gregtech.machine.energy_converter.max.8.name=MAX-Vエネルギー変換機 (8A)
+gregtech.machine.energy_converter.max.16.name=MAX-Vエネルギー変換機 (16A)
+
+gregtech.machine.energy_converter.tooltip_tool_usage=ソフトハンマーで効果を反転 (初期はFE -> EU)
+gregtech.machine.energy_converter.tooltip_conversion_fe=FE変換: §c%,dFE§7 -> §a%,dA %,dEU (§r%s§a)
+gregtech.machine.energy_converter.message_conversion_fe=FE変換, In: %dFE, Out: %dA %dEU
+gregtech.machine.energy_converter.tooltip_conversion_eu=EU変換: §a%,dA %,dEU (§r%s§a)§7 -> §c%,dFE
+gregtech.machine.energy_converter.message_conversion_eu=EU変換, In: %dA %dEU, Out: %dFE
+
+
 # Pumps
 gregtech.machine.pump.tooltip=海を枯らすのに最適! 正面から搬出.
 gregtech.machine.pump.tooltip_range=範囲: %,dx%,d
@@ -4123,11 +4199,10 @@ gregtech.recipe.explosive=Explosive: %s
 gregtech.recipe.eu_to_start=開始エネルギー: %sEU
 gregtech.recipe.dimensions=ディメンション: %s
 
-gregtech.fluid.click_to_fill=§7空のタンクでクリックすると, タンクに移し替える.
-gregtech.fluid.click_to_fill.shift=§7(シフトクリックで持っているタンク全てに移し替える)
+gregtech.fluid.click_to_fill=§7中身の入った液体容器でクリックすると, §b中身をタンクに移す§7 (Shiftクリックで持っている全て).
+gregtech.fluid.click_combined=§7液体容器でクリックすると, 液体をタンク§cに§7または§bから§7移す (Shiftクリックで持っている全て).
 
-gregtech.fluid.click_to_empty=§7中身が入っているタンクでクリックすると, 中身を移す.
-gregtech.fluid.click_to_empty.shift=§7(シフトクリックで持っているタンク全てから移し替える)
+gregtech.fluid.click_to_empty=§7液体容器でクリックすると, 液体をタンク§cに§7または§bから§7移す (Shiftクリックで持っている全て).
 
 gregtech.fluid.plasma=%sプラズマ
 gregtech.fluid.empty=空
