@@ -26,7 +26,17 @@
 	issue#1 に対応
  
 22.02.25
-  .langの記述ミスを修正
-  gregtech-1.12.2-2.1.2-betaに対応
-  GregicalityMultiblocks (GregicalityMultiblocks-1.12.2-1.1.1) を追加
+	.langの記述ミスを修正
+	gregtech-1.12.2-2.1.2-betaに対応
+	GregicalityMultiblocks (GregicalityMultiblocks-1.12.2-1.1.1) を追加
   
+22.03.04
+	GregTech Food Option (GregTech Food Option-1.12.2-1.4.0)に対応
+	gregtech-1.12.2-2.1.4-betaに対応
+	gregtech-1.12.2-2.1.4-betaまでの未対応のもの(以下)に対応
+		materialの順番を変更
+		/gregtech recipecheck関係を追加
+		鉱石辞書フィルターのGUI文章
+		液体容器と機械内部タンクのやり取りのの文章
+		マルチブロックの消去モード
+		マルチブロック式採掘機のコントローラーGUI
