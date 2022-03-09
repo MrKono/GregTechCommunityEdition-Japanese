@@ -1,6 +1,6 @@
 ## GregTech Food Option ja_jp.lang
-## Ver 22.03.04
-## Greg Tech Food Option ; 1.4.0
+## Last update : 22.03.09
+## Greg Tech Food Option ; 1.4.2
 ## Created by Ko_no
 
 
@@ -21,19 +21,19 @@ metaitem.popcorn_kernel_gem_chipped.name=ポップコーンの種
 metaitem.popcorn_kernel_gem_chipped.tooltip=Green Houseでのみ育成できる.
 metaitem.popcorn_kernel_bare_gem_chipped.name=ポップコーンの粒
 metaitem.popcorn_kernel_graded_gem_chipped.name=許容できるポップコーンカーネル
-fluid.gtfo_peptone_mixture=ペプトン混合物
-fluid.gtfo_isopropyl_chloride=塩化イソプロピル
-fluid.gtfo_diacetyl=ジアセチル
-fluid.gtfo_tetrahydrofuran=テトラヒドロフラン
-fluid.gtfo_2,3-butanediol=2,3-ブタンジオール
-fluid.gtfo_2-bromopyridine=2-ブロモピリジン
-fluid.gtfo_acetyl_chloride=塩化アセチル
-fluid.gtfo_1,4-butanediol=1,4-ブタンジオールl
-fluid.gtfo_fungal_growth_medium=真菌育成培地
-fluid.gtfo_acetoin=アセトイン
-fluid.gtfo_1,4-butynediol=1,4-ブチンジオール
-fluid.gtfo_popcorn_flavoring_mixture=ポップコーン味付け用混合物
-fluid.gtfo_2-acetylpyridine=2-アセチルピリジン
+material.gtfo_peptone_mixture=ペプトン混合物
+material.gtfo_isopropyl_chloride=塩化イソプロピル
+material.gtfo_diacetyl=ジアセチル
+material.gtfo_tetrahydrofuran=テトラヒドロフラン
+material.gtfo_2,3-butanediol=2,3-ブタンジオール
+material.gtfo_2-bromopyridine=2-ブロモピリジン
+material.gtfo_acetyl_chloride=塩化アセチル
+material.gtfo_1,4-butanediol=1,4-ブタンジオールl
+material.gtfo_fungal_growth_medium=真菌育成培地
+material.gtfo_acetoin=アセトイン
+material.gtfo_1,4-butynediol=1,4-ブチンジオール
+material.gtfo_popcorn_flavoring_mixture=ポップコーン味付け用混合物
+material.gtfo_2-acetylpyridine=2-アセチルピリジン
 
 metaitem.chocolate_liquor_dutched_pressed_crushed_centrifuged.name=Dutched Pressed Chocolate Liquor
 metaitem.chocolate_liquor_pressed_crushed_centrifuged.name=Pressed Chocolate Liquor
@@ -52,15 +52,15 @@ metaitem.chocolate_liquor_refined_crushed_centrifuged.name=Refined Chocolate Liq
 metaitem.chocolate_liquor_dutched_crushed_centrifuged.name=Dutched Chocolate Liquor
 metaitem.cocoa_nib_gem_chipped.name=Cocoa Nib
 metaitem.cocoa_hull_gem_chipped.name=Cocoa Hull
-fluid.gtfo_unheated_cane_syrup=未加熱のシロップ
-fluid.gtfo_cane_syrup=シロップ
-fluid.gtfo_sweetened_diluted_cane_syrup_mixture=希釈した甘いシロップ混合物
-fluid.gtfo_albumen=卵白
-fluid.gtfo_yolk=ヨーク
-fluid.gtfo_marshmallow_syrup_mixture=マシュマロシロップ混合物
-fluid.gtfo_marshmallow_foam=マシュマロフォーム
-fluid.gtfo_butter=バター
-fluid.gtfo_potassium_carbonate_solution=炭酸カリウム溶液
+material.gtfo_unheated_cane_syrup=未加熱のシロップ
+material.gtfo_cane_syrup=シロップ
+material.gtfo_sweetened_diluted_cane_syrup_mixture=希釈した甘いシロップ混合物
+material.gtfo_albumen=卵白
+material.gtfo_yolk=ヨーク
+material.gtfo_marshmallow_syrup_mixture=マシュマロシロップ混合物
+material.gtfo_marshmallow_foam=マシュマロフォーム
+material.gtfo_butter=バター
+material.gtfo_potassium_carbonate_solution=炭酸カリウム溶液
 
 metaitem.smore.eight.name=EightS'more OctoS'mingot
 metaitem.smore.sixteen.name=SixteenS'more HexadecaS'mingot
@@ -85,8 +85,8 @@ metaitem.graded_coffee_small_gem_chipped.name=焙煎中のコーヒー豆 (小)
 metaitem.roasted_coffee_large_gem_chipped.name=焙煎したコーヒー豆 (大)
 metaitem.roasted_coffee_small_gem_chipped.name=焙煎したコーヒー豆 (小)
 metaitem.coffee_grounds_dust.name=粉砕したコーヒー
-fluid.gtfo_coffee=コーヒー
-fluid.gtfo_energized_coffee=Energizing Coffee
+material.gtfo_coffee=コーヒー
+material.gtfo_energized_coffee=Energizing Coffee
 
 metaitem.food.mineral_water.name=ミネラルウォーター
 metaitem.food.mineral_water.tooltip=チェックメイト, 無神論者.
@@ -143,20 +143,20 @@ metaitem.moscovium_pentaiodide_dust.name=Moscovium Pentaiodide
 metaitem.moscovium_pentabromide_dust.name=Moscovium Pentabromide
 metaitem.moscovium_pentachloride_dust.name=Moscovium Pentachloride
 metaitem.moscovium_pentafluoride_dust.name=Moscovium Pentafluoride
-fluid.gtfo_bromomethane=Bromomethane
-fluid.gtfo_iodine_129_trichloride=Iodine 129 Trichloride
-fluid.gtfo_xenon_tetrachloride=Xenon Tetrachloride
-fluid.gtfo_dimethyl_sulfoxide=Dimethyl Sulfoxide
-fluid.gtfo_iodomethane=Iodomethane
-fluid.gtfo_chlorine_trifluoride=Chlorine Trifluoride
-fluid.gtfo_hydroastatic_acid=Hydroastatic Acid
-fluid.gtfo_bromine_monochloride=Bromine Monochloride
-fluid.gtfo_entangled_gluons=Entangled Gluons
-fluid.gtfo_highly_polymerized_moscovium_pentahalides=Highly Polymerized Moscovium Pentahalides
-fluid.gtfo_tetrabromomoscovium_trichloroxenon_complex=Tetrabromomoscovium Trichloroxenon Complex
-fluid.gtfo_trimethylmoscovide=Trimethylmoscovide
-fluid.gtfo_chlorine_fluoride=Chlorine Fluoride
-fluid.gtfo_tribromochloromoscovium_trichloroxenon_complex=Tribromochloromoscovium Trichloroxenon Complex
+material.gtfo_bromomethane=Bromomethane
+material.gtfo_iodine_129_trichloride=Iodine 129 Trichloride
+material.gtfo_xenon_tetrachloride=Xenon Tetrachloride
+material.gtfo_dimethyl_sulfoxide=Dimethyl Sulfoxide
+material.gtfo_iodomethane=Iodomethane
+material.gtfo_chlorine_trifluoride=Chlorine Trifluoride
+material.gtfo_hydroastatic_acid=Hydroastatic Acid
+material.gtfo_bromine_monochloride=Bromine Monochloride
+material.gtfo_entangled_gluons=Entangled Gluons
+material.gtfo_highly_polymerized_moscovium_pentahalides=Highly Polymerized Moscovium Pentahalides
+material.gtfo_tetrabromomoscovium_trichloroxenon_complex=Tetrabromomoscovium Trichloroxenon Complex
+material.gtfo_trimethylmoscovide=Trimethylmoscovide
+material.gtfo_chlorine_fluoride=Chlorine Fluoride
+material.gtfo_tribromochloromoscovium_trichloroxenon_complex=Tribromochloromoscovium Trichloroxenon Complex
 death.attack.withdrawal=%1$s died from withdrawal.
 
 # Potion
@@ -195,27 +195,28 @@ metaitem.fructose_conversion_plate_plate.name=フルクトース変換プレー�
 metaitem.lactobacillus_pentosis_dust.name=ラクトバチルス・ペントサス 
 metaitem.bacillus_subtilis_dust.name=枯草金
 metaitem.hot_apple_hard_candy_plate.name=熱リンゴ飴
-fluid.gtfo_lemon_extract=レモン汁
-fluid.gtfo_lime_extract=ライム汁
-fluid.gtfo_orange_extract=オレンジジュース
-fluid.gtfo_apple_extract=リンゴジュース
-fluid.gtfo_lemon_lime_sludge=Lemon-Lime Sludge
-fluid.gtfo_corn_starch_solution=コーンスターチ溶液
-fluid.gtfo_oligosaccharide_solution=オリゴ糖溶液
-fluid.gtfo_hfcs_55=HFCS 55
-fluid.gtfo_hfcs_42=HFCS 42
-fluid.gtfo_hfcs_90=HFCS 90
-fluid.gtfo_lemon_lime_solution=レモン - ライム 溶液
-fluid.gtfo_lemon_lime_soda_syrup=レモン - ライム ソーダシロップ
-fluid.gtfo_cough_syrup=咳止めシロップ
-fluid.gtfo_apple_candy_syrup=りんご飴シロップ
-fluid.gtfo_purple_drink=パープルドリンク
-fluid.gtfo_carbonated_water=炭酸水
-fluid.gtfo_10-phenothiazine-2-propyl_chloride=10-フェノチアジン-2-プロピル塩化物
-fluid.gtfo_hfcs_solution=高果糖コーンシロップ溶液
-fluid.gtfo_glucose_solution=グルコール溶液
-fluid.gtfo_apple_syrup=リンゴシロップ
-fluid.gtfo_etirps=Etirps™
+material.gtfo_lemon_extract=レモン汁
+material.gtfo_lime_extract=ライム汁
+material.gtfo_orange_extract=オレンジジュース
+material.gtfo_apple_extract=リンゴジュース
+material.gtfo_apple_cider=リンゴサイダー
+material.gtfo_lemon_lime_sludge=Lemon-Lime Sludge
+material.gtfo_corn_starch_solution=コーンスターチ溶液
+material.gtfo_oligosaccharide_solution=オリゴ糖溶液
+material.gtfo_hfcs_55=HFCS 55
+material.gtfo_hfcs_42=HFCS 42
+material.gtfo_hfcs_90=HFCS 90
+material.gtfo_lemon_lime_solution=レモン - ライム 溶液
+material.gtfo_lemon_lime_soda_syrup=レモン - ライム ソーダシロップ
+material.gtfo_cough_syrup=咳止めシロップ
+material.gtfo_apple_candy_syrup=りんご飴シロップ
+material.gtfo_purple_drink=パープルドリンク
+material.gtfo_carbonated_water=炭酸水
+material.gtfo_10-phenothiazine-2-propyl_chloride=10-フェノチアジン-2-プロピル塩化物
+material.gtfo_hfcs_solution=高果糖コーンシロップ溶液
+material.gtfo_glucose_solution=グルコール溶液
+material.gtfo_apple_syrup=リンゴシロップ
+material.gtfo_etirps=Etirps™
 
 gregtechfoodoption.machine.slicer.lv.name=基本型スライス機
 gregtechfoodoption.machine.slicer.mv.name=発展型スライス機
@@ -260,13 +261,16 @@ metaitem.component.potato.peeled.name=皮をむいたジャガイモ
 metaitem.potato_starch_dust.name=ジャガイモでんぷん
 metaitem.food.potato_on_a_stick.name=串にさしたベイクドポテト
 metaitem.food.potato_on_a_stick.tooltip=まるでカニの爪のようだ
-fluid.gtfo_frying_oil=揚げ油
-fluid.gtfo_starch_filled_water=汚れた油
-fluid.gtfo_hot_frying_oil=熱した揚げ油
+material.gtfo_frying_oil=揚げ油
+material.gtfo_starch_filled_water=汚れた油
+material.gtfo_hot_frying_oil=熱した揚げ油
 
 gregtechfoodoption.machine.baking_oven.name=初歩的なオーブン
+gregtechfoodoption.machine.steam_baking_oven.name=蒸気式オーブン
+gregtechfoodoption.machine.steam_baking_oven.tooltip=2段目のブロック(角を除く)は強化ガラスと強化アドベレンガのどちらかを選択可能. 初歩的なオーブンの2倍, すなわち電気式の倍の時間がかかる.
 gregtechfoodoption.machine.electric_baking_oven.name=電気式オーブン
 tile.gtfo_casing.adobe_bricks.name=アドベレンガ
+tile.gtfo_casing.reinforced_adobe_bricks.name=強化アドベレンガ
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.1=温度: §a%dK§7.
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.2=設定温度に達するためのエネルギーが足りません!
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.3=温度設定:
@@ -275,6 +279,7 @@ gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=設定温度: §a%d
 gregtechfoodoption.recipe.baking_oven_temperature=現在温度: %dK
 recipemap.baking_oven.name=初歩的なオーブン
 recipemap.electric_baking_oven.name=電気式オーブン
+recipemap.steam_baking_oven.name=蒸気式オーブン
 metaitem.brick.adobe.name=泥レンガ
 metaitem.brick.adobe_fired.name=アドベレンガ
 
@@ -295,8 +300,8 @@ metaitem.food.cake_bottom_baked.name=焼いたケーキ生地
 metaitem.food.cake_bottom_baked.tooltip=これがケーキになるとは言い切れない.
 metaitem.component.sugary_dough.name=甘い生地
 metaitem.component.sugary_dough.tooltip=心臓発作を誘発するのに非常に効果的
-fluid.gtfo_mushroom_soup=キノコシチュー
-fluid.gtfo_beetroot_soup=ビートルートスープ
+material.gtfo_mushroom_soup=キノコシチュー
+material.gtfo_beetroot_soup=ビートルートスープ
 
 metaitem.component.pie_crust.name=パイ生地
 metaitem.component.pie_crust.tooltip=パイづくりに
@@ -359,7 +364,7 @@ metaitem.crop.tomato.tooltip=固形ケチャップ
 metaitem.crop.olive.name=オリーブ
 
 entity.italian_buffalo.name=イタリアンバッファロー
-fluid.gtfo_italian_buffalo_milk=イタリアンバッファローのミルク
+material.gtfo_italian_buffalo_milk=イタリアンバッファローのミルク
 
 metaitem.component.beef_slice.name=牛こま切れ
 metaitem.component.cheddar_curd_mold.name=チェダーカード容器
@@ -373,13 +378,13 @@ metaitem.food.cheddar_slice.name=チェダースライス
 metaitem.food.cheddar_slice.tooltip=穴はありません. お願いします. 間違えないでください.
 metaitem.food.mozzarella_ball.name=モッツァレラボール
 metaitem.food.mozzarella_ball.tooltip=レジアンはそれをずっと長く保持し続けることはできない!
-fluid.gtfo_crude_rennet_solution=粗レンネット溶液
-fluid.gtfo_whey=乳清
-fluid.gtfo_activated_buffalo_milk=活性化されたバッファローミルク
-fluid.gtfo_whey_salt_water_mix=塩と乳清の混合物
-fluid.gtfo_heated_ricotta_starter=熱したリコッタのもと
-fluid.gtfo_acidic_milk_solution=酸性ミルク溶液
-fluid.gtfo_coagulating_ricotta_solution=凝固したリコッタ溶液
+material.gtfo_crude_rennet_solution=粗レンネット溶液
+material.gtfo_whey=乳清
+material.gtfo_activated_buffalo_milk=活性化されたバッファローミルク
+material.gtfo_whey_salt_water_mix=塩と乳清の混合物
+material.gtfo_heated_ricotta_starter=熱したリコッタのもと
+material.gtfo_acidic_milk_solution=酸性ミルク溶液
+material.gtfo_coagulating_ricotta_solution=凝固したリコッタ溶液
 metaitem.salted_curd_round.name=塩漬けしたカード
 metaitem.cooked_curd_round.name=調理したカード
 metaitem.cut_curd_round.name=切ったカード
@@ -390,7 +395,7 @@ metaitem.small_mozzarella_curd_nugget.name=モッツァレラカード (小)
 metaitem.large_mozzarella_curd_nugget.name=モッツァレラカード (大)
 metaitem.gorgonzola_curd_nugget.name=ゴルゴンゾーラカード
 metaitem.penicillium_roqueforti_dust.name=ペニシリウム・ロケフォルティ
-fluid.gtfo_fungal_rennet_solution=真菌レンネット溶液
+material.gtfo_fungal_rennet_solution=真菌レンネット溶液
 metaitem.component.gorgonzola_wheel.name=ゴルゴンゾーラホイール
 metaitem.component.salted_gorgonzola_wheel.name=塩漬けしたゴルゴンゾーラホイール
 metaitem.component.slightly_aged_gorgonzola_wheel.name=少し熟成されたゴルゴンゾーラホイール
@@ -399,8 +404,8 @@ metaitem.component.fully_cured_gorgonzola_wheel.name=完全にカードになっ
 metaitem.food.gorgonzola_slice.name=ゴルゴンゾーラ三角スライス
 metaitem.food.gorgonzola_slice.tooltip=新しい菌類の大君主を味わう.
 metaitem.penicillium.culture.name=ペニシリウム・ロケフォルティ菌床
-fluid.gtfo_moist_air=湿った空気
-fluid.gtfo_cold_moist_air=冷たい湿った空気
+material.gtfo_moist_air=湿った空気
+material.gtfo_cold_moist_air=冷たい湿った空気
 
 metaitem.component.flat_dough.name=平らな生地
 metaitem.component.flat_dough.tooltip=ベーシックピザ (Voltage IN: 32 (LV))
@@ -424,12 +429,12 @@ gregtech.machine.cuisine_assembler.tooltip=Chef-Bot 9001
 metaitem.component.bacon.name=焼いていないベーコン
 metaitem.food.bacon.name=ベーコン
 metaitem.food.bacon.tooltip=焼いてあるよ
-fluid.gtfo_tomato_sauce=トマトソース
-fluid.gtfo_olive_oil=オリーブオイル
+material.gtfo_tomato_sauce=トマトソース
+material.gtfo_olive_oil=オリーブオイル
 
 tile.gtfo_metal_casing.casing_bismuth_bronze.name=食品安全仕様ビスマス青銅製外装
 
-fluid.gtfo_sludge=スラッジ
+material.gtfo_sludge=スラッジ
 metaitem.food.chum.name=チャム
 metaitem.food.chum.tooltip=Chum is Fum!
 metaitem.food.chum_on_a_stick.name=棒に刺したチャム
@@ -457,17 +462,17 @@ metaitem.component.banana_peel.name=バナナの皮
 metaitem.potassium_perchlorate_dust.name=過塩素酸カリウム
 metaitem.ammonium_perchlorate_dust.name=過塩素酸アンモニウム
 metaitem.burnt_banana_peel_dust.name=燃え尽きたバナナの皮
-fluid.gtfo_alkaline_extract=アルカリ抽出物
+material.gtfo_alkaline_extract=アルカリ抽出物
 
 metaitem.food.vodka.name=ウォッカ
 metaitem.food.vodka.tooltip=ロシアで蒸留された
 metaitem.food.leninade.name=レニナード
 metaitem.food.leninade.tooltip=共産主義を貫き通す!
-fluid.gtfo_potato_juice=ジャガイモジュース
-fluid.gtfo_vodka=ウォッカ
-fluid.gtfo_leninade=レニナード
+material.gtfo_potato_juice=ジャガイモジュース
+material.gtfo_vodka=ウォッカ
+material.gtfo_leninade=レニナード
 
-fluid.gtfo_sodium_carbonate_solution=炭酸ナトリウム溶液
+material.gtfo_sodium_carbonate_solution=炭酸ナトリウム溶液
 
 gregtechfoodoption.machine.electric_baking_oven.tooltip.1=必要な温度が設定されている場合のみレシピを実行.
 gregtechfoodoption.machine.electric_baking_oven.tooltip.2=1tickあたりの要求§aEU§7は, 現在の温度に指数関数的に関係する.
@@ -495,19 +500,18 @@ metaitem.food.beetroot_soup.hot.tooltip=スープの時間
 metaitem.food.rabbit_stew.hot.name=熱したウサギシチュー
 metaitem.food.rabbit_stew.hot.tooltip=ウサギを食べただけで、自分のモラル達成に誇りを感じる.
 
-fluid.gtfo_perchloric_acid=過塩素酸
-fluid.gtfo_chloroauric_acid=テトラクロリド金(III)酸
+material.gtfo_perchloric_acid=過塩素酸
+material.gtfo_chloroauric_acid=テトラクロリド金(III)酸
 
 metaitem.mashed_potato_dust.name=マッシュポテト
 metaitem.mashed_potato_dust.tooltip=ツール作成に最適な素材
-fluid.gtfo_rabbit_stew=ウサギシチュー
+material.gtfo_rabbit_stew=ウサギシチュー
 
-gregtechfoodoption.tooltip.potion.each=   §e%s %s§rが§c%s§rticks付与される. (確率§a%s%%§r)
+gregtechfoodoption.tooltip.potion.each=  §e %s %s§rが§c %s§r ticks付与される. (確率§a %s%%§r)
 gregtechfoodoption.tooltip.potion.header=§6効果:
 
 metaitem.tough_meat_dust.name=強化肉
-item.meat.ingot=肉インゴット
-item.meat.nugget=肉ナゲット
+metaitem.cooked_meat_ingot.name=焼肉インゴット
 metaitem.component.scrap_meat.name=スクラップ状の肉
 metaitem.component.scrap_meat.tooltip=普通食べない部分, 私は判断しませんが
 
@@ -516,45 +520,49 @@ metaitem.component.skewer.tooltip=そうだね, 食べにくいよね!
 metaitem.fat_ingot.name=動物性油脂
 metaitem.fat_ingot.tooltip=ジムに通うべきかもしれない?!
 
-metaitem.kubide_meat_dust.name=クービーデのもと
+metaitem.kubide_meat_dust.name=クービーデケバブのもと
 metaitem.kubide_meat_dust.tooltip=絶対美味しい!!
-metaitem.component.kebab.kubide.name=生のクービーデ
+metaitem.component.kebab.kubide.name=未加熱ののクービーデケバブ
 metaitem.component.kebab.kubide.tooltip=火を通さないと!
-metaitem.food.kebab.kubide.name=キャバーブ・クービーデ
+metaitem.food.kebab.kubide.name=クービーデケバブ
 metaitem.food.kebab.kubide.tooltip=アイランと一緒に行く!
 
-metaitem.barg_meat_dust.name=バルグのもと
+metaitem.component.kebab.meat.name=未加熱の肉ケバブ
+metaitem.food.kebab.meat.name=肉ケバブ
+metaitem.food.kebab.meat.tooltip=Chengeとしても知られている
+
+metaitem.barg_meat_dust.name=バルグケバブのもと
 metaitem.barg_meat_dust.tooltip=これは葉の肉の意味だ... 本当?
-metaitem.component.kebab.barg.name=生のバルグ
+metaitem.component.kebab.barg.name=未加熱のバルグケバブ
 metaitem.component.kebab.barg.tooltip=Barg bargi Bargiun Bargi
-metaitem.food.kebab.barg.name=キャバーベ・バルグ 
+metaitem.food.kebab.barg.name=バルグケバブ
 metaitem.food.kebab.barg.tooltip=クビデに...ステップを減らしただけでは?!
 
-metaitem.component.kebab.onion.name=タマネギ棒
+metaitem.component.kebab.onion.name=未加熱のオニオンケバブ
 metaitem.component.kebab.onion.tooltip=Nail Your Cries!
 metaitem.food.kebab.onion.name=オニオンケバブ
 metaitem.food.kebab.onion.tooltip=今、泣いているのは誰だ?!
 
-metaitem.component.kebab.tomato.name=トマト棒
+metaitem.component.kebab.tomato.name=未加熱のトマトケバブ
 metaitem.component.kebab.tomato.tooltip=Mr.Tomatoではありません!!
 metaitem.food.kebab.tomato.name=トマトケバブ
 metaitem.food.kebab.tomato.tooltip=彼は新しいMessaiahだ
 
-metaitem.component.kebab.carrot.name=ニンジン串
-metaitem.food.kebab.carrot.name=焼きニンジン
+metaitem.component.kebab.carrot.name=未加熱のニンジンケバブ
+metaitem.food.kebab.carrot.name=ニンジンケバブ
 metaitem.food.kebab.carrot.tooltip=BigChungus
 
-metaitem.component.kebab.fat.name=脂身串
+metaitem.component.kebab.fat.name=未加熱の脂身ケバブ
 metaitem.component.kebab.fat.tootip=調理したらジューシーになるだろう!
-metaitem.food.kebab.fat.name=ドンベ・ケバブ
+metaitem.food.kebab.fat.name=脂身ケバブ
 metaitem.food.kebab.fat.tooltip=実はヘルシー!
 
-metaitem.component.kebab.chum.name=チャム串
+metaitem.component.kebab.chum.name=未加熱のチャム
 metaitem.component.kebab.chum.tooltip=良くない...
 metaitem.food.kebab.chum.name=チャムケバブ
 metaitem.food.kebab.chum.tooltip=Yes It's Chummy
 
-metaitem.food.kebab.chum.bucket.name=チャムバケツ
+metaitem.food.kebab.chum.bucket.name=ミックスチャムケバブバケツ
 metaitem.food.kebab.chum.bucket.tooltip=撒き餌のバケツではない...
 
 metaitem.food.kebab.soltani.name=ケバブとソルタニ !
@@ -566,10 +574,10 @@ metaitem.food.juice.apple.tooltip=Minecraftのリンゴは黄色だから
 metaitem.food.juice.orange.tooltip=WaterPortuguese
 
 
-fluid.gtfo_stearin=液体油脂 (ステアリン)
-fluid.gtfo_stearic_acid=ステアリン酸
-fluid.gtfo_sodium_stearate=ステアリン酸ナトリウム (石鹸)
-fluid.gtfo_citric_acid=クエン酸
+material.gtfo_stearin=液体油脂 (ステアリン)
+material.gtfo_stearic_acid=ステアリン酸
+material.gtfo_sodium_stearate=ステアリン酸ナトリウム (石鹸)
+material.gtfo_citric_acid=クエン酸
 
 metaitem.tool.butchery_knife.hv.name=%sの電動肉切り包丁 (HV)
 metaitem.tool.butchery_knife.hv.tooltip=§9Mob Delivinizer §c4000
@@ -583,3 +591,5 @@ enchantment.level.28=XXVIII
 enchantment.level.48=XLVIII
 enchantment.level.83=LXXXIII
 enchantment.level.145=CXLV
+
+gregtechfoodoption.chat.food_buff=自分の成長を目の当たりにすると, 新しいタイプの食べ物が欲しくなってくる. 
