@@ -1,5 +1,5 @@
 ## GregTech CommunityEdition Unofficial ja_jp.lang
-## Ver 22.03.04
+## Last Update 22.03.09
 ## Tlanslated version
 ## 	1.12.2-2.1.4-beta
 ## Created by Ko_no
@@ -1386,6 +1386,7 @@ material.trinium=トリニウム
 material.cooperite=シェルドナイト
 material.certus_quartz=ケルタスクォーツ
 material.andradite=灰鉄柘榴石
+material.annealed_copper=なまし銅
 material.almandine=鉄礬柘榴石
 material.banded_iron=縞状鉄鉱
 material.battery_alloy=バッテリー用合金
@@ -1402,6 +1403,7 @@ material.cinnabar=辰砂
 material.water=水
 material.liquid_oxygen=液体酸素
 material.coal=石炭
+material.cobaltite=輝コバルト鉱
 material.cupronickel=キュプロニッケル
 material.dark_ash=黒色灰
 material.diamond=ダイヤモンド
@@ -1571,8 +1573,8 @@ material.calcium_phosphide=二リン化三カルシウム
 material.indium_phosphide=リン化インジウム
 material.barium_sulfide=硫化バリウム
 material.trinium_sulfide=硫化トリニウム
-material.zinc_sulfide=硫酸亜鉛
-material.gallium_sulfide=硫酸ガリウム
+material.zinc_sulfide=硫化亜鉛
+material.gallium_sulfide=硫化ガリウム
 material.antimony_trifluoride=三フッ化アンチモン
 material.enriched_naquadah_sulfate=濃縮ナクアダ硫酸塩
 material.naquadria_sulfate=ナクアドリア硫酸塩
@@ -4292,11 +4294,11 @@ gregtech.jei.ore.biome_weighting=%s Weight: %d
 gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: 生成されない
 gregtech.jei.ore.ore_weight=Weight in vein: %d%%
 gregtech.jei.ore.primary_1=上層の鉱石
-gregtech.jei.ore.primary_2=鉱脈の上%層dに生成される
+gregtech.jei.ore.primary_2=鉱脈の上側%d層に生成される
 gregtech.jei.ore.secondary_1=下層の鉱石
-gregtech.jei.ore.secondary_2=鉱脈の下%d層に他の鉱石と共に生成される
+gregtech.jei.ore.secondary_2=鉱脈の下側%d層に他の鉱石と共に生成される
 gregtech.jei.ore.between_1=中層の鉱石
-gregtech.jei.ore.between_2=鉱脈の中%d層に生成される
+gregtech.jei.ore.between_2=鉱脈の中間%d層に生成される
 gregtech.jei.ore.sporadic_1=点在する鉱石
 gregtech.jei.ore.sporadic_2=鉱脈内に点在するように生成される
 
