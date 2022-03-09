@@ -41,7 +41,7 @@ Gregicality ; Gregicality-1.12.2-0.23.3
 #### GTCEu_ja_jp  
 GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.4-beta  
 Gregicality Multiblocks ; GregicalityMultiblocks-1.12.2-1.1.1  
-GregTech Food Option ; GregTech Food Option-1.12.2-1.4.0  
+GregTech Food Option ; GregTech Food Option-1.12.2-1.4.  
 </br>
 </br>
 </br>
