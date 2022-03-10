@@ -11,4 +11,4 @@
 ## gregtech_1.12.2_Ja_jp  
 ## Gregicality_ja_jp  
 ## GTCEu_ja_jp
-<a href = "https://github.com/GregTechCEu/GregTech/pull/742">これ</a>以上の更新を反映させる
+<a href = "https://github.com/GregTechCEu/GregTech/commits/master/src/main/resources/assets/gregtech/lang/en_us.lang">ここ</a>の#742以降の更新を反映させる
