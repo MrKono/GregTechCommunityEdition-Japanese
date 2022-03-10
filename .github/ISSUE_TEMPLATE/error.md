@@ -3,7 +3,7 @@ name: Error
 about: 翻訳ミス / 翻訳済みの修正案
 ---
 
-## **Name**  
+## **対象**  
 リソースパックの名称のみでも構いません。
 #### gregtech_1.12.2_Ja_jp  
 - GTCE.lang  
@@ -15,8 +15,8 @@ about: 翻訳ミス / 翻訳済みの修正案
 - GTCEu.lang  
 - gycm.lang  
 - GregTechFoodOption.lang
-## **Version**  
+## **バージョン**  
 リソースパックのバージョンをお願いします.
 
 ## **内容**  
-翻訳ミスをお願いします.
+翻訳ミスまたは翻訳済みのものの修正案をお願いします.
