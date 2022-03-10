@@ -1,6 +1,6 @@
 ---
 name: Other
-about: 上記以外のものがありましたらお願いします.  
+about: Error/suggestion以外のものがありましたらお願いします.  
 ---
 
 ## **対象**  
