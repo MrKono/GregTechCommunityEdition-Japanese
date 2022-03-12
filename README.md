@@ -11,7 +11,7 @@ GTCEのアドオン, Gregicalityの日本語化リソースパックです.
 GregicalityとSoGではファイル名称が同一なため, こちらを用いる場合はこのリソパを上位にしてください.  
 Gregicalityにはオリジナルアイテムが多々あるため, 訳が微妙なものもあります.  
 修正等がありましたらお知らせください.  
-### GTCEu_ja_jp.zipについて  
+### GTCEu_ja_jpについて  
 GTCEの非公式版用のです. ご注意ください.  
 また、Gregicality Multiblocks及びGregTechFoodOptionも対応しています.  
   
