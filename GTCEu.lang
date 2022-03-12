@@ -1,5 +1,5 @@
 ## GregTech CommunityEdition Unofficial ja_jp.lang
-## Last Update 22.03.09
+## Last Update 22.03.12
 ## Tlanslated version
 ## 	1.12.2-2.1.4-beta
 ## Created by Ko_no
@@ -310,11 +310,11 @@ metaitem.battery.re.hv.lithium.tooltip=充電式
 metaitem.battery.re.hv.sodium.name=大型ナトリウム電池
 metaitem.battery.re.hv.sodium.tooltip=充電式
 
-metaitem.battery.ev.vanadium.name=小型カドミウム電池
+metaitem.battery.ev.vanadium.name=小型バナジウム電池
 metaitem.battery.ev.vanadium.tooltip=充電式
-metaitem.battery.iv.vanadium.name=中型カドミウム電池
+metaitem.battery.iv.vanadium.name=中型バナジウム電池
 metaitem.battery.iv.vanadium.tooltip=充電式
-metaitem.battery.luv.vanadium.name=大型カドミウム電池
+metaitem.battery.luv.vanadium.name=大型バナジウム電池
 metaitem.battery.luv.vanadium.tooltip=充電式
 
 metaitem.battery.zpm.naquadria.name=中型ナクアドリア電池
@@ -1388,12 +1388,14 @@ material.certus_quartz=ケルタスクォーツ
 material.andradite=灰鉄柘榴石
 material.annealed_copper=なまし銅
 material.almandine=鉄礬柘榴石
+material.asbestos=石綿
 material.banded_iron=縞状鉄鉱
 material.battery_alloy=バッテリー用合金
 material.blue_topaz=ブルートパーズ
 material.brass=真鍮
 material.charcoal=木炭
 material.brown_limonite=茶色褐鉄鉱
+material.bronze=青銅
 material.calcite=方解石
 material.cassiterite_sand=砂錫
 material.cassiterite=錫石
@@ -1478,8 +1480,6 @@ material.osmium_tetroxide=四酸化オスミウム
 material.bornite=斑銅鉱
 material.chalcocite=輝銅鉱
 material.chalcopyrite=黄銅鉱
-material.=EMPTY
-material.=EMPTY
 material.gallium_arsenide=ヒ化ガリウム
 material.potash=炭酸カリウム
 material.soda_ash=炭酸ナトリウム
@@ -1519,9 +1519,6 @@ material.malachite=孔雀石
 material.mica=雲母
 material.barite=重晶石
 material.alunite=明礬石
-material.=EMPTY
-material.=EMPTY
-material.=EMPTY
 material.talc=滑石
 material.soapstone=石鹸石
 material.kyanite=藍晶石
@@ -3994,14 +3991,14 @@ gregtech.machine.miner.multi.description=広い面積をカバーし, 大量の�
 gregtech.machine.miner.fluid_usage=§b%dmb/tick§7で§e%s§7を消費. オーバークロックごとに液体消費が2倍.
 gregtech.machine.miner.overclock=%s§7を要求. %s§7までオーバークロック可能.
 
-gregtech.machine.miner.startx=開始X座標: %d
-gregtech.machine.miner.starty=開始Y座標: %d
-gregtech.machine.miner.startz=開始Z座標: %d
-gregtech.machine.miner.minex=採掘X座標: %d
-gregtech.machine.miner.miney=採掘Y座標: %d
-gregtech.machine.miner.minez=採掘Z座標: %d
-gregtech.machine.miner.radius=半径: %d
-gregtech.machine.miner.chunkradius=チャンク半径: %d
+gregtech.machine.miner.startx=開始X: %d
+gregtech.machine.miner.starty=開始Y: %d
+gregtech.machine.miner.startz=開始Z: %d
+gregtech.machine.miner.minex=採掘X: %d
+gregtech.machine.miner.miney=採掘Y: %d
+gregtech.machine.miner.minez=採掘Z: %d
+gregtech.machine.miner.radius=半径: %dブロック
+gregtech.machine.miner.chunkradius=半径: %dチャンク
 
 gregtech.machine.fluid_drilling_rig.mv.name=基本型液体採掘機
 gregtech.machine.fluid_drilling_rig.hv.name=発展型液体採掘機
