@@ -1,5 +1,5 @@
 ## GregTech Food Option ja_jp.lang
-## Last update : 22.03.09
+## Last update : 22.03.12
 ## Greg Tech Food Option ; 1.4.2
 ## Created by Ko_no
 
@@ -266,7 +266,7 @@ material.gtfo_starch_filled_water=汚れた油
 material.gtfo_hot_frying_oil=熱した揚げ油
 
 gregtechfoodoption.machine.baking_oven.name=初歩的なオーブン
-gregtechfoodoption.machine.steam_baking_oven.name=蒸気式オーブン
+gregtechfoodoption.machine.steam_baking_oven.name=蒸気式食物用オーブン
 gregtechfoodoption.machine.steam_baking_oven.tooltip=2段目のブロック(角を除く)は強化ガラスと強化アドベレンガのどちらかを選択可能. 初歩的なオーブンの2倍, すなわち電気式の倍の時間がかかる.
 gregtechfoodoption.machine.electric_baking_oven.name=電気式オーブン
 tile.gtfo_casing.adobe_bricks.name=アドベレンガ
@@ -279,7 +279,7 @@ gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=設定温度: §a%d
 gregtechfoodoption.recipe.baking_oven_temperature=現在温度: %dK
 recipemap.baking_oven.name=初歩的なオーブン
 recipemap.electric_baking_oven.name=電気式オーブン
-recipemap.steam_baking_oven.name=蒸気式オーブン
+recipemap.steam_baking_oven.name=蒸気式食物用オーブン
 metaitem.brick.adobe.name=泥レンガ
 metaitem.brick.adobe_fired.name=アドベレンガ
 
