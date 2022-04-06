@@ -1,7 +1,7 @@
 ## Gregicality Multiblocks ja_jp.lang
-## Ver 22.02.25
+## Last update 22.04.06
 ## Tlanslated version
-## 	1.12.2-1.1.1
+## 	1.12.2-1.1.2
 ## Created by Ko_no
 
 # multiblocks
@@ -33,7 +33,7 @@ gcym.machine.large_mass_fabricator.name=大型物質製造チャンバー
 gcym.machine.large_replicator.name=大型複製チャンバー
 gcym.machine.mega_blast_furnace.name=回転式炉床炉
 gcym.machine.mega_blast_furnace.tooltip.1=§b%s§7レシピまで並列処理可能.
-gcym.machine.mega_vacuum_freezer.name=一括爆風冷却器
+gcym.machine.mega_vacuum_freezer.name=一括爆風冷却機
 gcym.machine.mega_vacuum_freezer.tooltip.1=§b%s§7レシピまで並列処理可能.
 gcym.machine.steam_engine.name=工業用蒸気エンジン
 gcym.machine.steam_engine.tooltip.1=%s§7までのエネルギーを生産.
@@ -49,7 +49,7 @@ gcym.multiblock.tiered_hatch.tooltip=最大EU/t: §a%s (%s§r)
 # multiblock descriptions
 gcym.multiblock.large_macerator.description=破砕のためのマルチブロック式粉砕機.
 gcym.multiblock.alloy_blast_smelter.description=大体積の合金作成用高炉.
-gcym.multiblock.large_arc_furnace.description=再利用用のマルチブロック式アーク炉.
+gcym.multiblock.large_arc_furnace.description=リサイクル用のマルチブロック式アーク炉.
 gcym.multiblock.large_assembler.description=モノを組み立てるためのマルチブロック式組立機.
 gcym.multiblock.large_autoclave.description=加圧するためのマルチブロック式オートクレーブ.
 gcym.multiblock.large_bender.description=素材成型のためのマルチブロック式の金属加工機, 圧縮機, 圧縮成型機及び鍛造機.
@@ -67,7 +67,7 @@ gcym.multiblock.large_solidifier.description=素材を鋳造するためのマ�
 gcym.multiblock.large_mixer.description=素材を混合するためのマルチブロック式ミキサー.
 gcym.multiblock.large_packager.description=アイテムを纏めるためのマルチブロック式梱包機.
 gcym.multiblock.large_engraver.description=エッチング用のマルチブロック式刻印機.
-gcym.multiblock.large_sifter.description=素材を仕分けるためのマルチブロック式ふるい機.
+gcym.multiblock.large_sifter.description=素材を仕分けるためのマルチブロック式選別機.
 gcym.multiblock.large_wiremill.description=ワイヤー生産用のマルチブロック式ワイヤー作成機.
 gcym.multiblock.electric_implosion_compressor.description=圧縮用の電気式内破圧縮機.
 gcym.multiblock.large_mass_fabricator.description=物質を素粒子に変換するためのマルチブロック式物質製造機.
@@ -100,8 +100,8 @@ gcym.machine.tiered_hatch.uv.name=素晴らしい電圧制御ユニット
 gcym.machine.tiered_hatch.uhv.name=無限電圧制御ユニット
 gcym.machine.tiered_hatch.uev.name=ウルトラ電圧制御ユニット
 gcym.machine.tiered_hatch.uiv.name=非常識な電圧制御ユニット
-gcym.machine.tiered_hatch.umv.name=エピック電圧制御ユニット
-gcym.machine.tiered_hatch.uxv.name=伝説敵電圧制御ユニット
+gcym.machine.tiered_hatch.umv.name=史上最高の電圧制御ユニット
+gcym.machine.tiered_hatch.uxv.name=伝説的な電圧制御ユニット
 gcym.machine.tiered_hatch.max.name=マキシマム電圧制御ユニット
 
 
@@ -121,21 +121,21 @@ tile.large_multiblock_casing.assembler_casing.name=大規模組立用外装
 tile.large_multiblock_casing.stress_proof_casing.name=耐応力外装
 tile.large_multiblock_casing.corrosion_proof_casing.name=耐腐食性外装
 tile.large_multiblock_casing.vibration_safe_casing.name=耐振動性外装
-tile.large_multiblock_casing.watertight_casing.name=水密外装
+tile.large_multiblock_casing.watertight_casing.name=防水外装
 tile.large_multiblock_casing.cutter_casing.name=耐衝撃切断外装
 tile.large_multiblock_casing.nonconducting_casing.name=非電導性外装
-tile.large_multiblock_casing.mixer_casing.name=無反応混合性外装
+tile.large_multiblock_casing.mixer_casing.name=無反応性混合用外装
 tile.large_multiblock_casing.engraver_casing.name=安全レーザー刻印外装
 tile.large_multiblock_casing.atomic_casing.name=原子外装
-tile.large_multiblock_casing.steam_casing.name=工業用蒸気外装
+tile.large_multiblock_casing.steam_casing.name=産業用蒸気外装
 
 # RecipeMaps
 recipemap.alloy_blast_smelter.name=合金高炉
 
 # Materials
 material.stellite_100=ステライト-100
-material.watertight_steel=水密鋼
-material.maraging_steel_300=マルエージング鋼 300
+material.watertight_steel=防水性スチール
+material.maraging_steel_300=マルエージングスチール 300
 material.hastelloy_c_276=ハステロイ-C276
 material.hastelloy_x=ハステロイ-X
 material.trinaquadalloy=トリナクアダロイ
@@ -144,8 +144,8 @@ material.titanium_carbide=炭化チタン
 material.tantalum_carbide=炭化タンタル
 material.molybdenum_disilicide=二ケイ化モリブデン
 
-material.hsla_steel=HSLA鋼
-material.titanium_tungsten_carbide=炭化チタン-タングステン
+material.hsla_steel=HSLAスチール
+material.titanium_tungsten_carbide=チタン-タングステン 炭化物
 material.incoloy_ma_956=インコロイ-MA956
 
 # fluids
