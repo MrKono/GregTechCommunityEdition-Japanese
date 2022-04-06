@@ -25,7 +25,7 @@ modpackを配布する場合は明記をお願いします.  (配布場所を貼
 README.md ; これ  
 CEU.lang ; CEUの日本語化ファイルです.  
 GTCE.lang ; GTCEの日本語化ファイルです.  
-GTCEu.lang ; GTCEuの日本語化ファイルです. (**最新版に間に合わなかったもののみです**) 
+GTCEu.lang ; GTCEuの日本語化ファイルです. (**最新版に間に合わなかったもののみです**)  
 SoG.lang ; Shadows of Gregの日本語化ファイルです.  
 Gregicality.lang ; Gregicalityの日本語化ファイルです.  
 GregTechFoodOption.lang ; GregTech Food Optionの日本語化ファイルです.  
