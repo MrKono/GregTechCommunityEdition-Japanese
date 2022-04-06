@@ -1,6 +1,6 @@
 ## GregTech Food Option ja_jp.lang
-## Last update : 22.03.12
-## Greg Tech Food Option ; 1.4.2
+## Last update : 22.04.06
+## Greg Tech Food Option ; 1.4.3
 ## Created by Ko_no
 
 
@@ -34,6 +34,7 @@ material.gtfo_acetoin=アセトイン
 material.gtfo_1,4-butynediol=1,4-ブチンジオール
 material.gtfo_popcorn_flavoring_mixture=ポップコーン味付け用混合物
 material.gtfo_2-acetylpyridine=2-アセチルピリジン
+material.gtfo_hydrogen_cyanite=シアン化水素
 
 metaitem.chocolate_liquor_dutched_pressed_crushed_centrifuged.name=Dutched Pressed Chocolate Liquor
 metaitem.chocolate_liquor_pressed_crushed_centrifuged.name=Pressed Chocolate Liquor
@@ -96,7 +97,7 @@ metaitem.component.thermos.casing_leached.name=ひび割れた魔法瓶の容器
 metaitem.component.thermos.used.name=中古の魔法瓶
 metaitem.component.thermos.new.name=魔法瓶
 
-# Unused ?
+
 metaitem.lithium_bromide_dust.name=臭化リチウム
 metaitem.titanium_dichloride_dust.name=二塩化チタン
 metaitem.nontoxic_polymoscovium_pentahalide_plate_curved.name=無毒のポリモスコビウム五ハロゲン化物の曲げ板
