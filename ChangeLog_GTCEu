@@ -50,3 +50,11 @@
 	翻訳抜けを修正
 	採掘機(Miner)と大型採掘機(Drilling Rig)のGUIの翻訳を変更
 	Steam Baking Ovenの翻訳を変更 蒸気式オーブン -> 蒸気式食物用オーブン (GTCEuとの名称被りのため)
+	
+22.04.06
+	mod update
+		gregtech : 1.12.2-2.1.4-beta -> 1.12.2-2.2.0-beta  
+		Gregicality Multiblock : 1.12.2-1.1.1 -> 1.12.2-1.1.2  
+		Gregtech Food Option : 1.4.2 -> 1.4.3  
+	GTCEu 2.2.0のja_jp.lang採用に伴い, リソパでは最新版に間に合わなかったもののみに変更
+	

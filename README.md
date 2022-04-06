@@ -12,8 +12,9 @@ GregicalityとSoGではファイル名称が同一なため, こちらを用い�
 Gregicalityにはオリジナルアイテムが多々あるため, 訳が微妙なものもあります.  
 修正等がありましたらお知らせください.  
 ### GTCEu_ja_jpについて  
-GTCEの非公式版用のです. ご注意ください.  
-また、Gregicality Multiblocks及びGregTechFoodOptionも対応しています.  
+**GTCEu 2.2.0から, GTCEuにja_jp.langが採用されました.**   
+このリソースパックのバージョンからは, Gregicality Multiblocks (GCYM)とGregTechFoodOption (GTFO)と, 最新版GTCEuのうち, **間に合わなかったもののみ**を日本語化します.  
+GTCEuで翻訳されているものはリソパ内にはいっていませんのでご注意ください.    
   
 # 利用について  
 個人, modpack(配布込),動画で利用していただいて構いません.  
@@ -24,7 +25,7 @@ modpackを配布する場合は明記をお願いします.  (配布場所を貼
 README.md ; これ  
 CEU.lang ; CEUの日本語化ファイルです.  
 GTCE.lang ; GTCEの日本語化ファイルです.  
-GTCEu.lang ; GTCEuの日本語化ファイルです.  
+GTCEu.lang ; GTCEuの日本語化ファイルです. (**最新版に間に合わなかったもののみです**)  
 SoG.lang ; Shadows of Gregの日本語化ファイルです.  
 Gregicality.lang ; Gregicalityの日本語化ファイルです.  
 GregTechFoodOption.lang ; GregTech Food Optionの日本語化ファイルです.  
@@ -39,9 +40,9 @@ Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1
 #### Gregicality_ja_jp  
 Gregicality ; Gregicality-1.12.2-0.23.3  
 #### GTCEu_ja_jp  
-GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.1.4-beta  
-Gregicality Multiblocks ; GregicalityMultiblocks-1.12.2-1.1.1  
-GregTech Food Option ; GregTech Food Option-1.12.2-1.4.2  
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.2.0-beta  
+Gregicality Multiblocks ; GregicalityMultiblocks-1.12.2-1.1.2  
+GregTech Food Option ; GregTech Food Option-1.12.2-1.4.3  
 </br>
 </br>
 </br>
