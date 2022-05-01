@@ -1,7 +1,14 @@
 ## GregTech CommunityEdition Unofficial ja_jp.lang
-## Last Update 22.04.06
+## Last Update 22.05.01
 ## Tlanslated version
-## 	1.12.2-2.o.o-beta
+## 	1.12.2-2.2.1-beta
+
+## Fix mistranslatin
+material.aluminium_sulfite=硫酸アルミニウム
+
+## Fix Transformer massage
+gregtech.machine.transformer.message_transform_down=降圧;  In: %dEU %dA, Out: %dEU %dA
+gregtech.machine.transformer.message_transform_up=昇圧; In: %dEU %dA, Out: %dEU %dA
 
 ## Add some new TOP displays
 gregtech.top.energy_consumption=使用中:
