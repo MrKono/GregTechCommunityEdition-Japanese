@@ -40,7 +40,7 @@ Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1
 #### Gregicality_ja_jp  
 Gregicality ; Gregicality-1.12.2-0.23.3  
 #### GTCEu_ja_jp  
-GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.2.0-beta  
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.2.1-beta  
 Gregicality Multiblocks ; GregicalityMultiblocks-1.12.2-1.1.2  
 GregTech Food Option ; GregTech Food Option-1.12.2-1.4.3  
 </br>
