@@ -2,7 +2,7 @@
 ## gregtech_1.12.2_Ja_jp  
 ## Gregicality_ja_jp  
 ## GTCEu_ja_jp  
-変圧器のメッセージ 
+
 
   
   
