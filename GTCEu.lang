@@ -1,15 +1,24 @@
 ## GregTech CommunityEdition Unofficial ja_jp.lang
-## Last Update 22.05.01
+## Last Update 22.05.08
 ## Tlanslated version
-## 	1.12.2-2.2.1-beta
+## 	1.12.2-2.2.2-beta
 
-## Fix mistranslatin
+# FIX
+## mistranslatin
 material.aluminium_sulfite=硫酸アルミニウム
 
-## Fix Transformer massage
+## Transformer massage
 gregtech.machine.transformer.message_transform_down=降圧;  In: %dEU %dA, Out: %dEU %dA
 gregtech.machine.transformer.message_transform_up=昇圧; In: %dEU %dA, Out: %dEU %dA
 
+##
+gregtech.fluid.state_gas=§a状態: 気体
+
+# T3 Processor tooltip
+metaitem.circuit.processor.tooltip=驚きの計算速度!!/n§eMV時代の回路§r/n§eMV-tier Circuit
+
+
+# 1.12.2-2.2.1-beta
 ## Add some new TOP displays
 gregtech.top.energy_consumption=使用中:
 gregtech.top.energy_production=発電量:
@@ -67,3 +76,46 @@ gregtech.command.copy.copied_and_click=をクリップボードにコピーし�
 gregtech.command.copy.click_to_copy=クリックでコピー
 gregtech.command.copy.copied_start=クリップボードに [
 gregtech.command.copy.copied_end=] をコピーしました
+
+# 1.12.2-2.2.2-beta
+## Hazard signs
+tile.warning_sign.generic_hazard.name=一版危害警告ブロック
+tile.warning_sign.high_voltage_hazard.name=高電圧危害警告ブロック
+tile.warning_sign.magnetic_hazard.name=磁力危害警告ブロック
+tile.warning_sign.antimatter_hazard.name=反物質危害警告ブロック
+tile.warning_sign.high_temperature_hazard.name=高温危害警告ブロック
+tile.warning_sign.void_hazard.name=虚無危害警告ブロック
+tile.warning_sign_1.mob_spawner_hazard.name=モプスポナー危害警告ブロック
+tile.warning_sign_1.spatial_storage_hazard.name=空間ストレージ危害警告ブロック
+tile.warning_sign_1.laser_hazard.name=レーザー危害警告ブロック
+tile.warning_sign_1.mob_hazard.name=モブ侵入危害警告ブロック
+tile.warning_sign_1.boss_hazard.name=ボス危害警告ブロック
+tile.warning_sign_1.gregification_hazard.name=Greg化危害警告ブロック
+tile.warning_sign_1.causality_hazard.name=非一般的危害警告ブロック
+tile.warning_sign_1.automated_defenses_hazard.name=自動防衛危害警告ブロック
+tile.warning_sign_1.high_pressure_hazard.name=高圧危害警告ブロック
+
+## Pipe Properties Improvements 
+death.attack.chemical=%s は化学に対する十分な知識を持っていなかった
+
+gregtech.tooltip.fluid_pipe_hold_shift=§aShift§7で耐流体性能を表示
+
+gregtech.fluid.temperature.cryogenic=§b極低温! 取扱注意!
+
+gregtech.fluid_pipe.throughput=§b運搬速度: %,d L/t
+gregtech.fluid_pipe.capacity=§9液体容量: %,d L
+gregtech.fluid_pipe.max_temperature=§c限界温度: %,d K
+
+gregtech.fluid_pipe.gas_proof=§6気体を運搬可能
+gregtech.fluid_pipe.acid_proof=§6酸性の液体を運搬可能
+gregtech.fluid_pipe.cryo_proof=§6極低温の液体を運搬可能
+gregtech.fluid_pipe.plasma_proof=§6全てのプラズマを運搬可能
+gregtech.fluid_pipe.not_gas_proof=§4気体が漏れてしまう!
+
+## Teleporter
+gregtech.terminal.app_name.teleport=テレポーター
+terminal.teleporter.dimension=ディメンション:
+terminal.teleporter.spawn_portal=ゲートを設置
+
+## Fluid Storage Properties Improvements
+metaitem.fluid_cell.glass_vial.name=%sのガラス製バイアル

@@ -64,3 +64,8 @@
 	変圧器のモード変更時のチャットメッセージを修正
 	誤訳を修正
 	
+22.05.08
+	mod update
+		gregtech : 1.12.2-2.2.1-beta -> 1.12.2-2.2.2-beta
+		Gregicality Multiblock : 1.12.2-1.1.2 -> 1.12.2-1.1.3 
+	Integrated Processorのtooltipを修正.
