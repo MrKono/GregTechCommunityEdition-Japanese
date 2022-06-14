@@ -594,3 +594,58 @@ enchantment.level.83=LXXXIII
 enchantment.level.145=CXLV
 
 gregtechfoodoption.chat.food_buff=自分の成長を目の当たりにすると, 新しいタイプの食べ物が欲しくなってくる. 
+
+# Mob Age Sorter
+gregtechfoodoption.machine.mob_age_sorter.lv.name=基本型年齢仕分け装置
+gregtechfoodoption.machine.mob_age_sorter.mv.name=発展型年齢仕分け装置
+gregtechfoodoption.machine.mob_age_sorter.hv.name=発展型年齢仕分け装置 II
+gregtechfoodoption.machine.mob_age_sorter.ev.name=発展型年齢仕分け装置 III
+
+gregtechfoodoption.machine.mob_age_sorter.range=正面%sx%sブロック内の動物を移動させる
+
+# Mob Exterminator
+gregtechfoodoption.machine.mob_exterminator.lv.name=基本型モブ駆除装置
+gregtechfoodoption.machine.mob_exterminator.mv.name=発展型モブ駆除装置
+gregtechfoodoption.machine.mob_exterminator.hv.name=発展型モブ駆除装置 II
+gregtechfoodoption.machine.mob_exterminator.ev.name=発展型モブ駆除装置 III
+
+gregtechfoodoption.machine.mob_exterminator.tooltip=正面9x9ブロック内のmobを秒間4体倒す. (ドロップ増加%sが適用される)
+gregtechfoodoption.machine.mob_exterminator.tooltip.consumption=動作ごとに%sEU消費
+gregtechfoodoption.machine.mob_exterminator.tooltip.nitrous=亜酸化窒素を供給することで毎秒12体まで倒すことができる.
+
+# Mob Extractor
+gregtechfoodoption.machine.mob_extractor.lv.name=基本型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.mv.name=発展型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.hv.name=発展型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.ev.name=発展型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.iv.name=精鋭型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.luv.name=精鋭型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.zpm.name=精鋭型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.uv.name=精鋭型モブ抽出機 IV
+gregtechfoodoption.machine.mob_extractor.uhv.name=先端型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.uev.name=先端型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.uiv.name=先端型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.umv.name=先端型モブ抽出機 IV
+gregtechfoodoption.machine.mob_extractor.uxv.name=究極型モブ抽出機
+
+gregtechfoodoption.machine.mob_extractor.tooltip=エンティティエッセンス抽出が電気時代に突入
+
+recipemap.mob_extractor.name=モブ抽出機
+mob_extractor.player_name=プレイヤー
+
+gregtechfoodoption.gui.mob_age_sorter_mode.disabled=成体のみ移動: クリックして子のみを移動.
+gregtechfoodoption.gui.mob_age_sorter_mode.enabled=子供のみ移動: クリックして成体のみを移動.
+gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要 
+
+death.attack.extermination=%sは安全確認を怠った
+death.attack.extraction=%sは内臓を摘出された
+
+# seeds
+metaitem.seed.onion.name=タマネギの種
+metaitem.component.soybean.name=大豆
+metaitem.seed.unknown.name=未解析のGTFOの種
+metaitem.seed.unknown.tooltip=クラフトで種を得られる/nクラフトした種は§c根こそぎ収穫できない (ロジックのせい)
+metaitem.seed.soy.name=大豆の種
+metaitem.seed.tomato.name=トマトの種
+metaitem.seed.grape.name=ブドウの種
+metaitem.seed.cucumber.name=キュウリの種
