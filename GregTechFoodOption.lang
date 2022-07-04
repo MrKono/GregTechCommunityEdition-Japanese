@@ -1,8 +1,7 @@
-## GregTech Food Option ja_jp.lang
-## Last update : 22.04.06
-## Greg Tech Food Option ; 1.4.3
-## Created by Ko_no
-
+# Japanese translate by MrKo_no
+# 翻訳担当 : MrKo_no
+# Corresponding Version: 1.6.2
+# 対応バージョン: 1.6.2
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.popcorn.ear.name=トウモロコシ
@@ -28,7 +27,7 @@ material.gtfo_tetrahydrofuran=テトラヒドロフラン
 material.gtfo_2,3-butanediol=2,3-ブタンジオール
 material.gtfo_2-bromopyridine=2-ブロモピリジン
 material.gtfo_acetyl_chloride=塩化アセチル
-material.gtfo_1,4-butanediol=1,4-ブタンジオールl
+material.gtfo_1,4-butanediol=1,4-ブタンジオール
 material.gtfo_fungal_growth_medium=真菌育成培地
 material.gtfo_acetoin=アセトイン
 material.gtfo_1,4-butynediol=1,4-ブチンジオール
@@ -36,30 +35,31 @@ material.gtfo_popcorn_flavoring_mixture=ポップコーン味付け用混合物
 material.gtfo_2-acetylpyridine=2-アセチルピリジン
 material.gtfo_hydrogen_cyanite=シアン化水素
 
-metaitem.chocolate_liquor_dutched_pressed_crushed_centrifuged.name=Dutched Pressed Chocolate Liquor
-metaitem.chocolate_liquor_pressed_crushed_centrifuged.name=Pressed Chocolate Liquor
-metaitem.cracker_graham_ungraded_plate.name=Ungraded Graham Cracker
-metaitem.matter_graham_hot_plate.name=Hot Graham Cracker
-metaitem.matter_graham_hot_plate_dense.name=Hot Graham Cracker Dough Chunk
-metaitem.matter_graham_hot_crushed_centrifuged.name=Hot Graham Cracker Dough
-metaitem.matter_graham_crushed_centrifuged.name=Graham Cracker Dough
-metaitem.matter_marshmallow_crushed_centrifuged.name=Marshmallow Matter
-metaitem.milk_chocolate_ingot_hot.name=Melting Milk Chocolate
-metaitem.press_cake_graded_plate_dense.name=Graded Chocolate Press Cake
-metaitem.press_cake_plate_dense.name=Chocolate Press Cake
-metaitem.press_cake_dutched_plate_dense.name=Dutched Chocolate Press Cake
-metaitem.chocolate_liquor_crushed_centrifuged.name=Chocolate Liquor
-metaitem.chocolate_liquor_refined_crushed_centrifuged.name=Refined Chocolate Liquor
-metaitem.chocolate_liquor_dutched_crushed_centrifuged.name=Dutched Chocolate Liquor
-metaitem.cocoa_nib_gem_chipped.name=Cocoa Nib
-metaitem.cocoa_hull_gem_chipped.name=Cocoa Hull
+# NuclearCraft
+metaitem.chocolate_liquor_dutched_pressed_crushed_centrifuged.name=オランダ式の圧搾をしたチョコレートリカー
+metaitem.chocolate_liquor_pressed_crushed_centrifuged.name=圧搾したチョコレートリカー
+metaitem.cracker_graham_ungraded_plate.name=未選別のグラハムクラッカー
+metaitem.matter_graham_hot_plate.name=熱いグラハムクラッカー
+metaitem.matter_graham_hot_plate_dense.name=熱したグラハムクラッカー生地の塊
+metaitem.matter_graham_hot_crushed_centrifuged.name=熱したグラハムクラッカーの生地
+metaitem.matter_graham_crushed_centrifuged.name=グラハムクラッカーの生地
+metaitem.matter_marshmallow_crushed_centrifuged.name=マシュマロマター
+metaitem.milk_chocolate_ingot_hot.name=溶けたミルクチョコレート
+metaitem.press_cake_graded_plate_dense.name=等級分けされた圧搾チョコレートケーキ
+metaitem.press_cake_plate_dense.name=圧搾チョコレートケーキ
+metaitem.press_cake_dutched_plate_dense.name=オランダ式の圧搾チョコレートケーキ
+metaitem.chocolate_liquor_crushed_centrifuged.name=チョコレートリカー
+metaitem.chocolate_liquor_refined_crushed_centrifuged.name=精製チョコレートリカー
+metaitem.chocolate_liquor_dutched_crushed_centrifuged.name=オランダ式チョコレートリカー
+metaitem.cocoa_nib_gem_chipped.name=カカオニブ
+metaitem.cocoa_hull_gem_chipped.name=カカオの殻
 material.gtfo_unheated_cane_syrup=未加熱のシロップ
 material.gtfo_cane_syrup=シロップ
 material.gtfo_sweetened_diluted_cane_syrup_mixture=希釈した甘いシロップ混合物
 material.gtfo_albumen=卵白
 material.gtfo_yolk=ヨーク
 material.gtfo_marshmallow_syrup_mixture=マシュマロシロップ混合物
-material.gtfo_marshmallow_foam=マシュマロフォーム
+material.gtfo_marshmallow_foam=マシュマロの素
 material.gtfo_butter=バター
 material.gtfo_potassium_carbonate_solution=炭酸カリウム溶液
 
@@ -72,6 +72,7 @@ metaitem.smore.gustwo.name=MultiS'mogus GrandS'mingot
 metaitem.smore.gusfour.name=AllS'mogus OmniS'mingot
 metaitem.smore.heartofthesmogus.name=Heart of the S'mogus
 
+# ActuallyAdditions
 metaitem.basic_coffee_unsorted_gem_chipped.name=未分類の生コーヒー豆
 metaitem.basic_coffee_large_gem_chipped.name=生コーヒー豆 (大)
 metaitem.basic_coffee_small_gem_chipped.name=生コーヒー豆 (小)
@@ -87,7 +88,7 @@ metaitem.roasted_coffee_large_gem_chipped.name=焙煎したコーヒー豆 (大)
 metaitem.roasted_coffee_small_gem_chipped.name=焙煎したコーヒー豆 (小)
 metaitem.coffee_grounds_dust.name=粉砕したコーヒー
 material.gtfo_coffee=コーヒー
-material.gtfo_energized_coffee=Energizing Coffee
+material.gtfo_energized_coffee=エナジャイズドコーヒー
 
 metaitem.food.mineral_water.name=ミネラルウォーター
 metaitem.food.mineral_water.tooltip=チェックメイト, 無神論者.
@@ -97,32 +98,32 @@ metaitem.component.thermos.casing_leached.name=ひび割れた魔法瓶の容器
 metaitem.component.thermos.used.name=中古の魔法瓶
 metaitem.component.thermos.new.name=魔法瓶
 
-
-metaitem.lithium_bromide_dust.name=臭化リチウム
-metaitem.titanium_dichloride_dust.name=二塩化チタン
-metaitem.nontoxic_polymoscovium_pentahalide_plate_curved.name=無毒のポリモスコビウム五ハロゲン化物の曲げ板
-metaitem.nontoxic_polymoscovium_pentahalide_plate.name=無毒のポリモスコビウム五ハロゲン化物プレート
-metaitem.polymoscovium_pentahalide_plate.name=ポリモスコビウム五ハロゲン化物プレート
-metaitem.polymoscovium_pentahalide_dust.name=ポリモスコビウム五ハロゲン化物の粉
-metaitem.oligopolymerized_moscovium_pentahalides_dust.name=オリゴ重合したモスコビウム五ハロゲン化物
-metaitem.well_mixed_moscovium_pentahalides_dust.name=よく混合されたモスコビウム五ハロゲン化物
-metaitem.moscovium_trifluoride_dust.name=三フッ化モスコビウム
-metaitem.titanium(II)_oxide_dust.name=酸化チタン(II)
-metaitem.titanium(III)_oxide_dust.name=酸化チタン(III)
-metaitem.highly_irradiated_hafnium_carbide_dust.name=高度に照射された炭化ハフニウム
-metaitem.decayed_moscovium_dust.name=崩壊したモスコビウムの粉
+# GCYS
+metaitem.lithium_bromide_dust.name=Lithium Bromide
+metaitem.titanium_dichloride_dust.name=Titanium Dichloride
+metaitem.nontoxic_polymoscovium_pentahalide_plate_curved.name=Nontoxic Polymoscovium Pentahalide Curved Plate
+metaitem.nontoxic_polymoscovium_pentahalide_plate.name=Nontoxic Polymoscovium Pentahalide Plate
+metaitem.polymoscovium_pentahalide_plate.name=Polymoscovium Pentahalide Plate
+metaitem.polymoscovium_pentahalide_dust.name=Polymoscovium Pentahalide Dust
+metaitem.oligopolymerized_moscovium_pentahalides_dust.name=Oligo-Polymerized Moscovium Pentahalides
+metaitem.well_mixed_moscovium_pentahalides_dust.name=Well-Mixed Moscovium Pentahalides
+metaitem.moscovium_trifluoride_dust.name=Moscovium Trifluoride
+metaitem.titanium(II)_oxide_dust.name=Titanium(II) Oxide
+metaitem.titanium(III)_oxide_dust.name=Titanium(III) Oxide
+metaitem.highly_irradiated_hafnium_carbide_dust.name=Highly Irradiated Hafnium Carbide
+metaitem.decayed_moscovium_dust.name=Decayed Moscovium Dust
 metaitem.salty_titanium_dichloride_mixture_dust.name=Salty Titanium Dichloride Mixture
-metaitem.titanium_carbide_dust.name=炭化チタン
-metaitem.moscovium_hafnium_octadecachloride_dust.name=モスコビウム-ハフニウム 十八塩化物
-metaitem.moscovium_trichloride_dust.name=三塩化モスコビウム
-metaitem.moscovium(III)_oxide_dust.name=酸化モスコビウム(III)
-metaitem.moscovium_tribromide_dust.name=三臭化モスコビウム
-metaitem.iodine_129_dust.name=ヨウ素129の粉
-metaitem.fissioned_uranium_235_dust.name=分裂したウラン235
-metaitem.moscovium_iodide_dust.name=ヨウ化モスコビウム
-metaitem.methyl_moscovium_diiodide_dust.name=メチルモスコビウムヨウ化物
-metaitem.methyllithium_dust.name=メチルリチウム
-metaitem.lithium_moscovide_dust.name=モスコビウム酸リチウム
+metaitem.titanium_carbide_dust.name=Titanium Carbide
+metaitem.moscovium_hafnium_octadecachloride_dust.name=Moscovium Hafnium Octadecachloride
+metaitem.moscovium_trichloride_dust.name=Moscovium Trichloride
+metaitem.moscovium(III)_oxide_dust.name=Moscovium(III) Oxide
+metaitem.moscovium_tribromide_dust.name=Moscovium Tribromide
+metaitem.iodine_129_dust.name=Iodine 129 Dust
+metaitem.fissioned_uranium_235_dust.name=Fissioned Uranium 235
+metaitem.moscovium_iodide_dust.name=Moscovium Iodide
+metaitem.methyl_moscovium_diiodide_dust.name=Methyl Moscovium Diiodide
+metaitem.methyllithium_dust.name=Methyllithium
+metaitem.lithium_moscovide_dust.name=Lithium Moscovide
 metaitem.shocked_thallium_astatide_dust.name=Shocked Thallium Astatide Dust
 metaitem.shocked_thallium_astatide_plate.name=Shocked Thallium Astatide Conductor
 metaitem.thallium_astatide_conductor_plate.name=Thallium Astatide Conductor
@@ -201,14 +202,14 @@ material.gtfo_lime_extract=ライム汁
 material.gtfo_orange_extract=オレンジジュース
 material.gtfo_apple_extract=リンゴジュース
 material.gtfo_apple_cider=リンゴサイダー
-material.gtfo_lemon_lime_sludge=Lemon-Lime Sludge
+material.gtfo_lemon_lime_sludge=レモンライムスラッジ
 material.gtfo_corn_starch_solution=コーンスターチ溶液
 material.gtfo_oligosaccharide_solution=オリゴ糖溶液
 material.gtfo_hfcs_55=HFCS 55
 material.gtfo_hfcs_42=HFCS 42
 material.gtfo_hfcs_90=HFCS 90
-material.gtfo_lemon_lime_solution=レモン - ライム 溶液
-material.gtfo_lemon_lime_soda_syrup=レモン - ライム ソーダシロップ
+material.gtfo_lemon_lime_solution=レモンライム溶液
+material.gtfo_lemon_lime_soda_syrup=レモンライムソーダシロップ
 material.gtfo_cough_syrup=咳止めシロップ
 material.gtfo_apple_candy_syrup=りんご飴シロップ
 material.gtfo_purple_drink=パープルドリンク
@@ -234,8 +235,8 @@ gregtechfoodoption.machine.slicer.umv.name=先端型スライス機 IV
 gregtechfoodoption.machine.slicer.uxv.name=究極型スライス機
 gregtech.machine.slicer.tooltip=Slap-Chop
 metaitem.config.slicer_blade.flat.name=スライサーブレード (フラット)
-metaitem.config.slicer_blade.stripes.name=Slicer Blade (棒状)
-metaitem.config.slicer_blade.octagonal.name=Slicer Blade (8分割)
+metaitem.config.slicer_blade.stripes.name=スライサーブレード (棒状)
+metaitem.config.slicer_blade.octagonal.name=スライサーブレード (8分割)
 metaitem.food.reduced_fat_chips.name=ベイサーモン製低脂肪ポテチ
 metaitem.food.reduced_fat_chips.tooltip=おじいちゃんのお気に入り
 metaitem.food.kettle_chips.name=ケトルチップス
@@ -593,4 +594,65 @@ enchantment.level.48=XLVIII
 enchantment.level.83=LXXXIII
 enchantment.level.145=CXLV
 
-gregtechfoodoption.chat.food_buff=自分の成長を目の当たりにすると, 新しいタイプの食べ物が欲しくなってくる. 
+gregtechfoodoption.chat.food_buff=自分の成長を目の当たりにすると, 新しいタイプの食べ物が欲しくなってくる.
+
+# Mob Age Sorter
+gregtechfoodoption.machine.mob_age_sorter.lv.name=基本型年齢仕分け装置
+gregtechfoodoption.machine.mob_age_sorter.mv.name=発展型年齢仕分け装置
+gregtechfoodoption.machine.mob_age_sorter.hv.name=発展型年齢仕分け装置 II
+gregtechfoodoption.machine.mob_age_sorter.ev.name=発展型年齢仕分け装置 III
+
+gregtechfoodoption.machine.mob_age_sorter.range=正面%sx%sブロック内の動物を移動させる
+
+# Mob Exterminator
+gregtechfoodoption.machine.mob_exterminator.lv.name=基本型モブ駆除装置
+gregtechfoodoption.machine.mob_exterminator.mv.name=発展型モブ駆除装置
+gregtechfoodoption.machine.mob_exterminator.hv.name=発展型モブ駆除装置 II
+gregtechfoodoption.machine.mob_exterminator.ev.name=発展型モブ駆除装置 III
+
+gregtechfoodoption.machine.mob_exterminator.tooltip=正面9x9ブロック内のmobを秒間4体倒す. (ドロップ増加%sが適用される)
+gregtechfoodoption.machine.mob_exterminator.tooltip.consumption=動作ごとに%sEU消費
+gregtechfoodoption.machine.mob_exterminator.tooltip.nitrous=亜酸化窒素を供給することで毎秒12体まで倒すことができる.
+
+# Mob Extractor
+gregtechfoodoption.machine.mob_extractor.lv.name=基本型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.mv.name=発展型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.hv.name=発展型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.ev.name=発展型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.iv.name=精鋭型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.luv.name=精鋭型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.zpm.name=精鋭型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.uv.name=精鋭型モブ抽出機 IV
+gregtechfoodoption.machine.mob_extractor.uhv.name=先端型モブ抽出機
+gregtechfoodoption.machine.mob_extractor.uev.name=先端型モブ抽出機 II
+gregtechfoodoption.machine.mob_extractor.uiv.name=先端型モブ抽出機 III
+gregtechfoodoption.machine.mob_extractor.umv.name=先端型モブ抽出機 IV
+gregtechfoodoption.machine.mob_extractor.uxv.name=究極型モブ抽出機
+
+gregtechfoodoption.machine.mob_extractor.tooltip=エンティティエッセンス抽出が電気時代に突入
+
+recipemap.mob_extractor.name=モブ抽出機
+mob_extractor.player_name=プレイヤー
+
+gregtechfoodoption.gui.mob_age_sorter_mode.disabled=成体のみ移動: クリックして子のみを移動.
+gregtechfoodoption.gui.mob_age_sorter_mode.enabled=子供のみ移動: クリックして成体のみを移動.
+gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要 
+
+# seeds
+metaitem.seed.onion.name=タマネギの種
+metaitem.component.soybean.name=大豆
+metaitem.seed.unknown.name=未解析のGTFOの種
+metaitem.seed.unknown.tooltip=クラフトで種を得られる/nクラフトした種は§c植えなおす必要がある (ロジックのせい)
+metaitem.seed.soy.name=大豆の種
+metaitem.seed.tomato.name=トマトの種
+metaitem.seed.grape.name=ブドウの種
+metaitem.seed.cucumber.name=キュウリの種
+
+metaitem.seed.onion.tooltip=ヤングオニオンの育成に
+
+death.attack.extermination=%sは安全確認を怠った
+death.attack.extraction=%sは内臓を摘出された
+gregtechfoodoption.machine.mob_exterminator.tooltip.warning=§cこれは容易にあなたを傷つけるだろう!
+
+metaitem.sodium_perchlorate_dust.name=過塩素酸ナトリウム
+metaitem.sodium_chlorate_dust.name=塩素酸ナトリウム 
