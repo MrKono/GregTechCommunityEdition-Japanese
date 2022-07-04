@@ -1,121 +1,35 @@
-## GregTech CommunityEdition Unofficial ja_jp.lang
-## Last Update 22.05.08
-## Tlanslated version
-## 	1.12.2-2.2.2-beta
-
-# FIX
-## mistranslatin
-material.aluminium_sulfite=硫酸アルミニウム
-
-## Transformer massage
-gregtech.machine.transformer.message_transform_down=降圧;  In: %dEU %dA, Out: %dEU %dA
-gregtech.machine.transformer.message_transform_up=昇圧; In: %dEU %dA, Out: %dEU %dA
-
-##
-gregtech.fluid.state_gas=§a状態: 気体
-
-# T3 Processor tooltip
-metaitem.circuit.processor.tooltip=驚きの計算速度!!/n§eMV時代の回路§r/n§eMV-tier Circuit
+# ja_jp.lang of GTCEu was not in time for the latest
+# Japanese translate by MrKo_no & Quarri6343
+# 日本語ローカライズ担当： MrKo_no & Quarri6343
+# Corresponding Version: 2.3.3 - beta
+# 対応バージョン: 2.3.3 - beta
 
 
-# 1.12.2-2.2.1-beta
-## Add some new TOP displays
-gregtech.top.energy_consumption=使用中:
-gregtech.top.energy_production=発電量:
+#Apply GregTechCEu#1029 and GregTechCEu#997
+gregtech.machine.steam_grinder.tooltip=1回につき同一アイテムを8個まで一度に粉砕. アイテム数に関わらず所要時間が1.5倍になる./n§e蒸気用ハッチとバス§7が必要.
+gregtech.multiblock.steam_grinder.description=蒸気時代のマルチブロック式粉砕機. ブロンズ製外装が最低14個必要./n通常のハッチ/バスは使えず, 専用の蒸気用のものが必要.
 
-gregtech.top.primitive_pump_production=生産
+gregtech.top.energy_consumption=使用量:
 
-## Implement voiding covers
-metaitem.cover.drain.name=ドレインカバー
-metaitem.cover.fluid.voiding.name=液体消去カバー
-metaitem.cover.fluid.voiding.tooltip=液体を消去するカバー./n設置後にソフトハンマーで有効化する必要がある.
-metaitem.cover.fluid.voiding.advanced.name=発展型液体消去カバー
-metaitem.cover.fluid.voiding.advanced.tooltip=液体を消去する量を制御できるカバー./n設置後にソフトハンマーで有効化する必要がある.
-metaitem.cover.item.voiding.name=アイテム消去カバー
-metaitem.cover.item.voiding.tooltip=アイテムを消去するカバー./n設置後にソフトハンマーで有効化する必要がある.
-metaitem.cover.item.voiding.advanced.name=発展型アイテム消去カバー
-metaitem.cover.item.voiding.advanced.tooltip=アイテムを消去する量を制御できるカバー./n設置後にソフトハンマーで有効化する必要がある.
+gregtech.top.convert_eu=§eEU§rを§cFE§rに変換中
+gregtech.top.convert_fe=§cFE§rを§eEU§rに変換中
 
+gregtech.top.maintenance.wrench=パイプが緩い
+gregtech.top.maintenance.screwdriver=ネジが緩い
+gregtech.top.maintenance.soft_mallet=何かが詰まっている
+gregtech.top.maintenance.hard_hammer=メッキがへこんでいる
+gregtech.top.maintenance.wire_cutter=ワイヤーが焼き切れている
+gregtech.top.maintenance.crowbar=部品がずれている
 
-cover.fluid_filter.config_amount=スクロールで量を調整できる./nShift[§6x10§r],Ctrl[§ex100§r],Shift+Ctrl[§ax1000§r]/n右クリックで増加, 左クリックで減少./nShiftで倍/半分./nホイールクリックで消去.
+gregtech.top.filter.label=フィルター:
+gregtech.top.link_cover.color=色:
 
-cover.voiding.voiding_mode.void_any=適合消去モード
-cover.voiding.voiding_mode.void_overflow=過剰消去モード
-cover.voiding.voiding_mode.description=§e適合消去モード§rはフィルタに適合するものを消去する. /n§e過剰消去モード§はフィルタに適合する特定量を超えたものを消去する.
-cover.fluid.voiding.title=液体消去設定
-cover.fluid.voiding.advanced.title=発展型液体消去設定
-cover.item.voiding.title=アイテム消去設定
-cover.item.voiding.advanced.title=発展型アイテム消去設定
+gregtech.top.mode.export=搬出中
+gregtech.top.mode.import=搬入中
 
-## rewrite and improve lighters
-behaviour.lighter.fluid.tooltip=プロパンまたはブタンを用いて着火する
+gregtech.top.unit.items=アイテム
+gregtech.top.unit.fluid_milibuckets=L
+gregtech.top.unit.fluid_buckets=kL
 
-## /gt hand improvements 
-gregtech.command.usage=使い方: /gregtech <worldgen/hand/recipecheck>
-gregtech.command.worldgen.usage=使い方: /gregtech worldgen <reload>
-gregtech.command.worldgen.reload.usage=使い方: /gregtech worldgen reload
-gregtech.command.worldgen.reload.success=configからWorldgenが正常に読み込まれました.
-gregtech.command.worldgen.reload.failed=Worldgenの読み込みに失敗しました. エラーを確認してください.
-gregtech.command.hand.usage=使い方: /gregtech hand
-gregtech.command.hand.item_id=アイテムID: %s (メタデータ: %d)
-gregtech.command.hand.electric=蓄電量: %d / %d EU - Tier: %d; バッテリー？: %s
-gregtech.command.hand.fluid=液体情報: %d / %d L; Can Fill: %s; Can Drain: %s
-gregtech.command.hand.fluid2=液体ID:
-gregtech.command.hand.material=Material Id:
-gregtech.command.hand.ore_prefix=Ore prefix:
-gregtech.command.hand.meta_item=MetaItem Id:
-gregtech.command.hand.ore_dict_entries=§3鉱石辞書名:
-gregtech.command.hand.tool_stats=Tool Stats Class: %s
-gregtech.command.hand.not_a_player=このコマンドはプレイヤーのみ使用できます.
-gregtech.command.hand.no_item=コマンドを実行するためには何かを手にもっておく必要があります.
-gregtech.command.recipecheck.usage=使い方: /gregtech recipecheck
-gregtech.command.recipecheck.begin=レシピの競合チェックを開始します...
-gregtech.command.recipecheck.end=競合チェックにより, 競合の可能性が%d個見つかりました. サーバーログで詳細を確認してください.
-gregtech.command.recipecheck.end_no_conflicts=レシピ競合は見つかりませんでした!
-gregtech.command.copy.copied_and_click=をクリップボードにコピーします. クリックで再びコピーします
-gregtech.command.copy.click_to_copy=クリックでコピー
-gregtech.command.copy.copied_start=クリップボードに [
-gregtech.command.copy.copied_end=] をコピーしました
-
-# 1.12.2-2.2.2-beta
-## Hazard signs
-tile.warning_sign.generic_hazard.name=一版危害警告ブロック
-tile.warning_sign.high_voltage_hazard.name=高電圧危害警告ブロック
-tile.warning_sign.magnetic_hazard.name=磁力危害警告ブロック
-tile.warning_sign.antimatter_hazard.name=反物質危害警告ブロック
-tile.warning_sign.high_temperature_hazard.name=高温危害警告ブロック
-tile.warning_sign.void_hazard.name=虚無危害警告ブロック
-tile.warning_sign_1.mob_spawner_hazard.name=モプスポナー危害警告ブロック
-tile.warning_sign_1.spatial_storage_hazard.name=空間ストレージ危害警告ブロック
-tile.warning_sign_1.laser_hazard.name=レーザー危害警告ブロック
-tile.warning_sign_1.mob_hazard.name=モブ侵入危害警告ブロック
-tile.warning_sign_1.boss_hazard.name=ボス危害警告ブロック
-tile.warning_sign_1.gregification_hazard.name=Greg化危害警告ブロック
-tile.warning_sign_1.causality_hazard.name=非一般的危害警告ブロック
-tile.warning_sign_1.automated_defenses_hazard.name=自動防衛危害警告ブロック
-tile.warning_sign_1.high_pressure_hazard.name=高圧危害警告ブロック
-
-## Pipe Properties Improvements 
-death.attack.chemical=%s は化学に対する十分な知識を持っていなかった
-
-gregtech.tooltip.fluid_pipe_hold_shift=§aShift§7で耐流体性能を表示
-
-gregtech.fluid.temperature.cryogenic=§b極低温! 取扱注意!
-
-gregtech.fluid_pipe.throughput=§b運搬速度: %,d L/t
-gregtech.fluid_pipe.capacity=§9液体容量: %,d L
-gregtech.fluid_pipe.max_temperature=§c限界温度: %,d K
-
-gregtech.fluid_pipe.gas_proof=§6気体を運搬可能
-gregtech.fluid_pipe.acid_proof=§6酸性の液体を運搬可能
-gregtech.fluid_pipe.cryo_proof=§6極低温の液体を運搬可能
-gregtech.fluid_pipe.plasma_proof=§6全てのプラズマを運搬可能
-gregtech.fluid_pipe.not_gas_proof=§4気体が漏れてしまう!
-
-## Teleporter
-gregtech.terminal.app_name.teleport=テレポーター
-terminal.teleporter.dimension=ディメンション:
-terminal.teleporter.spawn_portal=ゲートを設置
-
-## Fluid Storage Properties Improvements
-metaitem.fluid_cell.glass_vial.name=%sのガラス製バイアル
+# fix
+material.ethyl_tertbutyl_ether=エチルtert-ブチルエーテル
