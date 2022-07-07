@@ -642,7 +642,7 @@ gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
-metaitem.seed.unknown.tooltip=クラフトで種を得られる/nクラフトした種は§c植えなおす必要がある (ロジックのせい)
+metaitem.seed.unknown.tooltip=クラフトで種を得られる/n§cクラフトした種は植えなおす必要がある (ロジックのせい)
 metaitem.seed.soy.name=大豆の種
 metaitem.seed.tomato.name=トマトの種
 metaitem.seed.grape.name=ブドウの種
@@ -653,6 +653,16 @@ metaitem.seed.onion.tooltip=ヤングオニオンの育成に
 death.attack.extermination=%sは安全確認を怠った
 death.attack.extraction=%sは内臓を摘出された
 gregtechfoodoption.machine.mob_exterminator.tooltip.warning=§cこれは容易にあなたを傷つけるだろう!
+
+# Farmer
+gregtechfoodoption.machine.farmer.lv.name=基本型農作機
+gregtechfoodoption.machine.farmer.mv.name=発展型農作機
+gregtechfoodoption.machine.farmer.hv.name=発展型農作機 II
+gregtechfoodoption.machine.farmer.ev.name=発展型農作機 III
+gregtechfoodoption.machine.farmer.tooltip.flavor=農業用のレーザー技術を導入
+gregtechfoodoption.machine.farmer.tooltip.consumption=動作中は%,d EU/t消費
+gregtechfoodoption.machine.farmer.tooltip.working=動作範囲は正面9x9
+gregtechfoodoption.machine.farmer.tooltip.speed=%d Ticksごとに1ブロック動作
 
 metaitem.sodium_perchlorate_dust.name=過塩素酸ナトリウム
 metaitem.sodium_chlorate_dust.name=塩素酸ナトリウム 
