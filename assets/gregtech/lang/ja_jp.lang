@@ -1,9 +1,3 @@
-## GregTech CommunityEdition ja_jp.lang
-## Ver 22.05.01
-## Tlanslated version
-## 	1.12.2-1.17.1.770
-## Created by Ko_no
-
 death.attack.heat=%s は茹で上がってしまった.
 death.attack.frost=%s は極低温を探求した.
 death.attack.electric=%s は感電してしまった.
@@ -19,17 +13,6 @@ enchantment.disjunction=Disjunction
 gregtech.top.energy_stored=エネルギー:
 gregtech.top.progress=進捗:
 gregtech.top.working_disabled=停止中
-
-gregtech.top.transform_up=§c昇圧§r
-gregtech.top.transform_down=§a降圧§r
-gregtech.top.transform_input=§6入力:§r
-gregtech.top.transform_output=§9出力:§r
-
-gregtech.top.fuel_burn=あと
-gregtech.top.fuel_time=秒
-gregtech.top.fuel_min_consume=必要量
-gregtech.top.fuel_name=燃料:
-gregtech.top.fuel_none=燃料がありません
 
 gregtech.multiblock.title=マルチブロック機械
 gregtech.multiblock.primitive_blast_furnace.description=原始的な高炉 (PBF) は初期段階で鋼鉄を得るためのマルチブロック機械です.  しかし動作は遅く, 用途は最初の鋼鉄を提供するのみです.
@@ -48,15 +31,15 @@ gregtech.multiblock.large_turbine.description=大型タービンは, 蒸気, ガ
 item.invalid.name=Invalid item
 fluid.empty=Empty
 
-metaitem.generic.fluid_container.tooltip=%,d/%,dL %s
+metaitem.generic.fluid_container.tooltip=%d/%dL %s
 metaitem.generic.fluid_container.tooltip_empty=空
-metaitem.generic.electric_item.tooltip=%,d/%,d EU - Tier §e%s
+metaitem.generic.electric_item.tooltip=%d/%d EU - Tier §e%s
 metaitem.electric.discharge_mode.enabled=§e放電:有効
 metaitem.electric.discharge_mode.disabled=§e放電:無効
 metaitem.electric.discharge_mode.tooltip=スニーク中に使うことで放電を切り替えできます.
 
 metaitem.dust.tooltip.purify=大釜に投げ入れることで綺麗な粉を得られます.
-metaitem.int_circuit.configuration=設定: %,d
+metaitem.int_circuit.configuration=設定: %d
 metaitem.credit.copper.name=銅製コイン
 metaitem.credit.copper.tooltip=0.125 Credits
 metaitem.credit.cupronickel.name=キュプロニッケル製コイン
@@ -132,8 +115,6 @@ metaitem.shape.mold.name.name=金型 (名札)
 metaitem.shape.mold.name.tooltip=アイテムの名称変更のための金型 (金床で名称変更)
 metaitem.shape.mold.gear.small.name=金型 (小さな歯車)
 metaitem.shape.mold.gear.small.tooltip=小さな歯車を作る為の金型
-metaitem.shape.mold.rotor.name=金型 (ローター)
-metaitem.shape.mold.rotor.tooltip=ローターを作る為の金型
 
 metaitem.shape.extruder.plate.name=押出形成用金型 (プレート)
 metaitem.shape.extruder.plate.tooltip=プレート作る為の押出形成用金型
@@ -321,23 +302,11 @@ metaitem.electric.pump.zpm.tooltip=5,242,880 mb/sec (カバーとして)
 metaitem.electric.pump.uv.name=電動ポンプ (UV)
 metaitem.electric.pump.uv.tooltip=20,971,520 mb/sec (カバーとして)
 
-metaitem.fluid.regulator.lv.name=流量制御器 (LV)
-metaitem.fluid.regulator.mv.name=流量制御器 (MV)
-metaitem.fluid.regulator.hv.name=流量制御器 (HV)
-metaitem.fluid.regulator.ev.name=流量制御器 (EV)
-metaitem.fluid.regulator.iv.name=流量制御器 (IV)
-metaitem.fluid.regulator.luv.name=流量制御器 (LuV)
-metaitem.fluid.regulator.zpm.name=流量制御器 (ZPM)
-metaitem.fluid.regulator.max.name=流量制御器 (MAX)
-metaitem.fluid.regulator.uv.name=流量制御器 (UV)
-metaitem.fluid.regulator.lv.tooltip=1,280 mb/sec (カバーとして)
-metaitem.fluid.regulator.mv.tooltip=5,120 mb/sec (カバーとして)
-metaitem.fluid.regulator.hv.tooltip=20,480 mb/sec (カバーとして)
-metaitem.fluid.regulator.ev.tooltip=81,920 mb/sec (カバーとして)
-metaitem.fluid.regulator.iv.tooltip=327,680 mb/sec (カバーとして)
-metaitem.fluid.regulator.luv.tooltip=1,310,720 mb/sec (カバーとして)
-metaitem.fluid.regulator.zpm.tooltip=5,242,880 mb/sec (カバーとして)
-metaitem.fluid.regulator.uv.tooltip=20,971,520 mb/sec (カバーとして)
+metaitem.fluidregulator.lv.name=流量制御器 (LV)
+metaitem.fluidregulator.mv.name=流量制御器 (MV)
+metaitem.fluidregulator.hv.name=流量制御器 (HV)
+metaitem.fluidregulator.ev.name=流量制御器 (EV)
+metaitem.fluidregulator.iv.name=流量制御器 (IV)
 
 metaitem.conveyor.module.lv.name=コンベアーモジュール (LV)
 metaitem.conveyor.module.lv.tooltip=秒間8個のアイテムを搬入出 (カバーとして)
@@ -659,7 +628,7 @@ metaitem.tool.knife.name=%sのナイフ
 metaitem.tool.butchery_knife.name=%sの肉切り包丁
 metaitem.tool.butchery_knife.tooltip=攻撃率は低い
 metaitem.tool.sense.name=%sのセンス
-metaitem.tool.sense.tooltip=Because a scythe doesn't make sense
+metaitem.tool.sense.tooltip=鎌はセンスなさすぎ
 metaitem.tool.plow.name=%sのすき
 metaitem.tool.plow.tooltip=雪かきに
 metaitem.tool.plunger.name=%sのラバーカップ
@@ -701,10 +670,10 @@ metaitem.behavior.mode_switch.mode_switched=§eモード設定: %s
 metaitem.behavior.mode_switch.current_mode=モード: %s
 
 metaitem.tool.tooltip.primary_material=素材: %s (%s lvl)
-metaitem.tool.tooltip.attack_damage=攻撃力: %,.1f
-metaitem.tool.tooltip.mining_speed=採掘速度: %,.1f
-metaitem.tool.tooltip.durability=耐久値: %,d/%,d
-metaitem.tool.tooltip.rotor.efficiency=ローター効率: %,d%%
+metaitem.tool.tooltip.attack_damage=攻撃力: %d
+metaitem.tool.tooltip.mining_speed=採掘速度: %d
+metaitem.tool.tooltip.durability=耐久値: %d/%d
+metaitem.tool.tooltip.rotor.efficiency=ローター効率: %d%%
 metaitem.tool.tooltip.hammer.extra_drop=確率で粉砕した鉱石の入手量が増加する
 
 cover.filter.blacklist.disabled=ホワイトリスト
@@ -729,25 +698,21 @@ cover.item_filter.ignore_nbt.enabled=NBTを無視
 cover.item_filter.ignore_nbt.disabled=NBTを無視しない
 
 cover.smart_item_filter.title=スマートアイテムフィルター
-cover.smart_item_filter.filtering_mode.electrolyzer=電解槽
-cover.smart_item_filter.filtering_mode.centrifuge=遠心分離機
-cover.smart_item_filter.filtering_mode.sifter=選別機
-cover.smart_item_filter.filtering_mode.description=このスマートフィルターがフィルタに使用する機械を選択します. /nロボットアームが適切なものを自動的に選択します.
-cover.smart_item_filter.matching_mode.default=デフォルト
-cover.smart_item_filter.matching_mode.ignore_fluid=液体を無視
-cover.smart_item_filter.matching_mode.description=§eDefault§r - 液体を搬入していない場合, アイテム/液体の両方を選別します. /n§eIgnore Fluids§r - アイテムのみを選別します.
+cover.smart_item_filter.mode.electrolyzer=電解槽
+cover.smart_item_filter.mode.centrifuge=遠心分離機
+cover.smart_item_filter.mode.tooltip=このスマートフィルターがフィルタに使用する機械を選択します. /nロボットアームが適切なものを自動的に選択します.
 
 cover.conveyor.title=コンベアーモジュール (%s)
 cover.conveyor.transfer_rate=%s 個/秒
 cover.conveyor.mode.export=モード: 搬出
 cover.conveyor.mode.import=モード: 搬入
-cover.universal.manual_import_export.mode.disabled=マニュアル I/O: 無効
-cover.universal.manual_import_export.mode.filtered=マニュアル I/O: フィルタ済み
-cover.universal.manual_import_export.mode.unfiltered=マニュアル I/O: フィルタされていない
-cover.universal.manual_import_export.mode.description=§e無効§r - アイテム/液体は, カバーとそのフィルターで指定されたとおりにのみ移動します. /n§eフィルタ済み§r - アイテム/流体は, フィルターが一致する限り, カバーモードとは関係なく搬入/搬出できます (存在する場合) . /n§eフィルタされていない§r - アイテム/液体は, カバーモードとは関係なく移動できます. フィルタは, このカバーによって搬入/搬出されたアイテムに適用されます
 cover.conveyor.item_filter.title=アイテムフィルター
 cover.conveyor.ore_dictionary.title=鉱石辞書フィルター
 cover.conveyor.ore_dictionary.title2=( * でワイルドカード指定)
+
+cover.conveyor.manual_io.enabled=マニュアル I/O: 有効
+cover.conveyor.manual_io.disabled=マニュアル I/O: 無効
+
 cover.robotic_arm.title=ロボットアーム設定 (%s)
 cover.robotic_arm.transfer_mode.transfer_any=すべて移動
 cover.robotic_arm.transfer_mode.transfer_exact=供給モード
@@ -759,18 +724,16 @@ cover.pump.transfer_rate=%s
 cover.pump.mode.export=モード: 搬出
 cover.pump.mode.import=モード: 搬入
 cover.pump.fluid_filter.title=液体フィルター
+cover.pump.manual_io.enabled=マニュアル I/O: 有効
+cover.pump.manual_io.disabled=マニュアル I/O: 無効
 cover.bucket.mode.bucket=B/s
 cover.bucket.mode.milli_bucket=mB/s
-cover.fluid_regulator.title=流量制御器設定 (%s)
-cover.fluid_regulator.transfer_mode.description=§eすべて移動§r - このモードでは, フィルターに合う液体を可能な限り搬入出します./n§e供給モード§r - このモードでは, このボタンの下のウィンドウで指定された量の液体を供給します. 液体の量が設定値より少ない場合, 液体は移動しません./n§e保持モード§r - このモードでは, 指定量の液体を搬入/搬出先インベントリに保持し, 必要に応じて追加量の液体を供給します./n§7Tip: shift+クリックで±10, ctrl+クリックで±100.
-cover.fluid_regulator.supply_exact=供給モード: %s
-cover.fluid_regulator.keep_exact=保持モード: %s
 
 cover.machine_controller.name=機械制御設定
 cover.machine_controller.normal=通常
 cover.machine_controller.inverted=反転
 cover.machine_controller.inverted.description=§e通常§r - このモードは, 設定した信号強度よりも弱い信号が入力されている時に機械が動作するようになります. /n§e反転§r -  このモードは, 設定した信号強度よりも強い信号が入力されている時に機械が動作するようになります.
-cover.machine_controller.redstone=最低レッドストーン信号強度: %,d
+cover.machine_controller.redstone=最低レッドストーン信号強度: %d
 cover.machine_controller.mode.machine=機械制御
 cover.machine_controller.mode.cover_up=カバー制御 (上面)
 cover.machine_controller.mode.cover_down=カバー制御 (下面)
@@ -1648,7 +1611,7 @@ recipemap.plasma_generator.name=プラズマ発電機
 behaviour.hoe=土を耕す
 behaviour.soft_hammer=機械の稼働非稼働を切り替える
 behaviour.lighter.tooltip=着火具
-behaviour.lighter.uses=残り使用回数: %,d
+behaviour.lighter.uses=残り使用回数: %d
 behavior.plunger.description=機械の搬出タンクから液体を1,000 mb消去する./nスニーク中に使用すると搬入タンクから液体を1,000 mb分消去する./n搬入タンクの液体消去はGTCEの機械のみです!
 behavior.toggle_energy_consumer.tooltip=使うことでモード切替
 
@@ -1689,10 +1652,10 @@ fluid.distilled_water=蒸留水
 
 # Wire coil blocks
 tile.wire_coil.tooltip_ebf=§a電気高炉§7に使った時:
-tile.wire_coil.tooltip_heat=  基本最大温度: §e%,dK
+tile.wire_coil.tooltip_heat=  基本最大温度: §e%dK
 tile.wire_coil.tooltip_smelter=§a大型かまど§7に使った時:
-tile.wire_coil.tooltip_level=  レベル: §e%,d
-tile.wire_coil.tooltip_discount=  エネルギー軽減率: §a%,dx
+tile.wire_coil.tooltip_level=  レベル: §e%d
+tile.wire_coil.tooltip_discount=  エネルギー軽減率: §a%dx
 
 tile.wire_coil.cupronickel.name=キュプロニッケルコイルブロック
 tile.wire_coil.kanthal.name=カンタルコイルブロック
@@ -1798,9 +1761,7 @@ gregtech.machine.locked_safe.requirements=§7交換する部品:
 gregtech.machine.workbench.name=クラフティングステーション
 gregtech.machine.workbench.tab.workbench=クラフト
 gregtech.machine.workbench.tab.item_list=ストレージ
-gregtech.machine.workbench.storage_note_1=(隣接ストレージのアイテムを
-gregtech.machine.workbench.storage_note_2=クラフトに使用できます)
-gregtech.item_list.item_stored=§7在庫: %,d
+gregtech.item_list.items_stored=§7在庫: %d
 
 gregtech.machine.workbench.tab.crafting=クラフト
 gregtech.machine.workbench.tab.container=ストレージ
@@ -1871,7 +1832,7 @@ tile.concrete.dark_bricks.mossy.name=苔むした暗色コンクリートのレ�
 tile.concrete.dark_bricks.chiseled.name=模様入り暗色コンクリートのレンガ
 
 # Steam machines
-gregtech.machine.steam_boiler.tooltip_produces=%,dmbの蒸気を%,dtickで生産
+gregtech.machine.steam_boiler.tooltip_produces=%d mbの蒸気を%d tickで生産
 
 gregtech.machine.steam_boiler_coal_bronze.name=小型石炭ボイラー
 gregtech.machine.steam_boiler_coal_bronze.tooltip=蒸気の力を得るための初歩的な手段
@@ -1933,8 +1894,8 @@ gregtech.machine.block_breaker.mv.name=発展型ブロック破壊機
 gregtech.machine.block_breaker.hv.name=発展型ブロック破壊機 II
 gregtech.machine.block_breaker.ev.name=発展型ブロック破壊機 III
 gregtech.machine.block_breaker.tooltip=前方のブロックを破壊し収集する
-gregtech.machine.block_breaker.consumption=消費: §e%,d EU§7/回
-gregtech.machine.block_breaker.speed_bonus=速度ボーナス: §e%,d%%
+gregtech.machine.block_breaker.consumption=消費: §e%d EU§7/回
+gregtech.machine.block_breaker.speed_bonus=速度ボーナス: §e%d%%
 
 gregtech.machine.electric_furnace.lv.name=基本型電気かまど
 gregtech.machine.electric_furnace.mv.name=発展型電気かまど
@@ -1943,8 +1904,8 @@ gregtech.machine.electric_furnace.ev.name=発展型電気かまど III
 
 gregtech.machine.macerator.lv.name=基本型粉砕機
 gregtech.machine.macerator.mv.name=発展型粉砕機
-gregtech.machine.macerator.hv.name=汎用粉砕機 (HV)
-gregtech.machine.macerator.ev.name=汎用粉砕機 (EV)
+gregtech.machine.macerator.hv.name=汎用粉砕機 
+gregtech.machine.macerator.ev.name=汎用粉砕機 II
 
 gregtech.machine.alloy_smelter.lv.name=基本型合金精錬機
 gregtech.machine.alloy_smelter.mv.name=発展型合金精錬機
@@ -2239,9 +2200,9 @@ gregtech.machine.battery_buffer.max.16.name=MAX-V蓄電器
 # Transformers
 gregtech.machine.transformer.tooltip_tool_usage=ソフトハンマーで反転 (初期は降圧)
 gregtech.machine.transformer.tooltip_transform_down=§a降圧§r:
-gregtech.machine.transformer.message_transform_down=§a降圧§r;  §6入力§r: %dEU %dA, §9出力§r: %dEU %dA
+gregtech.machine.transformer.message_transform_down=§a降圧§r;  §6入力§r: %dV @ %dAmp, §9出力§r: %dV @ %dAmp
 gregtech.machine.transformer.tooltip_transform_up=§c昇圧§r:
-gregtech.machine.transformer.message_transform_up=§c昇圧§r; §6入力§r: %dEU %dA, §9出力§r: %dEU %dA
+gregtech.machine.transformer.message_transform_up=§c昇圧§r; §6入力§r: %dV @ %dAmp, §9出力§r: %dV @ %dAmp
 
 gregtech.machine.transformer.lv.name=LV変圧器
 gregtech.machine.transformer.mv.name=MV変圧器
@@ -2266,8 +2227,8 @@ gregtech.machine.charger.uv.name=UV充電器
 gregtech.machine.charger.max.name=MAX-V充電器
 
 # Pumps
-gregtech.machine.pump.tooltip_range=稼働範囲: %,dx%,d
-gregtech.machine.pump.tooltip_speed=%,d tickごとに液体を吸引
+gregtech.machine.pump.tooltip_range=稼働範囲: %dx%d
+gregtech.machine.pump.tooltip_speed=%d tickごとに液体を吸引
 
 gregtech.machine.pump.lv.name=基本型ポンプ
 gregtech.machine.pump.mv.name=発展型ポンプ
@@ -2279,12 +2240,12 @@ gregtech.machine.item_collector.mv.name=発展型アイテム収集機
 gregtech.machine.item_collector.hv.name=発展型アイテム収集機 II
 gregtech.machine.item_collector.ev.name=発展型アイテム収集機 III
 
-gregtech.machine.item_collector.collect_range=収集範囲: %,dx%,d
+gregtech.machine.item_collector.collect_range=収集範囲: %dx%d
 gregtech.machine.item_collector.gui.collect_range=%s ブロック内で収集
 
 #Quantum chests
 gregtech.machine.quantum_chest.tooltip=JABBAよりも良い.
-gregtech.machine.quantum_chest.capacity=最大容量: %,d 個
+gregtech.machine.quantum_chest.capacity=最大容量: %d 個
 gregtech.machine.quantum_chest.items_stored=現在容量:
 
 gregtech.machine.quantum_chest.mv.name=基本型量子チェスト
@@ -2294,7 +2255,7 @@ gregtech.machine.quantum_chest.iv.name=ブラックホール量子チェスト I
 
 #Quantum tanks
 gregtech.machine.quantum_tank.tooltip=たくさんの液体を保存する.
-gregtech.machine.quantum_tank.capacity=最大容量: %,d mb
+gregtech.machine.quantum_tank.capacity=最大容量: %d mb
 
 gregtech.machine.quantum_tank.mv.name=基本型量子タンク
 gregtech.machine.quantum_tank.hv.name=発展型量子タンク
@@ -2307,7 +2268,7 @@ gregtech.machine.air_collector.mv.name=発展型空気収集機
 gregtech.machine.air_collector.hv.name=発展型空気収集機 II
 gregtech.machine.air_collector.ev.name=大気収集機 III
 gregtech.machine.air_collector.tooltip=エネルギーを消費して隣接ブロックから空気を収集
-gregtech.machine.air_collector.collection_speed=%,d mbの空気を%,dtickごとに生産
+gregtech.machine.air_collector.collection_speed=%d mbの空気を%d tickごとに生産
 gregtech.machine.air_collector.jei_description=空気収集機はEUを使って隣接ブロックから空気を収集する
 
 #Tesla Coil
@@ -2320,8 +2281,8 @@ gregtech.machine.fisher.mv.name=発展型釣り機
 gregtech.machine.fisher.hv.name=発展型釣り機 II
 gregtech.machine.fisher.ev.name=発展型釣り機 III
 gregtech.machine.fisher.tooltip=釣りには糸が必要. 1回ごとに糸を消費する.
-gregtech.machine.fisher.speed=%,d tickごとに何かを捕まえる
-gregtech.machine.fisher.requirement=真下に %,d ブロック四方の水源が必要.
+gregtech.machine.fisher.speed=%d tickごとに何かを捕まえる
+gregtech.machine.fisher.requirement=真下に %d ブロック四方の水源が必要.
 
 # General machinery
 gregtech.machine.basic.input_from_output_side.allow=搬出口からの搬入を許可
@@ -2384,7 +2345,7 @@ behaviour.paintspray.brown.tooltip=様々なものを茶色に着色できる
 behaviour.paintspray.green.tooltip=様々なものを緑色に着色できる
 behaviour.paintspray.red.tooltip=様々なものを赤色に着色できる
 behaviour.paintspray.black.tooltip=様々なものを黒色に着色できる
-behaviour.paintspray.uses=残り使用回数: %,d
+behaviour.paintspray.uses=残り使用回数: %d
 behaviour.prospecting=鉱石探知に
 
 # Multiblock machine controllers
@@ -2503,33 +2464,33 @@ gregtech.machine.rotor_holder.zpm.name=ローターホルダ― (ZPM)
 gregtech.machine.rotor_holder.uv.name=ローターホルダ― (UV)
 gregtech.machine.rotor_holder.max.name=ローターホルダ― (MAX)
 
-gregtech.machine.fluid_tank.max_multiblock=最大サイズ: %,dx%,dx%,d
+gregtech.machine.fluid_tank.max_multiblock=最大サイズ:%dx%dx%d
 gregtech.machine.fluid_tank.fluid=内容: %s mbの %s
 
 gregtech.machine.item_controller.tooltip.redstone=動作にはレッドストーン入力が必要です
-gregtech.machine.item_controller.tooltip.consumption=動作中は常に%,d EU/tを消費します
+gregtech.machine.item_controller.tooltip.consumption=動作中は常に%d EU/tを消費します
 
 # Universal tooltips
-gregtech.universal.tooltip.voltage_in=入力電圧: §a%,d §7(§a%s§7)
-gregtech.universal.tooltip.voltage_out=出力電圧: §a%,d §7(§a%s§7)
-gregtech.universal.tooltip.energy_storage_capacity=内部蓄電量: §9%,d
-gregtech.universal.tooltip.amperage_in=入力電流: §e%,d
-gregtech.universal.tooltip.amperage_in_till=許容最大入力電流: §e%,d
-gregtech.universal.tooltip.amperage_out=出力電流: §e%,d
-gregtech.universal.tooltip.amperage_out_till=最大出力電流: §e%,d
-gregtech.universal.tooltip.item_storage_capacity=アイテムスロット数: %,d
-gregtech.universal.tooltip.fluid_storage_capacity=容量: %,d mb
-gregtech.universal.tooltip.max_voltage_in=最大許容入力電圧: §a%,d §7(§a%s§7)
+gregtech.universal.tooltip.voltage_in=入力電圧: §a%d §7(§a%s§7)
+gregtech.universal.tooltip.voltage_out=出力電圧: §a%d §7(§a%s§7)
+gregtech.universal.tooltip.energy_storage_capacity=内部蓄電量: §9%d
+gregtech.universal.tooltip.amperage_in=入力電流: §e%d
+gregtech.universal.tooltip.amperage_in_till=許容最大入力電流: §e%d
+gregtech.universal.tooltip.amperage_out=出力電流: §e%d
+gregtech.universal.tooltip.amperage_out_till=最大出力電流: §e%d
+gregtech.universal.tooltip.item_storage_capacity=アイテムスロット数: %d
+gregtech.universal.tooltip.fluid_storage_capacity=容量: %d mb
+gregtech.universal.tooltip.max_voltage_in=最大許容入力電圧: §a%d §7(§a%s§7)
 
-gregtech.recipe.total=合計: %,d EU
-gregtech.recipe.eu=消費: %,d EU/t (%s)
-gregtech.recipe.eu_inverted=発電: %,d EU/t
-gregtech.recipe.duration=処理時間: %,.1f 秒
-gregtech.recipe.amperage=アンペア: %,d
+gregtech.recipe.total=合計: %d EU
+gregtech.recipe.eu=消費: %d EU/t (%s)
+gregtech.recipe.eu_inverted=発電: %d EU/t
+gregtech.recipe.duration=処理時間: %.1f 秒
+gregtech.recipe.amperage=アンペア: %d
 gregtech.recipe.not_consumed=このプロセスでは消費しない
 gregtech.recipe.chance=確率: %s%% +%s%%/tier
-gregtech.recipe.blast_furnace_temperature=温度: %,dK
-gregtech.recipe.eu_to_start=開始エネルギー: %,dEU
+gregtech.recipe.blast_furnace_temperature=温度: %dK
+gregtech.recipe.eu_to_start=開始エネルギー: %dEU
 
 gregtech.fluid.click_to_fill=§7空のタンクでクリックすると, タンクに移し替える.
 gregtech.fluid.click_to_fill.shift=§7(シフトクリックで持っているタンク全てに移し替える)
@@ -2540,7 +2501,7 @@ gregtech.fluid.click_to_empty.shift=§7(シフトクリックで持っている�
 gregtech.fluid.plasma=%sプラズマ
 gregtech.fluid.empty=空
 gregtech.fluid.amount=§7%,d/%,d
-gregtech.fluid.temperature=§7温度: %,dK
+gregtech.fluid.temperature=§7温度: %dK
 gregtech.fluid.state_gas=§7状態: 気体
 gregtech.fluid.state_liquid=§7状態: 液体
 gregtech.gui.fuel_amount=燃料量:
@@ -2549,8 +2510,6 @@ gregtech.gui.toggle_view.disabled=スロット切り替え (液体)
 gregtech.gui.toggle_view.enabled=スロット切り替え (アイテム)
 gregtech.gui.overclock.enabled=オーバークロックが有効./nクリックで無効化
 gregtech.gui.overclock.disabled=オーバークロックが無効./nクリックで有効化
-gregtech.gui.overclock.description=この機械はこの電圧までオーバークロックができる./nOFFはオーバークロックがされていない.
-gregtech.gui.overclock.off=OFF
 gregtech.gui.sort=整頓
 gregtech.gui.fluid_auto_output.tooltip.enabled=液体の自動搬出が有効
 gregtech.gui.fluid_auto_output.tooltip.disabled=液体の自動搬出が無効
@@ -2561,21 +2520,15 @@ gregtech.jei.ore_by_product_from_ore=%sを使うと%sを入手できる
 gregtech.jei.ore_by_product_from_machine=%sを%sで処理すると入手
 gregtech.jei.ore_by_product_not_obtainable=副産物はない
 
-ore.spawnlocation.name=鉱脈分布情報
-gregtech.jei.ore.surface_rock_1=表面にこれがあった場合, この鉱脈の存在を示す.
-gregtech.jei.ore.surface_rock_2=破壊すると極小の粉を複数入手できる. また, 幸運エンチャントが適用される.
-gregtech.jei.ore.biome_weighting=%s Weight: %d
-gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: 生成されない
-
 gregtech.item_filter.empty_item=未設定 (No Item)
 gregtech.item_filter.footer=§eアイテムでクリックすると上書き
 
-gregtech.cable.voltage=最大許容電圧: §a%,d §7(§a%s§7)
-gregtech.cable.amperage=最大許容電流: §e%,d
-gregtech.cable.loss_per_block=1ブロック当たりの損失: §c%,d
+gregtech.cable.voltage=最大許容電圧: §a%d §7(§a%s§7)
+gregtech.cable.amperage=最大許容電流: §e%d
+gregtech.cable.loss_per_block=1ブロック当たりの損失: §c%d
 
-gregtech.fluid_pipe.throughput=搬送速度: §e%,d mb/t
-gregtech.fluid_pipe.max_temperature=最大許容温度: §c%,dK
+gregtech.fluid_pipe.throughput=搬送速度: §e%d mb/t
+gregtech.fluid_pipe.max_temperature=最大許容温度: §c%dK
 gregtech.fluid_pipe.non_gas_proof=気体は搬送できない.
 
 gregtech.multiblock.work_paused=動作停止中.
@@ -2588,17 +2541,6 @@ gregtech.multiblock.invalid_structure.tooltip=これはマルチブロック機�
 gregtech.multiblock.validation_failed=入力/出力の量が無効.
 gregtech.multiblock.max_energy_per_tick=最大入力EU/t: %s (%s)
 gregtech.multiblock.generation_eu=出力: %s EU/t
-gregtech.multiblock.preview.tilt=Shift+LMB: 縦回転
-gregtech.multiblock.preview.zoom=Shift+RMB: ズーム 
-gregtech.multiblock.preview.pan=LMB+ドラッグ: 横回転
-gregtech.multiblock.preview.move=RMB+ドラッグ; 移動
-gregtech.multiblock.preview.reset=スクロール: リセット
-gregtech.multiblock.preview.any_hatch=どの電圧のハッチ/バスでも受け付ける
-gregtech.multiblock.preview.limit=最低値: %d
-gregtech.multiblock.preview.limit_per_layer=各層に%d個のみ
-gregtech.multiblock.preview.only=%sのみ
-gregtech.multiblock.preview.only_location=%sのみ設置できる
-gregtech.multiblock.preview.location.b_c=最下層中央
 
 gregtech.multiblock.blast_furnace.max_temperature=最大温度: %sK
 gregtech.multiblock.multi_furnace.heating_coil_level=コイルのレベル: %s
@@ -2642,6 +2584,113 @@ gregtech.command.util.hand.material_meta_item=Ore Prefix: %s; Material: %s
 gregtech.command.util.hand.tool_stats=Tool Stats Class: %s
 gregtech.command.util.hand.meta_item=Meta Item Name: %s
 gregtech.command.util.hand.not_a_player=このコマンドはプレイヤーのみ使用できます.
-gregtech.command.util.hand.no_item=コマンドを実行する前に, 何かを手に持っておく必要があります.
 
+#Interaction's materials
+material.lumium=ルミウム
+material.thaumium=魔導金属
+material.enderium=エンダリウム
+material.signalum=シグナラム
+material.stellar_alloy=ステラ合金
+material.starmetal=星鋼
+material.manasteel=マナスチール
+material.elementium=エレメンチウム
+material.terrasteel=テラスチール
+material.aer_infused=空気の結晶片
+material.aqua_infused=水の結晶片
+material.entropy_infused=無秩序の結晶片
+material.ignis_infused=炎の結晶片
+material.ordo_infused=秩序の結晶片
+material.terra_infused=大地の結晶片
+material.skystone=スカイストーン
+material.unstable_mana=不安定なマナ
+material.infused_nitrofuel=注入ニトロディーゼル
+material.liquidnightmares=液化ナイトメア
+material.draconium=ドラコニウム
+material.red_matter=レッドマター
+material.lithiumchloride=塩化リチウム
+material.potassiumchloride=塩化カリウム
+material.uraniumhexafluoride=六フッ化ウラン
+material.cryogenicoxygen=極低温酸素
+material.cryogenichydrogen=極低温水素
+metaitem.circuit.energy_flow.name=クリスタルアセンブリ
+metaitem.circuit.data_control.name=量子アセンブリ
+material.rawlatticite=Raw Latticite
+material.moltenvinteum=溶融ヴィンテウム
+material.naquadriaticfuel=ナクアドリアティック燃料
+material.bluesteel=ブルースチール
+
+#Avobe
+
+gregtech.top.transform_up=§c昇圧§r
+gregtech.top.transform_down=§a降圧§r
+gregtech.top.transform_input=§6入力:§r
+gregtech.top.transform_output=§9出力:§r
+
+gregtech.top.fuel_burn=あと
+gregtech.top.fuel_time=秒
+gregtech.top.fuel_min_consume=必要量
+gregtech.top.fuel_name=燃料:
+gregtech.top.fuel_none=燃料がありません
+
+metaitem.fluid.regulator.lv.name=流量制御器 (LV)
+metaitem.fluid.regulator.mv.name=流量制御器 (MV)
+metaitem.fluid.regulator.hv.name=流量制御器 (HV)
+metaitem.fluid.regulator.ev.name=流量制御器 (EV)
+metaitem.fluid.regulator.iv.name=流量制御器 (IV)
+metaitem.fluid.regulator.luv.name=流量制御器 (LuV)
+metaitem.fluid.regulator.zpm.name=流量制御器 (ZPM)
+metaitem.fluid.regulator.max.name=流量制御器 (MAX)
+metaitem.fluid.regulator.uv.name=流量制御器 (UV)
+metaitem.fluid.regulator.lv.tooltip=1,280 mb/sec (カバーとして)
+metaitem.fluid.regulator.mv.tooltip=5,120 mb/sec (カバーとして)
+metaitem.fluid.regulator.hv.tooltip=20,480 mb/sec (カバーとして)
+metaitem.fluid.regulator.ev.tooltip=81,920 mb/sec (カバーとして)
+metaitem.fluid.regulator.iv.tooltip=327,680 mb/sec (カバーとして)
+metaitem.fluid.regulator.luv.tooltip=1,310,720 mb/sec (カバーとして)
+metaitem.fluid.regulator.zpm.tooltip=5,242,880 mb/sec (カバーとして)
+metaitem.fluid.regulator.uv.tooltip=20,971,520 mb/sec (カバーとして)
+
+metaitem.shape.mold.rotor.name=金型 (ローター)
+metaitem.shape.mold.rotor.tooltip=ローターを作る為の金型
+
+cover.smart_item_filter.filtering_mode.sifter=選別機
+cover.smart_item_filter.matching_mode.default=デフォルト
+cover.smart_item_filter.matching_mode.ignore_fluid=液体を無視
+cover.smart_item_filter.matching_mode.description=§eDefault§r - 液体を搬入していない場合, アイテム/液体の両方を選別します. /n§eIgnore Fluids§r - アイテムのみを選別します.
+
+cover.universal.manual_import_export.mode.disabled=マニュアル I/O: 無効
+cover.universal.manual_import_export.mode.filtered=マニュアル I/O: フィルタ済み
+cover.universal.manual_import_export.mode.unfiltered=マニュアル I/O: フィルタされていない
+cover.universal.manual_import_export.mode.description=§e無効§r - アイテム/液体は, カバーとそのフィルターで指定されたとおりにのみ移動します. /n§eフィルタ済み§r - アイテム/流体は, フィルターが一致する限り, カバーモードとは関係なく搬入/搬出できます (存在する場合) . /n§eフィルタされていない§r - アイテム/液体は, カバーモードとは関係なく移動できます. フィルタは, このカバーによって搬入/搬出されたアイテムに適用されます
+
+cover.fluid_regulator.title=流量制御器設定 (%s)
+cover.fluid_regulator.transfer_mode.description=§eすべて移動§r - このモードでは, フィルターに合う液体を可能な限り搬入出します./n§e供給モード§r - このモードでは, このボタンの下のウィンドウで指定された量の液体を供給します. 液体の量が設定値より少ない場合, 液体は移動しません./n§e保持モード§r - このモードでは, 指定量の液体を搬入/搬出先インベントリに保持し, 必要に応じて追加量の液体を供給します./n§7Tip: shift+クリックで±10, ctrl+クリックで±100.
+cover.fluid_regulator.supply_exact=供給モード: %s
+cover.fluid_regulator.keep_exact=保持モード: %s
+
+gregtech.machine.workbench.storage_note_1=(隣接ストレージのアイテムを
+gregtech.machine.workbench.storage_note_2=クラフトに使用できます)
+
+ore.spawnlocation.name=鉱脈分布情報
+gregtech.jei.ore.surface_rock_1=表面にこれがあった場合, この鉱脈の存在を示す.
+gregtech.jei.ore.surface_rock_2=破壊すると極小の粉を複数入手できる. また, 幸運エンチャントが適用される.
+gregtech.jei.ore.biome_weighting=%s Weight: %d
+gregtech.jei.ore.biome_weighting_no_spawn=%s Weight: 生成されない
+
+gregtech.gui.overclock.description=この機械はこの電圧までオーバークロックができる./nOFFはオーバークロックがされていない.
+gregtech.gui.overclock.off=OFF
+
+gregtech.multiblock.preview.tilt=Shift+LMB: 縦回転
+gregtech.multiblock.preview.zoom=Shift+RMB: ズーム 
+gregtech.multiblock.preview.pan=LMB+ドラッグ: 横回転
+gregtech.multiblock.preview.move=RMB+ドラッグ; 移動
+gregtech.multiblock.preview.reset=スクロール: リセット
+gregtech.multiblock.preview.any_hatch=どの電圧のハッチ/バスでも受け付ける
+gregtech.multiblock.preview.limit=最低値: %d
+gregtech.multiblock.preview.limit_per_layer=各層に%d個のみ
+gregtech.multiblock.preview.only=%sのみ
+gregtech.multiblock.preview.only_location=%sのみ設置できる
+gregtech.multiblock.preview.location.b_c=最下層中央
+
+gregtech.command.util.hand.no_item=コマンドを実行する前に, 何かを手に持っておく必要があります.
 gregtech.universal.clear_nbt_recipe.tooltip=§cデータが削除されます!
