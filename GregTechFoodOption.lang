@@ -63,14 +63,14 @@ material.gtfo_marshmallow_foam=マシュマロの素
 material.gtfo_butter=バター
 material.gtfo_potassium_carbonate_solution=炭酸カリウム溶液
 
-metaitem.smore.eight.name=EightS'more OctoS'mingot
-metaitem.smore.sixteen.name=SixteenS'more HexadecaS'mingot
-metaitem.smore.thirtytwo.name=Half-stack-o'-S'more TriacontadyoS'mingot
-metaitem.smore.sixtyfour.name=Stack-o'-S'more HexecontatessaraS'mingot
-metaitem.smore.gusone.name=S'mogus S'mingot
-metaitem.smore.gustwo.name=MultiS'mogus GrandS'mingot
-metaitem.smore.gusfour.name=AllS'mogus OmniS'mingot
-metaitem.smore.heartofthesmogus.name=Heart of the S'mogus
+metaitem.smore.eight.name=オクトスモア
+metaitem.smore.sixteen.name=ヘキサデカスモア
+metaitem.smore.thirtytwo.name=ハーフスタック・オ・トリアンダディオスモア
+metaitem.smore.sixtyfour.name=スタック・オ・ヘキサコンタテーセラスモア
+metaitem.smore.gusone.name=サモンガスモア
+metaitem.smore.gustwo.name=マルチサモングランドスモア
+metaitem.smore.gusfour.name=オールサモングオムニスモア
+metaitem.smore.heartofthesmogus.name=サモンガスの心
 
 # ActuallyAdditions
 metaitem.basic_coffee_unsorted_gem_chipped.name=未分類の生コーヒー豆
@@ -784,9 +784,9 @@ metaitem.component.gelatin.name=ゼラチン
 metaitem.food.chocolate.name=ミルクチョコレート
 metaitem.food.graham_cracker.name=グラハムクラッカー
 metaitem.food.marshmallow.name=マシュマロ
-metaitem.food.smore.one.name=S'more S'mingot
-metaitem.food.smore.two.name=MoreS'more DoubleS'mingot
-metaitem.food.smore.four.name=FourS'more QuadS'mingot
+metaitem.food.smore.one.name=スモア
+metaitem.food.smore.two.name=ダブルスモア
+metaitem.food.smore.four.name=クアッドスモア
 metaitem.component.cocoa_nibs.name=挽いたカカオニブ
 metaitem.component.roasted_beans.name=ローストしたカカオニブ
 material.gtfo_molten_unsweetened_chocolate=溶けたチョコレート
