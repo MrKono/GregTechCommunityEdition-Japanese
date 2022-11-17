@@ -63,14 +63,14 @@ material.gtfo_marshmallow_foam=マシュマロの素
 material.gtfo_butter=バター
 material.gtfo_potassium_carbonate_solution=炭酸カリウム溶液
 
-metaitem.smore.eight.name=オクトスモア
-metaitem.smore.sixteen.name=ヘキサデカスモア
-metaitem.smore.thirtytwo.name=ハーフスタック・オ・トリアンダディオスモア
-metaitem.smore.sixtyfour.name=スタック・オ・ヘキサコンタテーセラスモア
-metaitem.smore.gusone.name=サモンガスモア
-metaitem.smore.gustwo.name=マルチサモングランドスモア
-metaitem.smore.gusfour.name=オールサモングオムニスモア
-metaitem.smore.heartofthesmogus.name=サモンガスの心
+metaitem.food.smore.eight.name=オクトスモア
+metaitem.food.smore.sixteen.name=ヘキサデカスモア
+metaitem.food.smore.thirtytwo.name=ハーフスタック・オ・トリアンダディオスモア
+metaitem.food.smore.sixtyfour.name=スタック・オ・ヘキサコンタテーセラスモア
+metaitem.food.smore.gusone.name=サモンガスモア
+metaitem.food.smore.gustwo.name=マルチサモングランドスモア
+metaitem.food.smore.gusfour.name=オールサモングオムニスモア
+metaitem.food.smore.heartofthesmogus.name=サモンガスの心
 
 # ActuallyAdditions
 metaitem.basic_coffee_unsorted_gem_chipped.name=未分類の生コーヒー豆
