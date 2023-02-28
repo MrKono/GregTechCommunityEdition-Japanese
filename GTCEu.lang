@@ -1,64 +1,19 @@
 # ja_jp.lang of GTCEu was not in time for the latest
 # Japanese translate by MrKo_no
 # 日本語ローカライズ担当： MrKo_no
-# Corresponding Version: 2.5.2 - beta
-# 対応バージョン: 2.5.2 - beta
+# Corresponding Version: 2.5.3 - beta
+# 対応バージョン: 2.5.3 - beta
 
-# GregTechCEu#1414
-cover.voiding.label.disabled=無効
-cover.voiding.label.enabled=有効
-cover.voiding.tooltip=§c警告!§7 これを"有効"にするということは液体やアイテムが消去されることを意味します。
-cover.voiding.message.disabled=消去カバーを無効化
-cover.voiding.message.enabled=消去カバーを有効化
+# GregTechCEu#1528
+gregtech.tool_action.screwdriver.auto_output_down=§8スクリュードライバーで下面からの自動搬出を切替できます。
 
-# GregTechCEu#993
-gregtech.tooltip.hold_ctrl=CTRLを押して詳細を表示
-tile.brittle_charcoal.name=脆い木炭
-tile.brittle_charcoal.tooltip.1=炭窯で製造される。
-tile.brittle_charcoal.tooltip.2=採掘すると木炭を得られる。
-gregtech.machine.charcoal_pile.name=炭窯
-gregtech.machine.charcoal_pile.tooltip.1=§c点火されている§7時、原木を§a木炭§7に変化させる。
-gregtech.machine.charcoal_pile.tooltip.2=着火具で右クリックすることで点火できる。
-gregtech.machine.charcoal_pile.tooltip.3=炭焼きはこのブロック下最大§b9x4x9§7の空間で行われる。
-gregtech.machine.charcoal_pile.tooltip.4=原木は§e空気§7に接してはならない!
-gregtech.multiblock.charcoal_pile.description=最大9x4x9の範囲の原木を脆い木炭に変える。\n\n窯の床はレンガブロックでなければならないが、壁や屋根には地盤に関連するあらゆるブロックが使用できる。窯内に空気があってはならない。\n\n大きな窯は原木の変換により時間がかかるがより効率的である。
-gregtech.machine.charcoal_pile.tooltip=地下の燃料屋さん
+# GregTechCEu#1530
+behaviour.paintspray.offhand=オフハンドに持つと設置と同時に着色できる
 
-# GregTechCEu#684
-gregtech.bus.collapse_true=バス内でアイテムを整頓を行う
-gregtech.bus.collapse_false=バス内でアイテムを整頓を行わない
-gregtech.bus.collapse.error=第一にバスはマルチブロックを一部分でなければならない
-gregtech.tool_action.screwdriver.auto_collapse=§8スクリュードライバーでバス内の整頓を切替できます。
-
-#GregTechCEu#1448 & #1492
-metaitem.cover.fluid.detector.advanced.name=発展型液体検出器
-metaitem.cover.fluid.detector.advanced.tooltip=§f液体保存量§7に基づいた§fRSラッチ§7を与える§fカバー§7
-metaitem.cover.item.detector.advanced.name=発展型アイテム検出器
-metaitem.cover.item.detector.advanced.tooltip=§fアイテム保存量§7に基づいた§fRSラッチ§7を与える§fカバー§7
-cover.advanced_fluid_detector.label=発展型液体検出器
-cover.advanced_fluid_detector.invert_tooltip=赤石ロジックの反転を切り替え/nデフォルトでは、最小液体量を下回った時に信号が停止し、最大液体量を上回った時に信号が出力されます。
-cover.advanced_fluid_detector.max=最大液体量:
-cover.advanced_fluid_detector.min=最小液体量:
-cover.advanced_item_detector.label=発展型アイテム検出器
-cover.advanced_item_detector.invert_tooltip=赤石ロジックの反転を切り替え/nデフォルトでは、最小アイテム量を下回った時に信号が停止し、最大アイテム量を上回った時に信号が出力されます。 
-cover.advanced_item_detector.max=最大アイテム量:
-cover.advanced_item_detector.min=最小アイテム量:
-
-# GregTechCEu#1114
-gregtech.jei.ore.biome_weighting_title=§dバイオーム修飾による生成頻度:
-gregtech.jei.ore.biome_weighting=§d%sの生成頻度: §3%d
-gregtech.jei.ore.biome_weighting_no_spawn=§d%sの生成頻度: §c生成されない
-fluid.spawnlocation.name=液体脈情報
-gregtech.jei.fluid.vein_weight=生成頻度: %d
-gregtech.jei.fluid.min_yield=最小収量: %d
-gregtech.jei.fluid.max_yield=最大収量: %d
-gregtech.jei.fluid.depletion_chance=枯渇率: %d%%
-gregtech.jei.fluid.depletion_amount=枯渇量: %d
-gregtech.jei.fluid.depleted_rate=枯渇時収量: %d
-gregtech.jei.fluid.dimension=ディメンション:
-gregtech.jei.fluid.weight_hover=液体脈の生成頻度。液体をマウスオーバーすることでバイオーム修飾の影響を確認できる。
-gregtech.jei.fluid.min_hover=任意のこの液体脈の最小収量
-gregtech.jei.fluid.max_hover=任意のこの液体脈の最大収量
-gregtech.jei.fluid.dep_chance_hover=採掘による液体脈の枯渇確率 [%]
-gregtech.jei.fluid.dep_amount_hover=鉱脈の枯渇する量
-gregtech.jei.fluid.dep_yield_hover=液体脈が枯渇した時の最大収量
+# GregTechCEu#1511
+cover.advanced_energy_detector.min=最小
+cover.advanced_energy_detector.max=最大
+cover.advanced_energy_detector.modes_tooltip=装置の蓄電量に対する最大/最小の比較を、EU値を数値で直接指定するまたは最大蓄電量に対する割合を使用するかどうかを切り替える。
+cover.advanced_energy_detector.modes_label=モード:
+cover.advanced_energy_detector.mode_eu=数値
+cover.advanced_energy_detector.mode_percent=割合
