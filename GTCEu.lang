@@ -1,19 +1,63 @@
 # ja_jp.lang of GTCEu was not in time for the latest
 # Japanese translate by MrKo_no
 # 日本語ローカライズ担当： MrKo_no
-# Corresponding Version: 2.5.3 - beta
-# 対応バージョン: 2.5.3 - beta
+# Corresponding Version: 2.6.0 - beta
+# 対応バージョン: 2.6.0 - beta
 
-# GregTechCEu#1528
-gregtech.tool_action.screwdriver.auto_output_down=§8スクリュードライバーで下面からの自動搬出を切替できます。
+# GregTechCEu#1664
+gregtech.top.block_drops=ドロップ
 
-# GregTechCEu#1530
-behaviour.paintspray.offhand=オフハンドに持つと設置と同時に着色できる
+# GregTechCEu#1561
+cover.ore_dictionary_filter.info=§b論理式対応/n§6a & b§r = AND/n§6a | b§r = OR/n§6a ^ b§r = XOR/n§6! abc§r = NOT/n§6( abc )§r グループ化/n§6*§r ワイルドカード (0文字以上の任意文字列)/n§6?§r 任意の1文字/n§6()§r 空の項目（鉱石辞書がない項目も含む）に適合/n§6$c§r 大文字・小文字を区別する場合に式の先頭に付ける。/n§b例:/n§6dust*Gold | (plate* & !*Double*)/n全てのサイズの金の粉または全てのプレートが該当するが、二重プレートは該当しない。
+cover.ore_dictionary_filter.test_slot.matches=§a* %s
+cover.ore_dictionary_filter.test_slot.matches_not=§c* %s
+cover.ore_dictionary_filter.test_slot.no_oredict.matches=§a(鉱石辞書がない)
+cover.ore_dictionary_filter.test_slot.no_oredict.matches_not=§c(鉱石辞書がない)
+cover.ore_dictionary_filter.status.err=§c%s個のエラー
+cover.ore_dictionary_filter.status.err_warn=§c%s個のエラーと%s個の警告
+cover.ore_dictionary_filter.status.warn=§7%s個の警告
+cover.ore_dictionary_filter.status.no_issues=§a問題ナシ
+cover.ore_dictionary_filter.status.explain=フィルターの状況:
 
-# GregTechCEu#1511
-cover.advanced_energy_detector.min=最小
-cover.advanced_energy_detector.max=最大
-cover.advanced_energy_detector.modes_tooltip=装置の蓄電量に対する最大/最小の比較を、EU値を数値で直接指定するまたは最大蓄電量に対する割合を使用するかどうかを切り替える。
-cover.advanced_energy_detector.modes_label=モード:
-cover.advanced_energy_detector.mode_eu=数値
-cover.advanced_energy_detector.mode_percent=割合
+# GregTechCEu#1635
+# Lampss(ON)
+tile.gregtech_lamp.white.name=白のランプ
+tile.gregtech_lamp.orange.name=橙色のランプ
+tile.gregtech_lamp.magenta.name=赤紫色のランプ
+tile.gregtech_lamp.light_blue.name=空色のランプ
+tile.gregtech_lamp.yellow.name=黄色のランプ
+tile.gregtech_lamp.lime.name=黄緑色のランプ
+tile.gregtech_lamp.pink.name=桃色のランプ
+tile.gregtech_lamp.gray.name=灰色のランプ
+tile.gregtech_lamp.silver.name=薄灰色のランプ
+tile.gregtech_lamp.cyan.name=青緑色のランプ
+tile.gregtech_lamp.purple.name=紫色のランプ
+tile.gregtech_lamp.blue.name=青のランプ
+tile.gregtech_lamp.brown.name=茶色のランプ
+tile.gregtech_lamp.green.name=緑色のランプ
+tile.gregtech_lamp.red.name=赤のランプ
+tile.gregtech_lamp.black.name=黒のランプ
+
+tile.gregtech_lamp_borderless.white.name=白のフチなしランプ
+tile.gregtech_lamp_borderless.orange.name=橙色のフチなしランプ
+tile.gregtech_lamp_borderless.magenta.name=赤紫色のフチなしランプ
+tile.gregtech_lamp_borderless.light_blue.name=空色のフチなしランプ
+tile.gregtech_lamp_borderless.yellow.name=黄色のフチなしランプ
+tile.gregtech_lamp_borderless.lime.name=黄緑色のフチなしランプ
+tile.gregtech_lamp_borderless.pink.name=桃色のフチなしランプ
+tile.gregtech_lamp_borderless.gray.name=灰色のフチなしランプ
+tile.gregtech_lamp_borderless.silver.name=薄灰色のフチなしランプ
+tile.gregtech_lamp_borderless.cyan.name=青緑色のフチなしランプ
+tile.gregtech_lamp_borderless.purple.name=紫色のフチなしランプ
+tile.gregtech_lamp_borderless.blue.name=青のフチなしランプ
+tile.gregtech_lamp_borderless.brown.name=茶色のフチなしランプ
+tile.gregtech_lamp_borderless.green.name=緑色のフチなしランプ
+tile.gregtech_lamp_borderless.red.name=赤のフチなしランプ
+tile.gregtech_lamp_borderless.black.name=黒のフチなしランプ
+
+tile.gregtech_lamp.tooltip.inverted=反転
+tile.gregtech_lamp.tooltip.no_bloom=非輝光
+tile.gregtech_lamp.tooltip.no_light=非光源
+
+# fix
+gregtech.multiblock.central_monitor.tooltip.1=セントラルモニターはデジタルインターフェースカバーによって連結された機械を監視する機械です。これによりエネルギーネットワーク内の液体とアイテムとエネルギーと機械の状態を容易に管理することができます。
