@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.8.4
-# 対応バージョン: 1.8.4
+# Corresponding Version: 1.8.6
+# 対応バージョン: 1.8.6
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.popcorn.ear.name=トウモロコシ
@@ -888,3 +888,12 @@ material.gtfo_gelatin_solution=ゼラチン溶液
 material.gtfo_gelatin_solution_no_bubbles=ゼラチン溶液 (脱気)
 material.gtfo_sodium_hypochlorite=次亜塩素酸ナトリウム
 material.gtfo_nitrophenols=ニトロフェノール
+material.gtfo_aniline=アニリン
+material.paracetamol=アセトアミノフェン
+
+gregtechfoodoption.crop.agricraft.info=こんにちは! 何らかの理由でこれを読んでくれているようですね。この作物は、ええと、何かをするでしょう。恐らく重要なことなんだろう。また、完全に壊れたページについては申し訳ありませんが、今すぐ修正するのは難しそうです。そして、このツールチップはGTFOの作物には全く関係ないのです。
+metaitem.food.plutonium_241_caplet.name=プルトニウム241カプレット
+metaitem.food.plutonium_241_caplet.tooltip=食べないで (お願い!)
+metaitem.component.iv_bag.name=IVバッグ
+metaitem.component.iv_bag.tooltip=EVバッグを直接アップグレード
+gregtechfoodoption.hello_buildcraft=MOD（おそらくBuildCraft）がバカになっている
