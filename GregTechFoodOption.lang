@@ -1,13 +1,13 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.9.0
-# 対応バージョン: 1.9.0
+# Corresponding Version: 1.9.2
+# 対応バージョン: 1.9.2
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
-metaitem.component.popcorn.ear.name=トウモロコシ
-metaitem.component.popcorn.dried_ear.name=乾燥トウモロコシ
-metaitem.component.popcorn.cob.name=剥きトウモロコシ
-metaitem.component.popcorn.flavored_flake.name=味付けしたトウモロコシの粒
+metaitem.component.corn.ear.name=トウモロコシ
+metaitem.component.corn.dried_ear.name=乾燥トウモロコシ
+metaitem.component.corn.cob.name=剥きトウモロコシ
+metaitem.component.corn.flavored_flake.name=味付けしたトウモロコシの粒
 metaitem.component.bag.name=紙袋
 metaitem.food.popcorn_bag.name=ポップコーン袋
 metaitem.food.popcorn_bag.tooltip=美味しいバター風化学調味料のような味
@@ -16,10 +16,10 @@ metaitem.isopropylmagnesium_chloride_dust.name=イソプロピルマグネシウ
 metaitem.beta_carotene_dust.name=β-カロテン
 metaitem.phycomyces_blakesleeanus_dust.name=ヒゲカビ
 metaitem.phycomyces_blakesleeanus_dust.tooltip=真菌
-metaitem.popcorn_kernel_gem_chipped.name=ポップコーンの種
-metaitem.popcorn_kernel_gem_chipped.tooltip=温室でのみ育成できる
-metaitem.popcorn_kernel_bare_gem_chipped.name=ポップコーンの粒
-metaitem.popcorn_kernel_graded_gem_chipped.name=許容できるポップコーンカーネル
+metaitem.corn_kernel_gem_chipped.name=トウモロコシの種
+metaitem.corn_kernel_gem_chipped.tooltip=温室でのみ育成できる
+metaitem.corn_kernel_bare_gem_chipped.name=トウモロコシ穀粒
+metaitem.corn_kernel_graded_gem_chipped.name=許容できるトウモロコシ穀粒
 material.gtfo_peptone_mixture=ペプトン混合物
 material.gtfo_isopropyl_chloride=塩化イソプロピル
 material.gtfo_diacetyl=ジアセチル
@@ -490,6 +490,7 @@ metaitem.food.leninade.tooltip=共産主義を貫き通す!
 material.gtfo_potato_juice=ジャガイモジュース
 material.gtfo_vodka=ウォッカ
 material.gtfo_leninade=レニナード
+material.gtfo_white_wine=白ワイン
 
 material.gtfo_sodium_carbonate_solution=炭酸ナトリウム溶液
 
@@ -673,7 +674,7 @@ gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
-metaitem.seed.unknown.tooltip=クラフトで種を得られる/n§cGTFOの種は右クリックで収穫できない
+metaitem.seed.unknown.tooltip=§6クラフト§rで種を得られる/n§cGTFOの種は植えた後に回収できない
 metaitem.seed.soy.name=大豆の種
 metaitem.seed.tomato.name=トマトの種
 metaitem.seed.grape.name=ブドウの種
@@ -734,6 +735,10 @@ gregtechfoodoption.leaves.rainbowwood.name=虹の木の葉
 gregtechfoodoption.log.rainbowwood.name=虹の木の原木
 gregtechfoodoption.sapling.rainbowwood.name=虹の木の苗木
 gregtechfoodoption.planks.rainbowwood.name=虹の木の木材
+gregtechfoodoption.leaves.nutmeg.name=ナツメグの葉
+gregtechfoodoption.log.nutmeg.name=ナツメグの原木
+gregtechfoodoption.sapling.nutmeg.name=ナツメグの苗木
+gregtechfoodoption.planks.nutmeg.name=ナツメグの木材
 
 metaitem.food.ice_cream.plain.name=プレーンアイスクリーム
 metaitem.food.ice_cream.plain.tooltip=アイスのような味、かな?
@@ -900,10 +905,10 @@ gregtechfoodoption.hello_buildcraft=MOD（おそらくBuildCraft）がバカに�
 
 metaitem.food.lasagna.chum.name=チャムラザニア
 metaitem.food.lasagna.chum.tooltip="チャマーニャ" - 賢者ダン
-gregtechfoodoption.tooltip.food.duration=§a食べるのに§f%s§aticksかかる (通常は32)
+gregtechfoodoption.tooltip.food.duration=§a食べるのに§f%s§a ticksかかる (通常は32)
 gregtechfoodoption.potion.amplifier=効果増幅
 gregtechfoodoption.potion.lengthener=効果延長
-gregtechfoodoption.potion.venting=Venting
+gregtechfoodoption.potion.venting=瞬間移動
 
 metaitem.shredded_parmesan_dust.name=パルミジャーノ・レッジャーノ粉末
 metaitem.black_pepper_dust.name=コショウ
@@ -918,7 +923,7 @@ metaitem.component.basil.name=バジルの葉
 metaitem.component.oregano.name=オレガノの葉
 metaitem.component.dough.pasta.name=パスタ生地
 metaitem.component.dough.egg_pasta.name=卵入りのパスタ生地
-metaitem.component.dough.premixed_pasta.name=あらかじめ混合したパスタ時期
+metaitem.component.dough.premixed_pasta.name=あらかじめ混合したパスタ生地
 metaitem.component.pasta.raw.tagliatelle.name=未乾燥のタリアテッレ
 metaitem.component.pasta.raw.spaghetti.name=未乾燥のスパゲッティ
 metaitem.component.pasta.raw.ditalini.name=未乾燥のディタリーニ
@@ -1015,8 +1020,8 @@ material.gtfo_bechamel_sauce=ベシャメルソース
 material.gtfo_chicken_broth=鶏ガラスープ
 material.gtfo_vitello_tonnato_sauce=ヴィテッロ・トンナートソース
 material.gtfo_macerated_white_grapes=砕いた白ブドウ
-material.gtfo_pressed_white_wort=プレスした白麦汁
-material.gtfo_clarified_white_wort=清澄化した白麦汁
+material.gtfo_pressed_white_wort=圧搾白ブドウジュース
+material.gtfo_clarified_white_wort=清澄化した白ブドウジュース
 material.gtfo_vitello_tonnato_flavorant=ヴィテッロ・トンナートフレーバー
 material.gtfo_rafanata_mixture=ラファナータミックス
 material.gtfo_carbonara_sauce=カルボナーラソース
