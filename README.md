@@ -41,8 +41,8 @@ Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1
 #### Gregicality_ja_jp  
 Gregicality ; Gregicality-1.12.2-0.23.3  
 #### GTCEu_ja_jp  
-GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.6.0-beta  
-GregTech Food Option ; GregTech Food Option-1.12.2-1.8.6
+GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.6.2-beta  
+GregTech Food Option ; GregTech Food Option-1.12.2-1.9.2
 </br>
 </br>
 </br>
