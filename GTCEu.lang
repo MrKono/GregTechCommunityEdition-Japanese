@@ -1,8 +1,36 @@
 # ja_jp.lang of GTCEu was not in time for the latest
 # Japanese translate by MrKo_no
 # 日本語ローカライズ担当： MrKo_no
-# Corresponding Version: 2.6.0 - beta
-# 対応バージョン: 2.6.0 - beta
+# Corresponding Version: 2.6.2 - beta
+# 対応バージョン: 2.6.2 - beta
+
+# GregTechCEu#1743
+gt.tool.class.sword=剣
+gt.tool.class.pickaxe=ピッケル
+gt.tool.class.shovel=シャベル
+gt.tool.class.axe=斧
+gt.tool.class.hoe=クワ
+gt.tool.class.saw=ノコギリ
+gt.tool.class.hammer=ハンマー
+gt.tool.class.mallet=ソフトマレット
+gt.tool.class.wrench=レンチ
+gt.tool.class.file=やすり
+gt.tool.class.crowbar=バール
+gt.tool.class.screwdriver=スクリュードライバー
+gt.tool.class.mortar=すり鉢
+gt.tool.class.wirecutter=ワイヤーカッター
+gt.tool.class.scythe=鎌
+gt.tool.class.shears=ハサミ
+gt.tool.class.knife=ナイフ
+gt.tool.class.butchery_knife=肉切り包丁
+gt.tool.class.grafter=接木小刀
+gt.tool.class.plunger=ラバーカップ
+
+# GregTechCEu#1739
+gregtech.gui.amount_raw=液体量 (詳細):
+
+# GregTechCEu#1706
+cover.robotic_arm.transfer_mode.description=§eすべて移動§r - このモードではフィルターに合うアイテムを移動します。/n§e供給モード§r - このモードでは、アイテムフィルターのスロット (鉱石辞書フィルターの場合はこのボタンの下の変数) で指定された数のアイテムを移動させます。アイテムの量が指定数より少ない場合、アイテムは移動されません。スマートフィルターの場合、変数は乗数として扱われます。/n§e保持モード§r - このモードでは、アイテムを移動先のインベントリに指定数保持し、必要に応じて追加のアイテムを供給します。/n§7Tip: フィルタスロットを左/右クリックすることでアイテムの量を変更でき、シフトクリックでより早く変更できます。
 
 # GregTechCEu#1664
 gregtech.top.block_drops=ドロップ
@@ -61,3 +89,4 @@ tile.gregtech_lamp.tooltip.no_light=非光源
 
 # fix
 gregtech.multiblock.central_monitor.tooltip.1=セントラルモニターはデジタルインターフェースカバーによって連結された機械を監視する機械です。これによりエネルギーネットワーク内の液体とアイテムとエネルギーと機械の状態を容易に管理することができます。
+gregtech.jei.fluid.depletion_chance=枯渇率: %d%%
