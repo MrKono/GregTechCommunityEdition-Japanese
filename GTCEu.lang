@@ -61,3 +61,4 @@ tile.gregtech_lamp.tooltip.no_light=非光源
 
 # fix
 gregtech.multiblock.central_monitor.tooltip.1=セントラルモニターはデジタルインターフェースカバーによって連結された機械を監視する機械です。これによりエネルギーネットワーク内の液体とアイテムとエネルギーと機械の状態を容易に管理することができます。
+gregtech.jei.fluid.depletion_chance=枯渇率: %d%%
