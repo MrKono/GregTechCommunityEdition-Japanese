@@ -86,3 +86,11 @@
 	mod update
 		gregtech : 1.12.2-2.6.0-beta -> 1.12.2-2.6.2-beta
 		Gregtech Food Option : 1.8.6 -> 1.9.2
+
+23.07.19
+	mod update
+		gregtech : 1.12.2-2.6.2-bata -> 1.12.2-2.7.2-beta
+		Gregtech Food Option : 1.9.2 -> 1.9.3
+	add
+		Gregicality Multiblock
+
