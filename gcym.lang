@@ -1,14 +1,6 @@
 # Japanese translate by MrKo_no
 # 日本語ローカライズ担当： MrKo_no
-# Corresponding Version: 1.2.4
-# 対応バージョン : 1.2.4
+# Corresponding Version: 1.2.7
+# 対応バージョン : 1.2.7
 
-gcym.tooltip.tiered_hatch_enabled=動作には§b電圧制御ユニット§7が必要
-gcym.multiblock.tiered_hatch.tooltip=対応上限 EU/t: §a%s (%s§r)
-
-gcym.machine.parallel_hatch.tooltip=§b%s§7レシピまで並列処理できる
-gcym.machine.parallel_hatch.display=マルチブロック機械の並列処理の最大値を制御する
-
-gcym.machine.tiered_hatch.tooltip.1=%s§7電圧まで利用可能になる
-
-gcym.deprecation.tooltip=§cこの機械は廃止され、次のアップデートで削除される予定です!コントローラを壊してクラフト素材を回収しましょう!
+gcym.tooltip.max_energy_hatches=エナジーハッチの最大数: §c%d個
