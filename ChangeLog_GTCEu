@@ -94,3 +94,8 @@
 	add
 		Gregicality Multiblock
 
+24.05.07
+	mod update
+		gregtech : 1.12.2-2.7.2-bata -> 1.12.2-2.8.8-beta
+		Gregtech Food Option : 1.9.3 -> 1.11.1
+		Gregicality Multiblock : 1.2.4 -> 1.2.8
