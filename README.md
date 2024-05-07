@@ -42,15 +42,13 @@ Shadows of Greg ; Shadows_of_Greg-1.12.2-2.20.1
 Gregicality ; Gregicality-1.12.2-0.23.3  
 #### GTCEu_ja_jp  
 GregTech CommunityEdition Unofficial ; gregtech-1.12.2-2.7.8-beta  
-GregTech Food Option ; GregTech Food Option-1.12.2-1.11.1
-GregicalityMultiblock ; GregicalityMultiblocks-1.2.8
-
-</br>
+GregTech Food Option ; GregTech Food Option-1.12.2-1.11.1  
+GregicalityMultiblock ; GregicalityMultiblocks-1.2.8  
 </br>
 </br>
 # 注意  
 .langでは装飾コードが用いられています. アイテム名を強制的に英語にするmodを使用している場合, 日本語の表示(主に色)がおかしくなります. ご了承ください.  
 </br>
 </br>
-# DL先  
-[こちら](https://github.com/MrKono/GregTechCommunityEdition-Japanese/releases)]  
+## DL先
+[こちら](https://github.com/MrKono/GregTechCommunityEdition-Japanese/releases)
